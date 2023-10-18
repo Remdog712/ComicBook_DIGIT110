@@ -1,0 +1,77 @@
+
+
+Name: The Dennis Project
+
+Background: Dennis Color: Halftoned
+
+Icon: Dennis's Head in the Corner
+
+Name Styling: Steal the Font of the comic
+
+General Page Styling: Take Images of Dennis and Mr. Wilson and spread them about the borders
+
+About Us: Possible Custom Faces of Us as Dennis Characters (like Simpsons Project)
+
+
+
+
+
+
+What We Want To Find:
+
+- Characters
+
+- Outfits
+
+- Speech
+
+- Sound
+
+
+
+Website Inclusions:
+
+PAGES:
+
+- Home
+--(Includes what volume and date and publication with a little flip through of the comic book, sources, history of the character)
+
+-Encoding
+--(Original Comic, each page, each page XML, Link to Our ODD.rnc file)
+
+-Encoding Findings
+--(Xpath Findings)
+
+-About Us Page
+--(Little Blurb and Image of each of us)
+
+
+
+
+PULLED FROM SEMESTER PROJECT ASSIGNMENT:
+
+Information about the document:
+- its original source(s) and media format(s)
+- source of the document image you are working with
+- the condition of the document or document imaging
+- identifications of people, organizations, places, dates, events, phenomena mentioned or referenced
+- related texts or media
+
+Document structure (one or more of the following):
+- cartoon panels, line-groups and lines in poems, or music lyrics, for example
+- sections and subsections, paragraphs, perhaps sentences
+- questions and answers on a survey form
+- layout of pages, pagination
+
+Data you think is worth marking, collecting, organizing, studying, assessing in the document text, such as:
+- language patterns of any kind that interest you
+- historical references
+- places: mappable or fictional or mythical
+- references to other texts
+- mentions of people, organizations, events, phenomena
+
+Information about the text encoding you are creating:
+-your role as editor
+-your context for editing: our class, university, and semester context
+
+
