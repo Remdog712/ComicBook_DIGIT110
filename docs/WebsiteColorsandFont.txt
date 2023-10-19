@@ -1,0 +1,21 @@
+--COLORS--
+
+Red Color:    #e01d26
+
+Yellow Color: #efba1e
+
+Blue Color:   #6498ce
+
+Grey:         #e0e7eb
+
+
+--------------------------
+
+
+--Fonts--
+
+Title font: Albert Regular
+
+Header Font:
+
+Paragraph Font:
