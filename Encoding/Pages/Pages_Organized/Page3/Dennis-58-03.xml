@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comic_book xmlns="http://www.cbml.org/ns/1.0">
+    <metadata>
+        <title>Dennis the Menace #58</title>
+        <author>Hank Ketcham</author>
+        <illustrator>Owen Fitzgerald</illustrator>
+        <publication_date>1962-04</publication_date> <!--Need ISO date-->
+        <description>
+            Dennis the Menace is a popular comic strip created by Hank Ketcham. It features the adventures of a mischievous young boy named Dennis and his interactions with his family and friends.
+            58th issue of the Dennis the Menace comic book. It was illustrated by one of Hank Ketcham's "ghost artists," Owen Fitzgerald.
+            In this issue, Mr. Mitchell gets taken for a ride when he takes Dennis tobogganing, Mr. Mitchell and Wilson take Dennis ice fishing, Dennis gives Joey an impromptu history lesson about George Washington, and Mr. Wilson takes Dennis and Tommy skiing, with predictable results. There are also Grampa and text side stories.
+        </description>
+        <source_link>https://archive.org/details/dennis-the-menace-issue-58</source_link> <!--Needs attribute-->
+        <image_link>http://example.com/dennis58_cover.jpg</image_link>  <!-- this will need to change per page --><!--Needs attribute-->
+    </metadata>
+        <page>
+            <page_number>3</page_number>
+            <panel>
+                <image>page1_panel1.jpg</image>
+                <caption>Dennis causing mischief in the living room.</caption>
+            </panel>
+            <panel>
+                <image>page1_panel2.jpg</image>
+                <caption>His parents trying to keep up with his antics.</caption>
+            </panel>
+        </page>
+        <!-- Add more pages and panels as needed -->
+</comic_book>
