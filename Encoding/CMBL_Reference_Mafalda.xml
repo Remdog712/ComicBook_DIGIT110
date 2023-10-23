@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>
-                    Dennis the Menace: Volume 58 
+                    MAFALDA 
                 </title>        
-                <author>Hank Ketcham</author>   
-                <author>Owen Fitzgerald</author>
-                <editor>Remington Orange</editor> <!--We'll have to ask Dr. B if this is right-->
+                <author>Quino</author>            
             </titleStmt>
             <publicationStmt>
-                <date> 1962-04 </date>
-                <availability status="free">  
-                    <p>This work is in the public domain in the United States</p> 
+                <publisher> XXXXX </publisher>
+                <pubPlace>Argentina</pubPlace>
+                <date> Oct-Nov 1964 </date>
+                <authority>Unknown</authority>
+                <availability status="restricted">  
+                    <p>Available for academic research purposes only.</p> 
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Scanned and put online by Hallden Fawcett </note>
+                <note>Scanned and put online by XXXXXXXXX </note>
             </notesStmt>
             <sourceDesc>
-                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+                <p>XXXXXXXXXX </p>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -33,36 +34,43 @@
             </tagsDecl>
         </encodingDesc>
     </teiHeader>
-    
-    
     <text>     
         <body>
-            
             <div type="panelGrp" xml:id="eg_0001">
-                <cbml:panel n="1" characters="#dennis #father">
-                    <cbml:caption type="heading" rend="red">
-                        SLEIGH-MATES
-                    </cbml:caption>
-                    <note type="panelDesc"> Dennis's father pulls Dennis on a sled going up a hill  
-                    </note> 
-                </cbml:panel>
-                
-                
-                <cbml:panel n="2" characters="#dennis #father">
-                    <cbml:balloon type="speech" who="#dennis"> 
-                        Here's a good sleddin' place, Dad!
+                <cbml:panel n="1" characters="#mafalda #father">
+                    <cbml:balloon type="speech" who="#mafalda">
+                        DECIME, ¿QUIÉN 
+                        ES ESTE PETISO
+                        TODO EMPON-
+                        CHADO?
                     </cbml:balloon>
                     <cbml:balloon type="speech" who="#father">
-                        Snow's too deep!                    
-                    </cbml:balloon>
-                    <note type="panelDesc"> Dennis's father and Dennis are in the front seat of green car, Dennis is leaning across his father point out the window. A sled is the second row seats 
+                        ES NAPOLEÓN,
+                        CUANDO INVA-
+                        DIÓ RUSIA         
+                    </cbml:balloon> 
+                    <note type="panelDesc"> Mafalda and her father are chatting in the living
+                        room. Mafalda is showing him a page from a book. He looks at it while
+                        sitting on a chair and holding a folded newspaper. 
                     </note> 
                 </cbml:panel>
-                
-                
-                <cbml:panel n="3" characters="#dennis #father">
-                    <cbml:balloon type="speech" who="#dennis">   
-                        How 'bout <emph rendition="#b #large"> HERE </emph>                
+                <cbml:panel n="2" characters="#mafalda #father">
+                    <cbml:balloon type="speech" who="#mafalda"> 
+                        <emph rendition="#b #large">
+                            ¿RUSIA? INVADIÓ 
+                            RUSIA?
+                        </emph>
+                    </cbml:balloon>
+                    <cbml:balloon type="speech" who="#father">
+                        AJHÁ                    
+                    </cbml:balloon>
+                    <note type="panelDesc"> Mafalda's eyes and mouth are wide open in amazement.
+                        Her father is back to reading the newspaper, which now covers his face. 
+                    </note> 
+                </cbml:panel>
+                <cbml:panel n="3" characters="#mafalda">
+                    <cbml:balloon type="thought" who="#mafalda">   
+                        ¡SALUTE!                  
                     </cbml:balloon>      
                     <note type="panelDesc"> MCU of Mafalda's head as she covers her mouth and
                         stares in thoughtful pose. 
@@ -226,5 +234,4 @@
         </body>
     </text>
 </TEI>
-
 

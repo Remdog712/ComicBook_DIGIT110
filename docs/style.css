@@ -1,3 +1,7 @@
+
+
+
+
 .front-cover img {
     max-width: 100%;
     width: 20%;
@@ -13,12 +17,16 @@
     width: 20%;
 }
 
+p {
+    font-family: "Courier New", sans-serif;
+}
+
+
 /* Reset some default styles */
 body,
 h1,
 h2,
 h3,
-p,
 ul,
 li {
   margin: 0;
@@ -34,14 +42,23 @@ body {
 }
 
 /* Add a container to center content */
+/* Style the container */
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Optional, to center the image horizontally */
 }
+
+/* Style the image to fit within the container */
+.container img {
+    max-width: 100%;
+    height: auto; /* Maintain the image's aspect ratio */
+}
+
 
 /* Style the header */
 header {
@@ -51,14 +68,16 @@ header {
   text-align: center;
 }
 
-/* Navigation menu */
 nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
   text-align: center;
-  margin-top: 20px;
 }
 
 nav ul {
   list-style: none;
+  padding: 0;
 }
 
 nav ul li {
@@ -69,6 +88,12 @@ nav ul li {
 nav a {
   text-decoration: none;
   color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #e01d26; /* Change color on hover */
 }
 
 /* Style the main content */
@@ -80,6 +105,7 @@ nav a {
 h1,
 h2,
 h3 {
+  font-family: "Roboto", sans-serif;
   margin-bottom: 20px;
   color: #333;
 }
