@@ -81,6 +81,7 @@
                     </cbml:balloon>
                     <note type="panelDesc"> The green car drives on the road with Dennis' father in the drivers seat and Dennis in the passenger. To the side of the road is a snowy area filled with rocks.  </note>                 
                 </cbml:panel>
+<!--                LM- I'm not sure if I did this completely right -->
                 <note type="bibl">
                     27 octubre ‘64
                 </note> 
