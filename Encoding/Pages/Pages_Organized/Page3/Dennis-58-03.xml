@@ -39,6 +39,8 @@
         <body>
             
             <div type="panelGrp" xml:id="eg_0001">
+                
+                
                 <cbml:panel n="1" characters="#dennis #father">
                     <cbml:caption type="heading" rend="red">
                         SLEIGH-MATES
@@ -62,19 +64,21 @@
                 
                 <cbml:panel n="3" characters="#dennis #father">
                     <cbml:balloon type="speech" who="#dennis">   
-                        How 'bout <emph rendition="#b #large"> HERE? </emph>                
+                        How 'bout <emph rendition="#b #large"> HERE? </emph>      <!--rorange : Example of how to show bold texts -->          
                     </cbml:balloon>  
                     <cbml:balloon type="speech" who="#father">
-                        
+                        Too many trees?
                     </cbml:balloon>
-                    <note type="panelDesc"> MCU of Mafalda's head as she covers her mouth and
-                        stares in thoughtful pose. 
+                    <note type="panelDesc"> The back of the green car is seen cressing over a snowy hill with green pine trees along the sides of the road 
                     </note> 
                 </cbml:panel>
                 
+                
+                
+                
                 <cbml:panel n="4" characters="#dennis #father">              
                     <cbml:balloon type="speech" who="dennis">
-                       Here, Dad! <emph rendition="#b #large">HERE!</emph>
+                        Here, Dad! <emph rendition="#b; color:red #large">HERE!</emph>     <!--rorange : Example of how to show colored and bold texts -->     
                     </cbml:balloon>
                     <cbml:balloon type="speech" who="#father">
                         Too many rocks. 
@@ -82,145 +86,20 @@
                     <note type="panelDesc"> The green car drives on the road with Dennis' father in the drivers seat and Dennis in the passenger. To the side of the road is a snowy area filled with rocks.  </note>                 
                 </cbml:panel>
 <!--                LM- I'm not sure if I did this completely right -->
-                <note type="bibl">
-                    27 octubre ‘64
-                </note> 
-            </div>        
-            <div type="panelGrp" xml:id="eg_0002">             
-                <cbml:panel n="1" characters="#father #mother">
-                    <cbml:balloon type="speech" who="#father"> 
-                        ¡LA VERDAD ES QUE ESTOS   <lb/>
-                        CHINOS PODRÍAN DEJARSE   <lb/>
-                        DE MACANAS!
+                
+                
+                       
+                <cbml:panel n="5" characters="#dennis #father">
+                    <cbml:balloon type="speech" who="#dennis"> 
+                        When are we gonna go sleddin'? When we get to the <emph rendition="#b; #large">NORTH POLE?</emph>
                     </cbml:balloon>
-                    <note type="panelDesc"> WS of Mafalda's parents in the living room. Father
-                        is sitting and reading the newspaper as he comments. Mother sews in the
-                        backgroung on the right of the frame. 
+                    <cbml:balloon type="speech" who="#father"> 
+                        Just be patient, will you?
+                    </cbml:balloon>
+                    <note type="panelDesc"> View from inside the car with Dennis showing a disgruntled face and his father driving calmly
                     </note> 
                 </cbml:panel> 
-                <cbml:panel n="2" characters="#mafalda #father #mother">           
-                    <cbml:balloon type="speech" who="#mafalda">
-                        <emph rendition="#b #extra_large">
-                            ¡BOOM!
-                        </emph>
-                    </cbml:balloon>
-                    <note type="panelDesc"> WS shows Mafalda making a loud explosion noise in
-                        the living room as her father scrambles for cover and her mother looks
-                        from the background with big, shocked eyes. 
-                    </note>
-                </cbml:panel>
-                <cbml:panel n="3" characters="#father #mother #mafalda">           
-                    <cbml:balloon type="speech" who="#mafalda">                 
-                        ¡PSICOSIS COLECTIVA!
-                    </cbml:balloon> 
-                    <fw type="sig" place="lower-right">
-                        QUINO
-                    </fw>
-                    <note type="panelDesc"> WS of the living room. Mafalda walks out toward the right
-                        of the frame while her parents watch from the left with an angry expression. 
-                    </note>                  
-                </cbml:panel>
-                <note type="bibl">
-                    27 octubre ‘64
-                </note>
-            </div>
-            <div type="panelGrp" xml:id="eg_0003"> 
-                <cbml:panel n="1" characters="#father">
-                    <cbml:balloon type="speech" who="#father"> 
-                        ¡NO HAY COMO UN BUEN HOBBY   <lb/>
-                        PARA OLVIDARSE DEL MUNDO Y  <lb/>
-                        SUS PROBLEMAS!                 
-                    </cbml:balloon>                   
-                    <note type="panelDesc"> WS shows father spraying his plants on his knees. He
-                        is smiling and look very calm.
-                    </note>                           
-                </cbml:panel>
-                <cbml:panel n="2" characters="#father">
-                    <sound rendition="#b #large"> 
-                        ¡CHIST!
-                    </sound>                       
-                    <note type="panelDesc"> Father hears a sound and turns his head 
-                        to look behind him.                
-                    </note>              
-                </cbml:panel>
-                <cbml:panel n="3" characters="#father #mafalda">
-                    <note type="panelDesc"> OSS shows Mafalda from behind her father's head. 
-                        She is stretching her eyes and smiling, as if to look Asian. 
-                    </note> 
-                </cbml:panel>
-                <cbml:panel n="4" characters="#father">                
-                    <note type="panelDesc"> WS shows father sitting among his plants with extra wide
-                        eyes giving him a nervous and worried look. He still holds the spray pump 
-                        in his right hand, and is holding his head with his left. 
-                    </note>            
-                    <fw type="sig" place="lower-right">
-                        QUINO
-                    </fw>                  
-                </cbml:panel>
-                <note type="bibl">
-                    3 noviembre ‘64
-                </note>
-            </div>    
-            <div type="panelGrp" xml:id="eg_0004"> 
-                <cbml:panel n="1" characters="#mafalda #father">
-                    <cbml:balloon type="speech" who="#mafalda">  
-                        ¡DAME PARA  <lb/>
-                        CARAMELOS!  <lb/>
-                        ¡ANDÁ, CHE,  <lb/>
-                        VAMOS! 
-                    </cbml:balloon>
-                    <cbml:balloon type="speech" who="#father"> 
-                        ¡NO, PORQUE  <lb/>
-                        DESPUÉS NO  <lb/>
-                        COMÉS!
-                    </cbml:balloon> 
-                    <note type="panelDesc"> WS of Mafalda standing behind her father with a demanding
-                        look and extending her palm. Her father stands in front of the mirror while he
-                        shaves with an electric shaver. 
-                    </note>
-                </cbml:panel>
-                <cbml:panel n="2" characters="#mafalda #father">
-                    <cbml:balloon type="speech" who="#mafalda">  
-                        ¡ASÍ ES LA COSA! TOTAL… UN  <lb/>
-                        DÍA LOS CHINOS SE LEVANTAN   <lb/>
-                        ATRAVESADOS  <lb/>
-                        Y ¡PATAPÚM!
-                    </cbml:balloon>
-                    <note type="panelDesc"> WS shows Mafalda speaking with her arms open. Her
-                        father glances back at her while he continues shaving. 
-                    </note> 
-                </cbml:panel>
-                <cbml:panel n="3" characters="#mafalda #father">
-                    <cbml:balloon type="speech" who="#mafalda"> 
-                        …Y UNA POBRE NENITA DEJA   <lb/>
-                        ESTE MUNDO CON  <lb/>
-                        LA AMARGURA  <lb/>
-                        DE QUE LE NE-  <lb/>
-                        GARAN UNOS   <lb/>
-                        INOCENTES  <lb/>
-                        CARAMELOS!
-                    </cbml:balloon>
-                    <note type="panelDesc"> WS shows Mafalda with a dramatic and sad face. Her
-                        right hand now rests on her chest. Her father has interrupted his shave
-                        and now has wide eyes indicative of a perplexed expression. 
-                    </note>
-                </cbml:panel>
-                <cbml:panel n="4" characters="#mafalda">
-                    <cbml:balloon type="speech" who="#mafalda"> 
-                        FRANCAMENTE, NO VEO   <lb/>
-                        QUE LOS CHINOS SEAN  <lb/>
-                        TAN ABOMINABLES.
-                    </cbml:balloon>
-                    <fw type="sig" place="lower-right">
-                        QUINO
-                    </fw>
-                    <note type="panelDesc"> Panel shows Mafalda sitting with a happy and satisfied
-                        look on her face as she licks her lips among candy and wrappers. 
-                    </note>
-                </cbml:panel>               
-                <note type="bibl">
-                    3 noviembre ‘64
-                </note>            
+                        
             </div>
             <pb/>    
         </body>
