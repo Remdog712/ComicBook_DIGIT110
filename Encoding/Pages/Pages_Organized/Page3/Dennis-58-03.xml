@@ -62,8 +62,11 @@
                 
                 <cbml:panel n="3" characters="#dennis #father">
                     <cbml:balloon type="speech" who="#dennis">   
-                        How 'bout <emph rendition="#b #large"> HERE </emph>                
-                    </cbml:balloon>      
+                        How 'bout <emph rendition="#b #large"> HERE? </emph>                
+                    </cbml:balloon>  
+                    <cbml:balloon type="speech" who="#father">
+                        
+                    </cbml:balloon>
                     <note type="panelDesc"> MCU of Mafalda's head as she covers her mouth and
                         stares in thoughtful pose. 
                     </note> 
