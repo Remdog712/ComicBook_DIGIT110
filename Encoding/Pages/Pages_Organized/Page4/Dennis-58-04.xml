@@ -38,6 +38,8 @@
     <text>     
         <body>
             
+            <div type="page" xml:id="pg_04">
+            
             <div type="panelGrp" xml:id="eg_0001">
                 
                 
@@ -111,7 +113,7 @@
                 </cbml:panel>
                 
                 
-
+            </div>
             </div>
             <pb/>    
         </body>

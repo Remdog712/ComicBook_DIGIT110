@@ -9,7 +9,7 @@
                 </title>        
                 <author>Hank Ketcham</author>   
                 <author>Owen Fitzgerald</author>
-                <editor>Remington Orange</editor> <!--We'll have to ask Dr. B if this is right-->
+                <editor>Remington Orange</editor> <!--Please change this for your name-->
             </titleStmt>
             <publicationStmt>
                 <date> 1962-04 </date>
@@ -21,7 +21,7 @@
                 <note>Scanned and put online by Hallden Fawcett </note>
             </notesStmt>
             <sourceDesc>
-                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>    <!--IF YOU RUN INTO COFUSING SCENARIOS: ask in slack and we'll all look at it-->
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -38,20 +38,22 @@
     <text>     
         <body>
             
+            <div type="page" xml:id="pg_03">   <!--Please change this for your page (change 03 to your page number)-->
+                
             <div type="panelGrp" xml:id="eg_0001">
                 
                 
-                <cbml:panel n="1" characters="#dennis #father">
-                    <cbml:caption type="heading" rend="red">
+                <cbml:panel n="1" characters="#dennis #father"> <!--who is in the panel-->
+                    <cbml:caption type="heading" rend="red"> <!--Heading for the start of a comic-->
                         SLEIGH-MATES
                     </cbml:caption>
-                    <note type="panelDesc"> Dennis's father pulls Dennis on a sled going up a hill  
+                    <note type="panelDesc"> Dennis's father pulls Dennis on a sled going up a hill   <!--Your own description of what is happening that panel-->
                     </note> 
                 </cbml:panel>
                 
                 
                 <cbml:panel n="2" characters="#dennis #father">
-                    <cbml:balloon type="speech" who="#dennis"> 
+                    <cbml:balloon type="speech" who="#dennis">  <!--who is speaking-->
                         Here's a good sleddin' place, Dad!
                     </cbml:balloon>
                     <cbml:balloon type="speech" who="#father">
@@ -85,7 +87,7 @@
                     </cbml:balloon>
                     <note type="panelDesc"> The green car drives on the road with Dennis' father in the drivers seat and Dennis in the passenger. To the side of the road is a snowy area filled with rocks.  </note>                 
                 </cbml:panel>
-<!--                LM- I'm not sure if I did this completely right -->
+
                 
                 
                        
@@ -99,9 +101,11 @@
                     <note type="panelDesc"> View from inside the car with Dennis showing a disgruntled face and his father driving calmly
                     </note> 
                 </cbml:panel> 
-                        
+                  
+             
             </div>
             <pb/>    
+            </div>
         </body>
     </text>
 </TEI>

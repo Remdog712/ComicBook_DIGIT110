@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Dennis the Menace: Volume 58 
+                </title>        
+                <author>Hank Ketcham</author>   
+                <author>Owen Fitzgerald</author>
+                <editor>Remington Orange</editor> 
+            </titleStmt>
+            <publicationStmt>
+                <date> 1962-04 </date>
+                <availability status="free">  
+                    <p>This work is in the public domain in the United States</p> 
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Scanned and put online by Hallden Fawcett </note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <namespace name="http://www.cbml.org/ns/1.0">
+                    <tagUsage gi="cbml:panel"></tagUsage>
+                    <tagUsage gi="cbml:caption"></tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    
+    <text>     
+        <body>
+            
+            <div type="page" xml:id="pg_06">
+                
+                <div type="panelGrp" xml:id="eg_0001">
+             
+                    <cbml:panel n="1" characters="#dennis #father"> 
+                        <cbml:balloon rendition="#jaggies" type="speech" who="#dennis"> 
+                            <emph rendition="large ; #b ; color:red">LET'S</emph> <lb/> <emph rendition="large ; #b ; color:red">GO!</emph>
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#father"> 
+                            <emph rendition="large ; #b ; color:red">DENNIS!</emph> <lb/> <emph rendition="large ; #b">COME BACK</emph> <lb/> <emph rendition="large ; #b">HERE!</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis is carrying a sled over his head while running. Dennis's Father has his hands stretched in front chasing Dennis
+                        </note>
+                    </cbml:panel> 
+                    
+                    
+                    <cbml:panel n="2" characters="#dennis #father"> 
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            Huh?
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis is riding on his belly on his sled while looking back confused. Dennis's father is seen hanging onto the back of the sled being pulled through the snow while snow is kicked into his face
+                        </note>
+                    </cbml:panel> 
+                    
+                    
+                    <cbml:panel n="3" characters="#dennis #father"> 
+                        <cbml:balloon type="speech" who="#father"> 
+                            You can't ride <emph rendition="#b">YOUR</emph> kind of <lb/> sled down <lb/> there...it <lb/> won't <emph rendition="#b">STEER</emph> well enough!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            Aw, <lb/> Dad!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis is laying on his back on the sled looking to his father who has stopped the sled
+                        </note>
+                    </cbml:panel> 
+                    
+                    <cbml:panel n="4" characters="#dennis #father"> 
+                        <cbml:balloon type="speech" who="#father"> 
+                            See? This <lb/> kind has a <lb/> steering wheel.
+                        </cbml:balloon>
+                        <cbml:balloon rendition="jaggies" type="speech" who="#dennis"> 
+                            <emph rendition=" large ; color:red">OKAY!</emph> <lb/> <emph rendition="large; #b">I'M SOLD!</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis's Father is seeing pulling the sled and Dennis is seen running towards a blue and yellow bobsled.
+                        </note>
+                    </cbml:panel> 
+                    
+                    
+                    <cbml:panel n="5" characters="#dennis #father #clerk"> 
+                        <cbml:balloon type="speech" who="#father"> 
+                            Well... er... I guess we could. 
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#clerk"> 
+                            Just be sure to <emph rendition="#b">BRAKE</emph> it if you get going too fast.
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            We're not gunna break nothin'. honest!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis' Father is seeing paying the clerk at the stand to rent a bobsled. Dennis is seen sitting in the bobseld looking back towards his father and the clerk.
+                        </note>
+                    </cbml:panel>
+                    
+                    <cbml:panel n="6" characters="#dennis #father"> 
+                        <cbml:balloon type="speech" who="#father"> 
+                            This is the brake, Dennis. When I tell you... <emph rendition="#b">PULL</emph> on it. Okay?
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            Okay.
+                        </cbml:balloon>
+                        <cbml:balloon type="thought" who="#dennis"> 
+                            But <emph rendition="#b">NOTHIN'S</emph> too fast for <emph rendition="#b">ME!</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis' Father is sitting in the front seat of the bobsled pointing to a small lever. Dennis is standing next to the bobsled with a big grin on his face.
+                        </note>
+                    </cbml:panel>
+                    
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Dennis the Menace: Volume 58 
+                </title>        
+                <author>Hank Ketcham</author>   
+                <author>Owen Fitzgerald</author>
+                <editor>Remington Orange</editor> <!--We'll have to ask Dr. B if this is right-->
+            </titleStmt>
+            <publicationStmt>
+                <date> 1962-04 </date>
+                <availability status="free">  
+                    <p>This work is in the public domain in the United States</p> 
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Scanned and put online by Hallden Fawcett </note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <namespace name="http://www.cbml.org/ns/1.0">
+                    <tagUsage gi="cbml:panel"></tagUsage>
+                    <tagUsage gi="cbml:caption"></tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    
+    <text>     
+        <body>
+          
+            <div type="page" xml:id="pg_04">
+            
+            <div type="panelGrp" xml:id="eg_0001">
+                
+                
+                <cbml:panel n="1" characters="#dennis #father #anonWoman #anonMan"> 
+                    
+                    <cbml:balloon type="speech" who="#dennis">
+                        YOU TAKE BOB'S SLED! I'LL TAKE <emph rendition="large #b color:red">MINE!</emph>              
+                    </cbml:balloon>
+                    
+                    
+                    <cbml:balloon rendition="#jaggies" type="speech" who="#father"> 
+                        <emph rendition="large #b color:red">DENNIS!</emph> <lb/> <emph rendition="large #b #jagged">WAIT!</emph>
+                    </cbml:balloon>
+
+                   
+                    <note type="panelDesc"> The panel is the entire page, Dennis and his father are seen as dark silhouettes at the top of a bobsled hill. Dennis is running towards a bobsled. Dennis' Father turns his head quickly to Dennis. At the bottom of the page, a couple is seen riding a bobsled down a winding path in the snow
+                    </note>
+                </cbml:panel> 
+                
+            </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+
