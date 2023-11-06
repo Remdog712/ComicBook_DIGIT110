@@ -47,6 +47,14 @@ PAGES:
 
 
 
+HOW WE CAN DISPLAY
+ - Two Tables (LEFT: Image) (Right: Encoded Version)
+ - Link Each Person to it's section on a Person's page that shows data on panels: speech amount
+ 
+
+
+
+
 
 PULLED FROM SEMESTER PROJECT ASSIGNMENT:
 
