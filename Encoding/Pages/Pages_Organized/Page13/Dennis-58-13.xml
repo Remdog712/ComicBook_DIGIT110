@@ -9,7 +9,7 @@
                 </title>        
                 <author>Hank Ketcham</author>   
                 <author>Owen Fitzgerald</author>
-                <editor>Lyndon Herschell</editor> <!--We'll have to ask Dr. B if this is right-->
+                <editor>Lyndon Herschell</editor>
             </titleStmt>
             <publicationStmt>
                 <date> 1962-04 </date>
@@ -43,67 +43,59 @@
                 <div type="panelGrp" xml:id="eg_0001">
                     
                     
-                    <cbml:panel n="1" characters="#dennis #father #wilson"> <!-- In Progress -->
+                    <cbml:panel n="1" characters="#dennis #father #wilson"> <!-- Done -->
                         <cbml:balloon type="speech" who="#dennis"> 
                             Gee, I was just tryin' to <emph rendition="#b ">HELP!</emph>
                         </cbml:balloon>
                         <cbml:balloon type="speech" who="#wilson">
                             You're just trying to drive me <emph rendition="#b ">OUT OF MY MIND!</emph>
                         </cbml:balloon>
-                        <!-- Continue Here -->
-
-                        <note type="panelDesc"> Dennis's father and Dennis are in the front seat of a green car. They are sitting in the front seat looking towards the parking lot of a building with many cars in front and a large banner at the entrance
+                        <cbml:balloon type="speech" who="#wilson">
+                            Sorry, George... I'll get you a new stove.
+                        </cbml:balloon>
+                        <note type="panelDesc"> After dropping Mr. Wilson's stove into the water, Dennis and Mr. Wilson begin to argue. Dennis' dad attempts to deesculate the situation by offering to buy Mr. Wilson a new stove.
                         </note>
                     </cbml:panel> 
                     
                     
-                    <cbml:panel n="2" characters="#dennis #father"> <!-- In Progress -->
-                        <cbml:balloon type="speech" who="#father"> 
-                            I hadn't hear about <emph rendition="#b ">THIS!</emph> It's a new bobsled run!
+                    <cbml:panel n="2" characters="#dennis #father #wilson"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            Maybe if we rub two sticks together...
                         </cbml:balloon>
-                        <cbml:balloon type="speech" who="#dennis">
-                            A <emph rendition="#b ">WHAT?</emph>                  
+                        <cbml:balloon type="speech" who="#father">
+                            And <emph rendition="#b ">MAYBE</emph> we can catach a fish or two before we <emph rendition="#b ">FREEZE!</emph> Now be quiet!
                         </cbml:balloon>
-                        <note type="panelDesc"> Dennis is outside of the green car looking back towards in father with a quick head turn and confused look on his face. Dennis' father begins stepping out the green car
+                        <note type="panelDesc"> Dennis offers the idea of rubbing sticks together to create a heat source. However, his father tells him to be quiet, wanting them to focus on catching fish.
                         </note> 
                     </cbml:panel>
                     
                     
-                    <cbml:panel n="3" characters="#dennis #father"> <!-- In Progress -->
-                        <cbml:balloon type="speech" who="#father"> 
-                            It's sort of a long path down the mountain... all <emph rendition="#b ">ICE</emph>. And you ride a bobsled down it.
-                        </cbml:balloon>
-                        <cbml:balloon type="speech" who="#dennis">
-                            Who's <emph rendition="#b ">BOB?</emph>                  
-                        </cbml:balloon>
-                        <note type="panelDesc"> Dennis and his father are standing in the snow looking towards a bobsled that's blue with the number four on the front
+                    <cbml:panel n="3" characters="#dennis #father #wilson"> <!-- Done -->
+                        <note type="panelDesc"> No one speaks in this panel, but Mr. Wilson and Dennis' father are visibly shivering from the cold while fishing. Dennis is seemingly calm and continues fishing.
                         </note> 
                     </cbml:panel>
                     
                     
-                    <cbml:panel n="4" characters="#dennis #father"> <!-- In Progress -->
-                        <cbml:balloon type="speech" who="#father"> 
-                            Bob?
+                    <cbml:panel n="4" characters="#dennis #father #wilson"> <!-- Done -->
+                        <cbml:balloon rendition="#jaggies" type="speech" who="#dennis"> 
+                            <emph rendition="#b ">GOT ONE!</emph>
                         </cbml:balloon>
-                        <cbml:balloon type="speech" who="#dennis">
-                            Yeah. The guy who owns this keen <emph rendition="#b color:red ">HOT-ROD</emph> <emph rendition="#b ">SLED!</emph>                 
+                        <cbml:balloon type="speech" who="#father">
+                            <emph rendition="#b ">ATTABOY! LET ME HEL....</emph>
                         </cbml:balloon>
-                        <note type="panelDesc"> Dennis' father is squatting down next to Dennis. Dennis is looking excitingly at the blue bobsled with number four on the front of it.
+                        <note type="panelDesc"> Dennis has seemingly hooked a fish within the ice and his father stand up and moves to offer his help to Dennis.
                         </note> 
                     </cbml:panel>
                     
-                    <cbml:panel n="5" characters="#dennis #father"> <!-- In Progress -->
-                        <cbml:balloon type="speech" who="#father"> 
-                            There <emph rendition="#b ">ISN'T</emph> any Bob...they just <emph rendition="#b ">CALL</emph> it a bobsled. And <emph rendition="#b ">THERE'S</emph> the <emph rendition="#b ">RUN!</emph>
+                    <cbml:panel n="5" characters="#dennis #father"> <!-- Done -->
+                        <cbml:balloon type="sound" who="#father"> 
+                            <emph rendition="#b #large color:red">YOW!</emph>
                         </cbml:balloon>
-                        <cbml:balloon type="sound" who="#dennis"> 
-                            <emph rendition="#b #large color:red">WOW!</emph>
-                        </cbml:balloon>
-                        <note type="panelDesc"> Dennis' father steps into the hole in the ice, falling into it. Likely, it was extremely cold.
+                        <note type="panelDesc"> Dennis' father steps into the hole in the ice, falling into it.
                         </note> 
                     </cbml:panel>
                     
-                    <cbml:panel n="6" characters="#dennis #father">
+                    <cbml:panel n="6" characters="#dennis #father"> <!-- Done -->
                     <floatingText subtype="banner" type="diegetic"> 
                         <body>
                             <div type ="tone">
