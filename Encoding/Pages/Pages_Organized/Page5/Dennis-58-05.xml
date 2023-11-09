@@ -38,20 +38,20 @@
     <text>     
         <body>
           
-            <div type="page" xml:id="pg_04">
+            <div type="page" xml:id="pg_05">
             
             <div type="panelGrp" xml:id="eg_0001">
                 
                 
                 <cbml:panel n="1" characters="#dennis #father #anonWoman #anonMan"> 
                     
-                    <cbml:balloon type="speech" who="#dennis">
-                        YOU TAKE BOB'S SLED! I'LL TAKE <emph rendition="large #b color:red">MINE!</emph>              
+                    <cbml:balloon rendition="#bubble" type="speech" who="#dennis">
+                        YOU TAKE BOB'S SLED! I'LL TAKE <emph rendition="#large #b #color:red">MINE!</emph>              
                     </cbml:balloon>
                     
                     
                     <cbml:balloon rendition="#jaggies" type="speech" who="#father"> 
-                        <emph rendition="large #b color:red">DENNIS!</emph> <lb/> <emph rendition="large #b #jagged">WAIT!</emph>
+                        <emph rendition="#large #b #color:red">DENNIS!</emph> <lb/> <emph rendition="#large #b #jaggies">WAIT!</emph>
                     </cbml:balloon>
 
                    
