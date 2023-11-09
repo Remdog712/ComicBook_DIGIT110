@@ -7,12 +7,15 @@
                 <title>
                     Dennis the Menace: Volume 58 
                 </title>        
-                <author>Hank Ketcham</author>   
+                <author>Hank Ketcham</author>  
+               <!-- ebb: Add a @role attribute to indicate the illustrators  -->
                 <author>Owen Fitzgerald</author>
                 <editor>Remington Orange</editor> <!--Please change this for your name-->
+                
             </titleStmt>
             <publicationStmt>
                 <date> 1962-04 </date>
+                <!-- Add info and link to online archive, and add link to your own GitHub repo as well.  -->
                 <availability status="free">  
                     <p>This work is in the public domain in the United States</p> 
                 </availability>
@@ -21,7 +24,10 @@
                 <note>Scanned and put online by Hallden Fawcett </note>
             </notesStmt>
             <sourceDesc>
+                
                 <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>    <!--IF YOU RUN INTO COFUSING SCENARIOS: ask in slack and we'll all look at it-->
+                <!--Add info on the original publication here as represented on page 2. -->
+             
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -37,7 +43,8 @@
     
     <text>     
         <body>
-            
+            <!--ebb: Here's a suggestion for grouping by a long storyline that spans multiple pages -->
+            <milestone unit="start" n="SLEIGH-MATES"/>       
             <div type="page" xml:id="pg_03">   <!--Please change this for your page (change 03 to your page number)-->
                 
             <div type="panelGrp" xml:id="eg_0001">
@@ -51,7 +58,12 @@
                     </note> 
                 </cbml:panel>
                 
-                
+                <!-- ebb: From our discussion: You're doing a nice job of grabbing info on color in use on the panels and emphasis. 
+                Think about the language you're using to capture motion graphics on the static page, since Dennis is usually very animated. 
+                Can the group use some classifying language like "headspin", lines and clouds indicating high speed movement, etc. 
+                This stuff might be interesting in a visual analysis of the comics. 
+        
+                -->
                 <cbml:panel n="2" characters="#dennis #father">
                     <cbml:balloon type="speech" who="#dennis">  <!--who is speaking-->
                         Here's a good sleddin' place, Dad!
@@ -106,6 +118,8 @@
             </div>
             <pb/>    
             </div>
+            <!--ebb: MOVE THIS if it isn't really the end of the SLEIGH-MATES episode... But try to keep these at the same level of the hierarchy if you can.  -->
+            <milestone unit="end" n="SLEIGH-MATES"/>  
         </body>
     </text>
 </TEI>
