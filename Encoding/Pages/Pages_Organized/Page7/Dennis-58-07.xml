@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Dennis the Menace: Volume 58 
+                </title>        
+                <author>Hank Ketcham</author>   
+                <author>Owen Fitzgerald</author>
+                <editor>Remington Orange</editor> <!--Please change this for your name-->
+            </titleStmt>
+            <publicationStmt>
+                <date> 1962-04 </date>
+                <availability status="free">  
+                    <p>This work is in the public domain in the United States</p> 
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Scanned and put online by Hallden Fawcett </note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>    <!--IF YOU RUN INTO COFUSING SCENARIOS: ask in slack and we'll all look at it-->
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <namespace name="http://www.cbml.org/ns/1.0">
+                    <tagUsage gi="cbml:panel"></tagUsage>
+                    <tagUsage gi="cbml:caption"></tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    
+    <text>     
+        <body>
+            
+            <div type="page" xml:id="pg_07">   
+                
+                <div type="panelGrp" xml:id="eg_0001">
+                    
+                    
+                    
+                    <cbml:panel n="1" characters="#dennis #father">
+                        <cbml:balloon type="speech" who="#father">  
+                           Faster, Dennis...faster!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis">
+                            Okay!                   
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis is pushing the back of a bobsled while his father sits in the front seat and looks back towards Dennis
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="2" characters="#dennis #father">
+                        <cbml:balloon type="speech" who="#father">   
+                            Heh. heh!             
+                        </cbml:balloon>  
+                        <cbml:balloon type="speech" who="#dennis">
+                            <emph rendition="#b">WHEE!</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis and his father are speeding while both sitting in the bobsled. Dennis' father in front and Dennis in the back 
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    
+                    
+                    <cbml:panel n="3" characters="#dennis #father">              
+                        <cbml:balloon type="speech" who="dennis">
+                            <emph rendition="large; color:red ">YAHOO!</emph>         
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis is sitting in the back of the bobsled enjoying the ride while Dennis' father sits in front and has a concerned face while looking ahead  </note>                 
+                    </cbml:panel>
+                    
+                    
+                    
+                    
+                    <cbml:panel n="4" characters="#dennis #father">
+                        <cbml:balloon type="speech" who="#father"> 
+                            <emph rendition="large; color:red ">ULK</emph>
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            <emph rendition="large; color:red ">YIPPEE!</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis' father's face is very concerned while Dennis continutes to look excited as they continue speeding in the bobsled
+                        </note> 
+                    </cbml:panel> 
+                    
+                    <cbml:panel n="5" characters="#dennis #father">
+                        <cbml:balloon rendition="jaggies" type="speech" who="#father"> 
+                            <emph rendition="large; color:red ">BRAKE, DENNIS!</emph>
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            <emph rendition="large; color:red ">WHEE!</emph>
+                        </cbml:balloon>
+                        <cbml:balloon rendition="jaggies" type="speech" who="#father"> 
+                            <emph rendition="large; color:red ">BRAKE!</emph>
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            <emph rendition="large; color:red ">YAHOO!</emph>
+                        </cbml:balloon>
+                        <cbml:balloon rendition="jaggies" type="speech" who="#father"> 
+                            <emph rendition="#b; large">BRAKE</emph>
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            <emph rendition="#b; large">YIPPEE</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis and his father ride the bobsled quickly and are seen as sillouhettes on the far right side of the page
+                        </note> 
+                    </cbml:panel> 
+                    
+                    
+                </div>
+                <pb/>    
+            </div>
+        </body>
+    </text>
+</TEI>
+
+

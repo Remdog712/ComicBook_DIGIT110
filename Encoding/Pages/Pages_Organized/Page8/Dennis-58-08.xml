@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Dennis the Menace: Volume 58 
+                </title>        
+                <author>Hank Ketcham</author>   
+                <author>Owen Fitzgerald</author>
+                <editor>Remington Orange</editor> 
+            </titleStmt>
+            <publicationStmt>
+                <date> 1962-04 </date>
+                <availability status="free">  
+                    <p>This work is in the public domain in the United States</p> 
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Scanned and put online by Hallden Fawcett </note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>    
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <namespace name="http://www.cbml.org/ns/1.0">
+                    <tagUsage gi="cbml:panel"></tagUsage>
+                    <tagUsage gi="cbml:caption"></tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    
+    <text>     
+        <body>
+            
+            <div type="page" xml:id="pg_08">   
+                
+                <div type="panelGrp" xml:id="eg_0001">
+                    
+                    
+                    <cbml:panel n="1" characters="#dennis #father"> 
+                        <cbml:balloon type="speech" who="#dennis">  
+                            <emph rendition="large; #jaggies; #b">BRAKE, DENNIS!</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis and his father are about to hit a snowy jump while riding a bobsled. Dennis' father has his head thrown back as he yells and holds onto the steering wheel   
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="2" characters="#dennis #father">
+                        <cbml:balloon type="speech" who="#father">  
+                            <emph rendition="large; color:red">BRAKE, DENNIS!</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis and his father remain in the bobsled but do a flip after hitting a snowy jump. They are both shown upside down. Dennis' father is yelling and Dennis is smiling 
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#dennis #father">
+                        <cbml:balloon rendition="bubble" type="speech" who="#father">   
+                            <emph rendition="#b; large">BRAKE</emph>               
+                        </cbml:balloon>  
+                        <cbml:balloon rendition="bubble" type="speech" who="#father">   
+                            <emph rendition="#b; large">BRAKE</emph>               
+                        </cbml:balloon> 
+                        <cbml:balloon rendition="bubble" type="speech" who="#father">   
+                            <emph rendition="#b; large">BRAKE</emph>               
+                        </cbml:balloon> 
+                        <note type="panelDesc"> Dennis and his father are not seen but there is a blur trail of them as they speedily fly through curved snowy paths 
+                        </note> 
+                    </cbml:panel>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
