@@ -8,14 +8,12 @@
                     Dennis the Menace: Volume 58 
                 </title>        
                 <author>Hank Ketcham</author>  
-               <!-- ebb: Add a @role attribute to indicate the illustrators  -->
-                <author>Owen Fitzgerald</author>
+                <author role="illustrator">Owen Fitzgerald</author>  <!-- UPDATE: NOV 10 - ADD IN ROLE illustrator -->
                 <editor>Remington Orange</editor> <!--Please change this for your name-->
                 
             </titleStmt>
             <publicationStmt>
                 <date> 1962-04 </date>
-                <!-- Add info and link to online archive, and add link to your own GitHub repo as well.  -->
                 <availability status="free">  
                     <p>This work is in the public domain in the United States</p> 
                 </availability>
@@ -24,9 +22,11 @@
                 <note>Scanned and put online by Hallden Fawcett </note>
             </notesStmt>
             <sourceDesc>
-                
-                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>    <!--IF YOU RUN INTO COFUSING SCENARIOS: ask in slack and we'll all look at it-->
-                <!--Add info on the original publication here as represented on page 2. -->
+                <p><ref target="https://archive.org/details/dennis-the-menace-issue-58">Online Archive</ref></p>     <!-- UPDATE: NOV 10 - This can be copied, this is the publication information and link information -->
+                <p><ref target="https://github.com/Remdog712/ComicBook_DIGIT110">Github Repo</ref></p>
+                <p>DENNIS THE MENANCE: a magazine published bi-monthly by Hallden Division of Fawcett Publications, Inc., (Copyright 1962 by the Hall Syndicate, Inc. Printed in the U.S.A., by the Eastern Color Printing Co.)</p>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+
              
             </sourceDesc>
         </fileDesc>
@@ -43,9 +43,9 @@
     
     <text>     
         <body>
-            <!--ebb: Here's a suggestion for grouping by a long storyline that spans multiple pages -->
-            <milestone unit="start" n="SLEIGH-MATES"/>       
-            <div type="page" xml:id="pg_03">   <!--Please change this for your page (change 03 to your page number)-->
+          
+            <milestone unit="start" n="SLEIGH-MATES"/>    <!-- UPDATE: NOV 10 - Please add this line with the title if you're story ends or begins and tag accordingly (ask for help if needed) -->   <!--ebb: Here's a suggestion for grouping by a long storyline that spans multiple pages -->
+            <div type="page" xml:id="pg_03">   
                 
             <div type="panelGrp" xml:id="eg_0001">
                 
@@ -91,7 +91,7 @@
                 
                 
                 <cbml:panel n="4" characters="#dennis #father">              
-                    <cbml:balloon type="speech" who="dennis">
+                    <cbml:balloon type="speech" who="#dennis">
                         Here, Dad! <emph rendition="#b; color:red ">HERE!</emph>     <!--rorange : Example of how to show colored and bold texts -->     
                     </cbml:balloon>
                     <cbml:balloon type="speech" who="#father">
@@ -118,8 +118,6 @@
             </div>
             <pb/>    
             </div>
-            <!--ebb: MOVE THIS if it isn't really the end of the SLEIGH-MATES episode... But try to keep these at the same level of the hierarchy if you can.  -->
-            <milestone unit="end" n="SLEIGH-MATES"/>  
         </body>
     </text>
 </TEI>
