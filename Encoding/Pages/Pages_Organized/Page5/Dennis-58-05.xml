@@ -7,9 +7,10 @@
                 <title>
                     Dennis the Menace: Volume 58 
                 </title>        
-                <author>Hank Ketcham</author>   
-                <author>Owen Fitzgerald</author>
-                <editor>Remington Orange</editor> <!--We'll have to ask Dr. B if this is right-->
+                <author>Hank Ketcham</author>  
+                <author role="illustrator">Owen Fitzgerald</author>  
+                <editor>Remington Orange</editor> 
+                
             </titleStmt>
             <publicationStmt>
                 <date> 1962-04 </date>
@@ -21,7 +22,12 @@
                 <note>Scanned and put online by Hallden Fawcett </note>
             </notesStmt>
             <sourceDesc>
+                <p><ref target="https://archive.org/details/dennis-the-menace-issue-58">Online Archive</ref></p>    
+                <p><ref target="https://github.com/Remdog712/ComicBook_DIGIT110">Github Repo</ref></p>
+                <p>DENNIS THE MENANCE: a magazine published bi-monthly by Hallden Division of Fawcett Publications, Inc., (Copyright 1962 by the Hall Syndicate, Inc. Printed in the U.S.A., by the Eastern Color Printing Co.)</p>
                 <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+                
+                
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -49,10 +55,14 @@
                         YOU TAKE BOB'S SLED! I'LL TAKE <emph rendition="#large #b #color:red">MINE!</emph>              
                     </cbml:balloon>
                     
+                    <move who="#dennis" rendition="#fast"/>
+                    
                     
                     <cbml:balloon rendition="#jaggies" type="speech" who="#father"> 
                         <emph rendition="#large #b #color:red">DENNIS!</emph> <lb/> <emph rendition="#large #b #jaggies">WAIT!</emph>
                     </cbml:balloon>
+                    
+                    <move who="#father" rendition="#excite"/>
 
                    
                     <note type="panelDesc"> The panel is the entire page, Dennis and his father are seen as dark silhouettes at the top of a bobsled hill. Dennis is running towards a bobsled. Dennis' Father turns his head quickly to Dennis. At the bottom of the page, a couple is seen riding a bobsled down a winding path in the snow

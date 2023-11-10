@@ -7,9 +7,10 @@
                 <title>
                     Dennis the Menace: Volume 58 
                 </title>        
-                <author>Hank Ketcham</author>   
-                <author>Owen Fitzgerald</author>
+                <author>Hank Ketcham</author>  
+                <author role="illustrator">Owen Fitzgerald</author>  
                 <editor>Remington Orange</editor> 
+                
             </titleStmt>
             <publicationStmt>
                 <date> 1962-04 </date>
@@ -21,7 +22,12 @@
                 <note>Scanned and put online by Hallden Fawcett </note>
             </notesStmt>
             <sourceDesc>
-                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>    
+                <p><ref target="https://archive.org/details/dennis-the-menace-issue-58">Online Archive</ref></p>    
+                <p><ref target="https://github.com/Remdog712/ComicBook_DIGIT110">Github Repo</ref></p>
+                <p>DENNIS THE MENANCE: a magazine published bi-monthly by Hallden Division of Fawcett Publications, Inc., (Copyright 1962 by the Hall Syndicate, Inc. Printed in the U.S.A., by the Eastern Color Printing Co.)</p>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+                
+                
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -47,6 +53,7 @@
                         <cbml:balloon type="speech" who="#dennis">  
                             <emph rendition="large; #jaggies; #b">BRAKE, DENNIS!</emph>
                         </cbml:balloon>
+                        <move who="#dennis #father" rendition="#fast"/>
                         <note type="panelDesc"> Dennis and his father are about to hit a snowy jump while riding a bobsled. Dennis' father has his head thrown back as he yells and holds onto the steering wheel   
                         </note> 
                     </cbml:panel>
@@ -56,6 +63,7 @@
                         <cbml:balloon type="speech" who="#father">  
                             <emph rendition="large; color:red">BRAKE, DENNIS!</emph>
                         </cbml:balloon>
+                        <move who="#dennis #father" rendition="#spin"/>
                         <note type="panelDesc"> Dennis and his father remain in the bobsled but do a flip after hitting a snowy jump. They are both shown upside down. Dennis' father is yelling and Dennis is smiling 
                         </note> 
                     </cbml:panel>
@@ -71,6 +79,7 @@
                         <cbml:balloon rendition="bubble" type="speech" who="#father">   
                             <emph rendition="#b; large">BRAKE</emph>               
                         </cbml:balloon> 
+                        <move who="#dennis #father" rendition="#fast"/>
                         <note type="panelDesc"> Dennis and his father are not seen but there is a blur trail of them as they speedily fly through curved snowy paths 
                         </note> 
                     </cbml:panel>

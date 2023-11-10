@@ -7,9 +7,10 @@
                 <title>
                     Dennis the Menace: Volume 58 
                 </title>        
-                <author>Hank Ketcham</author>   
-                <author>Owen Fitzgerald</author>
-                <editor>Remington Orange</editor> <!--We'll have to ask Dr. B if this is right-->
+                <author>Hank Ketcham</author>  
+                <author role="illustrator">Owen Fitzgerald</author>  
+                <editor>Remington Orange</editor> 
+                
             </titleStmt>
             <publicationStmt>
                 <date> 1962-04 </date>
@@ -21,7 +22,12 @@
                 <note>Scanned and put online by Hallden Fawcett </note>
             </notesStmt>
             <sourceDesc>
+                <p><ref target="https://archive.org/details/dennis-the-menace-issue-58">Online Archive</ref></p>    
+                <p><ref target="https://github.com/Remdog712/ComicBook_DIGIT110">Github Repo</ref></p>
+                <p>DENNIS THE MENANCE: a magazine published bi-monthly by Hallden Division of Fawcett Publications, Inc., (Copyright 1962 by the Hall Syndicate, Inc. Printed in the U.S.A., by the Eastern Color Printing Co.)</p>
                 <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+                
+                
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -73,6 +79,7 @@
                     <cbml:balloon type="speech" who="#dennis">
                         A <emph rendition="#b ">WHAT?</emph>                  
                     </cbml:balloon>
+                    <move who="#dennis" rendition="#spin"/>  <!-- A new thing we must add is movement. Animation quirks like head spins, excitement, and any other we come across, i will specify in Slack-->
                     <note type="panelDesc"> Dennis is outside of the green car looking back towards in father with a quick head turn and confused look on his face. Dennis' father begins stepping out the green car
                     </note> 
                 </cbml:panel>
@@ -97,6 +104,7 @@
                     <cbml:balloon type="speech" who="#dennis">
                         Yeah. The guy who owns this keen <emph rendition="#b color:red ">HOT-ROD</emph> <emph rendition="#b ">SLED!</emph>                 
                     </cbml:balloon>
+                    <move who="#dennis" rendition="#excite"/>
                     <note type="panelDesc"> Dennis' father is squatting down next to Dennis. Dennis is looking excitingly at the blue bobsled with number four on the front of it.
                     </note> 
                 </cbml:panel>
@@ -108,6 +116,7 @@
                     <cbml:balloon type="sound" who="#dennis"> 
                         <emph rendition="#b #large color:red">WOW!</emph>
                     </cbml:balloon>
+                    <move who="#dennis" rendition="#spin"/>
                     <note type="panelDesc"> Dennis' father points down a hill and Dennis turns his head excitingly away from the bobsled to looking down the hill
                     </note> 
                 </cbml:panel>

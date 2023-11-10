@@ -7,9 +7,10 @@
                 <title>
                     Dennis the Menace: Volume 58 
                 </title>        
-                <author>Hank Ketcham</author>   
-                <author>Owen Fitzgerald</author>
-                <editor>Remington Orange</editor> <!--Please change this for your name-->
+                <author>Hank Ketcham</author>  
+                <author role="illustrator">Owen Fitzgerald</author>  
+                <editor>Remington Orange</editor> 
+                
             </titleStmt>
             <publicationStmt>
                 <date> 1962-04 </date>
@@ -21,7 +22,12 @@
                 <note>Scanned and put online by Hallden Fawcett </note>
             </notesStmt>
             <sourceDesc>
-                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>    <!--IF YOU RUN INTO COFUSING SCENARIOS: ask in slack and we'll all look at it-->
+                <p><ref target="https://archive.org/details/dennis-the-menace-issue-58">Online Archive</ref></p>    
+                <p><ref target="https://github.com/Remdog712/ComicBook_DIGIT110">Github Repo</ref></p>
+                <p>DENNIS THE MENANCE: a magazine published bi-monthly by Hallden Division of Fawcett Publications, Inc., (Copyright 1962 by the Hall Syndicate, Inc. Printed in the U.S.A., by the Eastern Color Printing Co.)</p>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+                
+                
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -63,6 +69,7 @@
                         <cbml:balloon type="speech" who="#dennis">
                             <emph rendition="#b">WHEE!</emph>
                         </cbml:balloon>
+                        <move who="#dennis #father" rendition="#fast"/>
                         <note type="panelDesc"> Dennis and his father are speeding while both sitting in the bobsled. Dennis' father in front and Dennis in the back 
                         </note> 
                     </cbml:panel>
@@ -74,6 +81,7 @@
                         <cbml:balloon type="speech" who="dennis">
                             <emph rendition="large; color:red ">YAHOO!</emph>         
                         </cbml:balloon>
+                        <move who="#dennis #father" rendition="#fast"/>
                         <note type="panelDesc"> Dennis is sitting in the back of the bobsled enjoying the ride while Dennis' father sits in front and has a concerned face while looking ahead  </note>                 
                     </cbml:panel>
                     
@@ -87,6 +95,7 @@
                         <cbml:balloon type="speech" who="#dennis"> 
                             <emph rendition="large; color:red ">YIPPEE!</emph>
                         </cbml:balloon>
+                        <move who="#dennis #father" rendition="#fast"/>
                         <note type="panelDesc"> Dennis' father's face is very concerned while Dennis continutes to look excited as they continue speeding in the bobsled
                         </note> 
                     </cbml:panel> 
@@ -110,6 +119,7 @@
                         <cbml:balloon type="speech" who="#dennis"> 
                             <emph rendition="#b; large">YIPPEE</emph>
                         </cbml:balloon>
+                        <move who="#dennis #father" rendition="#fast"/>
                         <note type="panelDesc"> Dennis and his father ride the bobsled quickly and are seen as sillouhettes on the far right side of the page
                         </note> 
                     </cbml:panel> 
