@@ -54,7 +54,7 @@
                         Hmm! What's going on <emph rendition="#b ">HERE?</emph>
                     </cbml:balloon>
                     <cbml:balloon type="speech" who="#dennis">
-                        I dunno! <emph rendition="#b ">YOU</emph> can read ... <emph rendition="#b ">I</emph> can;t!                    
+                        I dunno! <emph rendition="#b ">YOU</emph> can read ... <emph rendition="#b ">I</emph> can't!                    
                     </cbml:balloon>
                     
                     <floatingText subtype="banner" type="diegetic"> 
@@ -62,7 +62,7 @@
                            <div type ="banner">
                             <head rendition="#uc ">
                                 <emph rendition="#b ">GRAND OPENING</emph>!<lb/> 
-                                <emph rendition="#b color:red ">BOB SLED RUN</emph> 
+                                <emph rendition="#b #color:red ">BOB SLED RUN</emph> 
                             </head>  
                            </div>
                        </body> 
@@ -102,7 +102,7 @@
                         Bob?
                     </cbml:balloon>
                     <cbml:balloon type="speech" who="#dennis">
-                        Yeah. The guy who owns this keen <emph rendition="#b color:red ">HOT-ROD</emph> <emph rendition="#b ">SLED!</emph>                 
+                        Yeah. The guy who owns this keen <emph rendition="#b #color:red ">HOT-ROD</emph> <emph rendition="#b ">SLED!</emph>                 
                     </cbml:balloon>
                     <move who="#dennis" rendition="#excite"/>
                     <note type="panelDesc"> Dennis' father is squatting down next to Dennis. Dennis is looking excitingly at the blue bobsled with number four on the front of it.
@@ -114,7 +114,7 @@
                         There <emph rendition="#b ">ISN'T</emph> any Bob...they just <emph rendition="#b ">CALL</emph> it a bobsled. And <emph rendition="#b ">THERE'S</emph> the <emph rendition="#b ">RUN!</emph>
                     </cbml:balloon>
                     <cbml:balloon type="sound" who="#dennis"> 
-                        <emph rendition="#b #large color:red">WOW!</emph>
+                        <emph rendition="#b #large #color:red">WOW!</emph>
                     </cbml:balloon>
                     <move who="#dennis" rendition="#spin"/>
                     <note type="panelDesc"> Dennis' father points down a hill and Dennis turns his head excitingly away from the bobsled to looking down the hill

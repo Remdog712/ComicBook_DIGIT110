@@ -79,7 +79,7 @@
                     
                     <cbml:panel n="3" characters="#dennis #father">              
                         <cbml:balloon type="speech" who="dennis">
-                            <emph rendition="large; color:red ">YAHOO!</emph>         
+                            <emph rendition="#large #color:red ">YAHOO!</emph>         
                         </cbml:balloon>
                         <move who="#dennis #father" rendition="#fast"/>
                         <note type="panelDesc"> Dennis is sitting in the back of the bobsled enjoying the ride while Dennis' father sits in front and has a concerned face while looking ahead  </note>                 
@@ -90,10 +90,10 @@
                     
                     <cbml:panel n="4" characters="#dennis #father">
                         <cbml:balloon type="speech" who="#father"> 
-                            <emph rendition="large; color:red ">ULK</emph>
+                            <emph rendition="#large #color:red ">ULK</emph>
                         </cbml:balloon>
                         <cbml:balloon type="speech" who="#dennis"> 
-                            <emph rendition="large; color:red ">YIPPEE!</emph>
+                            <emph rendition="#large #color:red ">YIPPEE!</emph>
                         </cbml:balloon>
                         <move who="#dennis #father" rendition="#fast"/>
                         <note type="panelDesc"> Dennis' father's face is very concerned while Dennis continutes to look excited as they continue speeding in the bobsled
@@ -102,22 +102,22 @@
                     
                     <cbml:panel n="5" characters="#dennis #father">
                         <cbml:balloon rendition="jaggies" type="speech" who="#father"> 
-                            <emph rendition="large; color:red ">BRAKE, DENNIS!</emph>
+                            <emph rendition="#large #color:red ">BRAKE, DENNIS!</emph>
                         </cbml:balloon>
                         <cbml:balloon type="speech" who="#dennis"> 
-                            <emph rendition="large; color:red ">WHEE!</emph>
+                            <emph rendition="#large #color:red ">WHEE!</emph>
                         </cbml:balloon>
                         <cbml:balloon rendition="jaggies" type="speech" who="#father"> 
-                            <emph rendition="large; color:red ">BRAKE!</emph>
+                            <emph rendition="large #color:red ">BRAKE!</emph>
                         </cbml:balloon>
                         <cbml:balloon type="speech" who="#dennis"> 
-                            <emph rendition="large; color:red ">YAHOO!</emph>
+                            <emph rendition="#large #color:red ">YAHOO!</emph>
                         </cbml:balloon>
                         <cbml:balloon rendition="jaggies" type="speech" who="#father"> 
-                            <emph rendition="#b; large">BRAKE</emph>
+                            <emph rendition="#b #large">BRAKE</emph>
                         </cbml:balloon>
                         <cbml:balloon type="speech" who="#dennis"> 
-                            <emph rendition="#b; large">YIPPEE</emph>
+                            <emph rendition="#large">YIPPEE</emph>
                         </cbml:balloon>
                         <move who="#dennis #father" rendition="#fast"/>
                         <note type="panelDesc"> Dennis and his father ride the bobsled quickly and are seen as sillouhettes on the far right side of the page

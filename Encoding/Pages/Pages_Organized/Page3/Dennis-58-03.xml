@@ -96,7 +96,7 @@
                 
                 <cbml:panel n="4" characters="#dennis #father">              
                     <cbml:balloon type="speech" who="#dennis">
-                        Here, Dad! <emph rendition="#b; color:red ">HERE!</emph>     <!--rorange : Example of how to show colored and bold texts -->     
+                        Here, Dad! <emph rendition="#b #color:red ">HERE!</emph>     <!--rorange : Example of how to show colored and bold texts -->     
                     </cbml:balloon>
                     <cbml:balloon type="speech" who="#father">
                         Too many rocks. 
@@ -109,7 +109,7 @@
                        
                 <cbml:panel n="5" characters="#dennis #father">
                     <cbml:balloon type="speech" who="#dennis"> 
-                        When are we gonna go sleddin'? When we get to the <emph rendition="#b; ">NORTH POLE?</emph>
+                        When are we gonna go sleddin'? When we get to the <emph rendition="#b ">NORTH POLE?</emph>
                     </cbml:balloon>
                     <cbml:balloon type="speech" who="#father"> 
                         Just be patient, will you?

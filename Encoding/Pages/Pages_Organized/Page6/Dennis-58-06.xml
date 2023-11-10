@@ -50,10 +50,10 @@
              
                     <cbml:panel n="1" characters="#dennis #father"> 
                         <cbml:balloon rendition="#jaggies" type="speech" who="#dennis"> 
-                            <emph rendition="large ; #b ; color:red">LET'S</emph> <lb/> <emph rendition="large ; #b ; color:red">GO!</emph>
+                            <emph rendition="large  #b  #color:red">LET'S</emph> <lb/> <emph rendition="large  #b  #color:red">GO!</emph>
                         </cbml:balloon>
                         <cbml:balloon type="speech" who="#father"> 
-                            <emph rendition="large ; #b ; color:red">DENNIS!</emph> <lb/> <emph rendition="large ; #b">COME BACK</emph> <lb/> <emph rendition="large ; #b">HERE!</emph>
+                            <emph rendition="large  #b  #color:red">DENNIS!</emph> <lb/> <emph rendition="#large  #b">COME BACK</emph> <lb/> <emph rendition="#large  #b">HERE!</emph>
                         </cbml:balloon>
                         <move who="#father" rendition="#fast"/>
                         <note type="panelDesc"> Dennis is carrying a sled over his head while running. Dennis's Father has his hands stretched in front chasing Dennis
@@ -87,7 +87,7 @@
                             See? This <lb/> kind has a <lb/> steering wheel.
                         </cbml:balloon>
                         <cbml:balloon rendition="jaggies" type="speech" who="#dennis"> 
-                            <emph rendition=" large ; color:red">OKAY!</emph> <lb/> <emph rendition="large; #b">I'M SOLD!</emph>
+                            <emph rendition=" #large  #color:red">OKAY!</emph> <lb/> <emph rendition="#large #b">I'M SOLD!</emph>
                         </cbml:balloon>
                         <move who="#father" rendition="#fast"/>
                         <note type="panelDesc"> Dennis's Father is seeing pulling the sled and Dennis is seen running towards a blue and yellow bobsled.

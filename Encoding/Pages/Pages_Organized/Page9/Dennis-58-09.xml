@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Dennis the Menace: Volume 58 
+                </title>        
+                <author>Hank Ketcham</author>  
+                <author role="illustrator">Owen Fitzgerald</author>  
+                <editor>Remington Orange</editor> 
+                
+            </titleStmt>
+            <publicationStmt>
+                <date> 1962-04 </date>
+                <availability status="free">  
+                    <p>This work is in the public domain in the United States</p> 
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Scanned and put online by Hallden Fawcett </note>
+            </notesStmt>
+            <sourceDesc>
+                <p><ref target="https://archive.org/details/dennis-the-menace-issue-58">Online Archive</ref></p>    
+                <p><ref target="https://github.com/Remdog712/ComicBook_DIGIT110">Github Repo</ref></p>
+                <p>DENNIS THE MENANCE: a magazine published bi-monthly by Hallden Division of Fawcett Publications, Inc., (Copyright 1962 by the Hall Syndicate, Inc. Printed in the U.S.A., by the Eastern Color Printing Co.)</p>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+                
+                
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <namespace name="http://www.cbml.org/ns/1.0">
+                    <tagUsage gi="cbml:panel"></tagUsage>
+                    <tagUsage gi="cbml:caption"></tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    
+    <text>     
+        <body>
+            
+            <div type="page" xml:id="pg_09">   
+                
+                <div type="panelGrp" xml:id="eg_0001">
+                    
+                    
+                    <cbml:panel n="1" characters="#dennis #father"> 
+                        <cbml:balloon type="speech" who="#father">  
+                            <emph rendition="large #jaggies #color:red">BRAKE!</emph>
+                        </cbml:balloon>
+                        <move who="#dennis #father" rendition="#fast"/>
+                        <note type="panelDesc"> Dennis and his father are going downhill very fast in the bobsled, Dennis' father has his eyes closed and looks very scared while Dennis has a simple grin 
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="2" characters="#dennis #father">
+                        <cbml:balloon rendition="jaggies" type="speech" who="#father">  
+                            <emph rendition="#b">BRAKE!</emph>
+                        </cbml:balloon>
+                        <move who="#dennis #father" rendition="#fast"/>
+                        <note type="panelDesc"> A closer shot of Dennis and his father  going downhill very fast in the bobsled, Dennis' father still has his eyes closed and looks very scared and is gripping the steering wheel hard, while Dennis has a simple grin
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#dennis #father">
+                        <cbml:balloon type="speech" who="#dennis">   
+                           Boy, that was <emph rendition="#b; large">FUN,</emph> Dad!            
+                        </cbml:balloon>  
+                        <cbml:balloon type="speech" who="#father">   
+                            <emph rendition="#small">BRAKE! BRAKE!</emph>           
+                        </cbml:balloon>
+                        <move who="#father" rendition="#excite"/>
+                        <note type="panelDesc"> The bobsled is stopped and Dennis hops out and begins to stroll away. Dennis' father remains in the bobsled with his head pressed against the steering wheel looking exhausted
+                        </note> 
+                    </cbml:panel>
+                    
+                    <cbml:panel n="4" characters="#dennis #father">
+                        <cbml:balloon type="speech" who="#father">   
+                            Why didn't you put on the <emph rendition="#b">BRAKE</emph> when I told you?            
+                        </cbml:balloon>  
+                        <cbml:balloon type="speech" who="#dennis">   
+                            <emph rendition="#b">DID</emph> ya?        
+                        </cbml:balloon>
+                        <move who="#father" rendition="#excite"/>
+                        <move who="#dennis" rendition="#spin"/>
+                        <note type="panelDesc"> Dennis' father remains with his head against the steering wheel looking angry while Dennis looks confused
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="5" characters="#dennis #father">
+                        <cbml:balloon rendition="jaggies" type="speech" who="#father">   
+                            <emph rendition ="#large #b">OF COURSE! DIDN'T YOU HEAR ME YELLING</emph> <emph rendition ="#large #color:red">BRAKE! BRAKE! BRAKE!?</emph>          
+                        </cbml:balloon>  
+                        <cbml:balloon type="speech" who="#dennis">   
+                            Oh, <emph rendition="#b">THAT!</emph> I thought ya was yellin' <emph rendition ="#large #b">GREAT! GREAT! GREAT!</emph>     
+                        </cbml:balloon>
+                        <move who="#father" rendition="#excite"/>
+                        <note type="panelDesc"> Dennis' father is incredibly angry and Dennis throws his hands up in a shrug motion
+                        </note> 
+                    </cbml:panel>
+                    
+                    <cbml:panel n="6" characters="#dennis #father">
+                        <cbml:balloon rendition="bubble" type="thought" who="#father">   
+                            Anyways...that's <emph rendition="#large #color:red">MY</emph> story!          
+                        </cbml:balloon>  
+                        <move who="#father" rendition="#excite"/>
+                        <note type="panelDesc"> Dennis' father walks away sweating from the events and distraugt while Dennis casually strolls behind
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    
+                </div>
+            </div>
+      <milestone unit="end" n="SLEIGH-MATES"/>
+        </body>
+    </text>
+</TEI>
+
+
