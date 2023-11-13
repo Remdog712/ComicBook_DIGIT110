@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Dennis the Menace: Volume 58 
+                </title>        
+                <author>Hank Ketcham</author>  
+                <author role="illustrator">Owen Fitzgerald</author>  
+                <editor>Remington Orange</editor> 
+                
+            </titleStmt>
+            <publicationStmt>
+                <date> 1962-04 </date>
+                <availability status="free">  
+                    <p>This work is in the public domain in the United States</p> 
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Scanned and put online by Hallden Fawcett </note>
+            </notesStmt>
+            <sourceDesc>
+                <p><ref target="https://archive.org/details/dennis-the-menace-issue-58">Online Archive</ref></p>    
+                <p><ref target="https://github.com/Remdog712/ComicBook_DIGIT110">Github Repo</ref></p>
+                <p>DENNIS THE MENANCE: a magazine published bi-monthly by Hallden Division of Fawcett Publications, Inc., (Copyright 1962 by the Hall Syndicate, Inc. Printed in the U.S.A., by the Eastern Color Printing Co.)</p>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+                
+                
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <namespace name="http://www.cbml.org/ns/1.0">
+                    <tagUsage gi="cbml:panel"></tagUsage>
+                    <tagUsage gi="cbml:caption"></tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    
+    <text>     
+        <body>
+            
+            <milestone unit="start" n="Dennis-The-Menace-In-Geronimo"/>
+            
+            <div type="page" xml:id="pg_36">   
+                
+                <div type="panelGrp" xml:id="eg_0001">
+                    
+                    
+                    
+                    <cbml:panel n="1"> 
+                    <cbml:caption type="heading"> 
+                        Dennis the Menace in <emph rendition="#large">GERONIMO!</emph>
+                    </cbml:caption>
+                    <note type="panelDesc"> A blue background with white puff
+                    </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="2" characters="#dennis #father #joey">
+                        <cbml:balloon rendition="#bubbles" type="speech" who="#dennis">   
+                            You watch, Joey... this'll be just like a <emph rendition="#b">PARACHUTE JUMP!</emph>             
+                        </cbml:balloon>  
+                        <cbml:balloon type="speech" who="#joey">
+                            Okay!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis' father is sitting inside in an armchair reading a newspaper and smoking a pipe, Through an open window, Joey is seen looking up in the air talking to Denniszzzzzzzzzzz
+                        </note> 
+                    </cbml:panel>
+                    
+
+                    <cbml:panel n="3" characters="#dennis #father #joey">              
+                        <cbml:balloon rendition="#bubbles" type="speech" who="#dennis">
+                            <emph rendition="#b">HERE I</emph> <emph rendition="#color:red">COME!</emph> <emph rendition="#b">RIGHT</emph> <emph rendition="#color:red">OFF</emph> <emph rendition="#b">THE</emph> <emph rendition="#color:red">ROOF!</emph>         
+                        </cbml:balloon>
+                        <cbml:balloon rendition="#jaggies" type="speech" who="#father">
+                           <emph rendition="#b">OFF THE ROOF!? PARACHUTE JUMP?!</emph>        
+                        </cbml:balloon>
+                        <move who="#father" rendition="#excite"/>
+                        <note type="panelDesc"> Dennis' Father sits up in his chair and lowers the newspaper looking concerned. Joey is still seen through the window talking to Dennis  </note>                 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="4" characters="#dennis #father #joey">
+                        <cbml:balloon rendition="#bubbles" type="speech" who="#father"> 
+                            <emph rendition="#large #color:orange ">DENNIS!</emph>
+                        </cbml:balloon>
+                        <move who="#father" rendition="#excite"/>
+                        <move who="#dennis" rendition="#fast"/>
+                        <note type="panelDesc"> Dennis' father's yells running around the corner seeing Dennis falling off the roof while Joey looks up calmly at Dennis
+                        </note> 
+                    </cbml:panel> 
+                    
+                    <cbml:panel n="5" characters="#dennis #father #joey">
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            Wanna try it, Dad?
+                        </cbml:balloon>
+                        <move who="#dennis" rendition="#bump"/>
+                        <move who="#father" rendition="#excite"/>
+                        <note type="panelDesc"> Dennis' Father is seen quivering and sweating as he sees Dennis hanging by his overall straps acting as a bungee cord. Joey stands nearby watching
+                        </note> 
+                    </cbml:panel> 
+                    
+                    <cbml:panel n="6" characters="#dennis #father #joey">
+                        <cbml:balloon type="speech" who="#joey"> 
+                            Is he taking a nap?
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            Uh-huh. He gets tired easy.....I dunno <emph rendition="#color:red">WHY!</emph>
+                        </cbml:balloon>
+                        <move who="#father" rendition="#spin"/>
+                        <note type="panelDesc"> Dennis' Father is seen laying on the ground passed as Dennis and Joey look at him and eachother quizically
+                        </note> 
+                    </cbml:panel> 
+                    
+                    
+                </div>
+                <pb/>    
+            </div>
+            <milestone unit="end" n="Dennis-The-Menace-In-Geronimo"/>
+        </body>
+    </text>
+</TEI>
+
+

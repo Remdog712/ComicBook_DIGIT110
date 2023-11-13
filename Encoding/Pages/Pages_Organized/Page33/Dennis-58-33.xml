@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Dennis the Menace: Volume 58 
+                </title>        
+                <author>Hank Ketcham</author>  
+                <author role="illustrator">Owen Fitzgerald</author>  
+                <editor>Remington Orange</editor> 
+                
+            </titleStmt>
+            <publicationStmt>
+                <date> 1962-04 </date>
+                <availability status="free">  
+                    <p>This work is in the public domain in the United States</p> 
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Scanned and put online by Hallden Fawcett </note>
+            </notesStmt>
+            <sourceDesc>
+                <p><ref target="https://archive.org/details/dennis-the-menace-issue-58">Online Archive</ref></p>    
+                <p><ref target="https://github.com/Remdog712/ComicBook_DIGIT110">Github Repo</ref></p>
+                <p>DENNIS THE MENANCE: a magazine published bi-monthly by Hallden Division of Fawcett Publications, Inc., (Copyright 1962 by the Hall Syndicate, Inc. Printed in the U.S.A., by the Eastern Color Printing Co.)</p>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+                
+                
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <namespace name="http://www.cbml.org/ns/1.0">
+                    <tagUsage gi="cbml:panel"></tagUsage>
+                    <tagUsage gi="cbml:caption"></tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    
+    <text>     
+        <body>
+            
+
+            
+            <div type="page" xml:id="pg_33">   
+                
+                <div type="panelGrp" xml:id="eg_0001">
+                    
+                    
+                    
+                    <cbml:panel n="1" characters="#dennis #tommy #wilson">
+                        <cbml:balloon type="speech" who="#wilson">   
+                            <emph rendition="#jaggies #color:red">HALP!</emph>            
+                        </cbml:balloon>  
+                        <cbml:balloon type="speech" who="#dennis">
+                            Look at Mr. Wilson <emph rendition="#b">GO!</emph>
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#tommy">
+                            <emph rendition="#color:red">YIPPEE!</emph>
+                        </cbml:balloon>
+                        <move who="#wilson" rendition="#fast"/>
+                        <note type="panelDesc"> Dennis and Tommy watch as Mr. Wilson goes very quickly down a hill surrounded by trees on a pair of snowshoes
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="2" characters="#wilson">
+                        <move who="#wilson" rendition="#fast"/>
+                        <move who="#wilson" rendition="#excite"/>
+                        <note type="panelDesc"> Mr. Wilson looks scared as he continues accidentally skiing down the hill
+                        </note> 
+                    </cbml:panel>
+                    
+                    <cbml:panel n="3" characters="#wilson">
+                        <move who="#wilson" rendition="#fast"/>
+                        <move who="#wilson" rendition="#excite"/>
+                        <note type="panelDesc"> Mr. Wilson covers his eyes as he comically swerves around several trees without hitting them
+                        </note> 
+                    </cbml:panel>
+                    
+                    <cbml:panel n="4" characters="#wilson">
+                        <cbml:balloon type="speech" who="#wilson">   
+                            <emph rendition="#jaggies #color:red">MARTHA!</emph>            
+                        </cbml:balloon> 
+                        <move who="#wilson" rendition="#fast"/>
+                        <move who="#wilson" rendition="#excite"/>
+                        <note type="panelDesc"> Mr. Wilson spreads his arms and feet as he launches off a hill
+                        </note> 
+                    </cbml:panel>
+                    
+                    <cbml:panel n="5" characters="#wilson"> 
+                        <move who="#wilson" rendition="#fast"/>
+                        <move who="#wilson" rendition="#excite"/>
+                        <note type="panelDesc"> Mr. Wilson falls on his butt into the snow with a large puff of snow
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                   
+                    
+                    
+                </div>
+                <pb/>    
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
