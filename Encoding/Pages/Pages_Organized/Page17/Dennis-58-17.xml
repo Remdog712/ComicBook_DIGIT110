@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Dennis the Menace: Volume 58 
+                </title>        
+                <author>Hank Ketcham</author>   
+                <author>Owen Fitzgerald</author>
+                <editor>Lyndon Herschell</editor>
+            </titleStmt>
+            <publicationStmt>
+                <date> 1962-04 </date>
+                <availability status="free">  
+                    <p>This work is in the public domain in the United States</p> 
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Scanned and put online by Hallden Fawcett </note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <namespace name="http://www.cbml.org/ns/1.0">
+                    <tagUsage gi="cbml:panel"></tagUsage>
+                    <tagUsage gi="cbml:caption"></tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    
+    <text>     
+        <body>
+            
+            <div type="page" xml:id="pg_14">
+                
+                <div type="panelGrp" xml:id="eg_0001">
+                    
+                    
+                    <cbml:panel n="1"> <!-- In Progress -->
+                        <cbml:caption type="heading" rend="red">
+                            Grampa Story
+                        </cbml:caption>
+                        <note type="panelDesc"> Beginning psnel for the comic story with the title "Grampa Story" with a smoking pipe.
+                        </note>
+                    </cbml:panel> 
+                    
+                    
+                    <cbml:panel n="2" characters="#granma #grampa"> <!-- In Progress -->
+                        <cbml:balloon type="speech" who="#granma"> 
+                            Stephen... we have <emph rendition="#b ">ANTS</emph> coming in the kitchen!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#grampa">
+                            We do? Well, I'll fix that!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Granma is telling Grampa ("Stephen") that they have ants in there kitchen. Ants are seen traversing the kitchen counter.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#grampa #granma #child1 #child2"> <!-- In Progress -->
+                        <cbml:balloon type="speech" who="#grampa">
+                            Here's where the ants are coming from. This spray ought to get them.
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#child1 #child2">
+                            Hi, Granma! Grampa!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#granma">
+                            Hello, children.
+                        </cbml:balloon>
+                        <note type="panelDesc"> Grampa can be seen working in a kitchen cabinet finding where the ants are comeing from. The children walk in greeting their grandparents, with Granma greeting them in return.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="4" characters="#grampa #child1 #child2"> <!-- In Progress -->
+                        <cbml:balloon type="speech" who="#child1"> 
+                            What was ya doin', Grampa?
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="grampa">
+                            Getting rid of some ants.
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#child2">
+                            Ugh! I <emph rendition="#b ">HATE</emph> ants!
+                        </cbml:balloon>
+                        <note type="panelDesc"> The first child asks Grampa what he was doing when they came in. Grampa tells them both that he was getting rid of ants, with the second child replying that they hate ants.
+                        </note> 
+                    </cbml:panel>
+                    
+                    <cbml:panel n="5" characters="#grampa #child1 #child2"> <!-- In Progress -->
+                        <cbml:balloon type="sound" who="#grampa"> 
+                            Oh, <emph rendition="#b ">ANTS</emph> are <emph rendition="#b ">REMARKABLE</emph> creatures. Did you know some of them keep <emph rendition="#b ">'COWS'</emph>? These are bugs that the ants take out to pasture, and bring home at night <emph rendition="#b ">MILK</emph>!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#child1 #child2">
+                            <emph rendition="#b ">WHAT?</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Grampa tell the children that ants are remarkable creatures and that some keep "cows" too. The children are both astonished by this information from Grampa. A panel thought bubble can be seen appearing from the children showing seemingly what they are imagining this scenario looking like. 
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                </div>
+            </div>
+            <pb/>    
+        </body>
+    </text>
+</TEI>
+
+

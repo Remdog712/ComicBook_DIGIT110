@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Dennis the Menace: Volume 58 
+                </title>        
+                <author>Hank Ketcham</author>   
+                <author>Owen Fitzgerald</author>
+                <editor>Lyndon Herschell</editor>
+            </titleStmt>
+            <publicationStmt>
+                <date> 1962-04 </date>
+                <availability status="free">  
+                    <p>This work is in the public domain in the United States</p> 
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Scanned and put online by Hallden Fawcett </note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <namespace name="http://www.cbml.org/ns/1.0">
+                    <tagUsage gi="cbml:panel"></tagUsage>
+                    <tagUsage gi="cbml:caption"></tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    
+    <text>     
+        <body>
+            
+            <div type="page" xml:id="pg_15">
+                
+                <div type="panelGrp" xml:id="eg_0001">
+                    
+                    
+                    <cbml:panel n="1"  characters="#grampa #child1 #child2"> <!-- Done -->
+                        <cbml:balloon type="speech" who="grampa">
+                            Then there are <emph rendition="#b ">HARVESTER</emph> ants, that gather seeds and store them in barns underground.
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#child2">
+                            I guess they <emph rendition="#b ">PLANT</emph> the seeds an' grow stuff, huh?
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#child1">
+                            Oh, sure!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Grampa continues to tell the children that ants can gatehr seeds and store thhem underground. A panel thought bubble can be seen appearing from the second child, showing what they are imagining this scenario looking like. 
+                        </note>
+                    </cbml:panel> 
+                    
+                    
+                    <cbml:panel n="2" characters="#grampa #child1 #child2"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#grampa"> 
+                            No... but there <emph rendition="#b ">ARE</emph> ants that grow <emph rendition="#b ">MUSHROOMS</emph> to eat!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#child1">
+                            Aw, c'mon, Grampa!
+                        </cbml:balloon>
+                        <note type="panelDesc"> There is a thought bubble showing ants in a field harvesting mushrooms. Grampa continues to tell the children about ants.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#grampa #child1 #child2"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#grampa">
+                            Oh, yes! And have you heard of <emph rendition="#b ">CARPENTER</emph> ants, that build their nests inside trees?
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#child1">
+                            They have little <emph rendition="#b ">HAMMERS</emph> an' <emph rendition="#b ">SAWS,</emph> s'pose!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#child2">
+                            Tee hee!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Grampa tells them of "carpenter" ants and how they build their nests within trees. The children imagine these ants having tools such as hammers and saws to create their homes.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                </div>
+            </div>
+            <pb/>    
+        </body>
+    </text>
+</TEI>
+
+
