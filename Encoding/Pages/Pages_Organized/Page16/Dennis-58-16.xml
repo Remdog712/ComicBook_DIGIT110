@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Dennis the Menace: Volume 58 
+                </title>        
+                <author>Hank Ketcham</author>   
+                <author>Owen Fitzgerald</author>
+                <editor>Lyndon Herschell</editor>
+            </titleStmt>
+            <publicationStmt>
+                <date> 1962-04 </date>
+                <availability status="free">  
+                    <p>This work is in the public domain in the United States</p> 
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Scanned and put online by Hallden Fawcett </note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <namespace name="http://www.cbml.org/ns/1.0">
+                    <tagUsage gi="cbml:panel"></tagUsage>
+                    <tagUsage gi="cbml:caption"></tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    
+    <text>     
+        <body>
+            
+            <div type="page" xml:id="pg_16">
+                
+                <div type="panelGrp" xml:id="eg_0001">
+                    
+                    
+                    <cbml:panel n="1"  characters="#grampa #child1 #child2"> <!-- Done -->
+                        <cbml:balloon type="speech" who="grampa">
+                            And there are <emph rendition="#b ">HONEY</emph> ants that gather a kind of honey. Some of these ants are like <emph rendition="#b"> BARRELS,</emph> and hold all the honey for the rest!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#child1">
+                            Oh, boy!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Grampa tells the children of honey ants that gather honey and stores them for others like a barrel. A thought bubble panel shows the children imaginging the ants with barrel-like bodies giving honey out to other ants.
+                        </note>
+                    </cbml:panel> 
+                    
+                    
+                    <cbml:panel n="2" characters="#grampa #child1"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#child1"> 
+                            I s'poses there's ants that are  <emph rendition="#b ">SOLDIERS,</emph> too!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#grampa">
+                            Right! How did you know?
+                        </cbml:balloon>
+                        <note type="panelDesc"> The first child begins to climb onto Grampa, assuming that there are also ants that are soldiers. Grampa confirms this thought and asks how they knew.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#grampa #child1 #child2"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#child2">
+                            An' I s'pose ants have <emph rendition="#b ">QUEENS,</emph> too!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#grampa">
+                            Exactly! Every ant colony has a queen!
+                        </cbml:balloon>
+                        <note type="panelDesc"> The second child believes that ants have queens, in which Grampa confirms. The first child seems to imagine what the queen ant would look like on a traditional throne for royalty.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                </div>
+            </div>
+            <pb/>    
+        </body>
+    </text>
+</TEI>
+
+
