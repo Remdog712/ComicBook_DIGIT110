@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Dennis the Menace: Volume 58 
+                </title>        
+                <author>Hank Ketcham</author>   
+                <author>Owen Fitzgerald</author>
+                <editor>Lauren McCurdy</editor> <!--Please change this for your name-->
+            </titleStmt>
+            <publicationStmt>
+                <date> 1962-04 </date>
+                <availability status="free">  
+                    <p>This work is in the public domain in the United States</p> 
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Scanned and put online by Hallden Fawcett </note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>    <!--IF YOU RUN INTO COFUSING SCENARIOS: ask in slack and we'll all look at it-->
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <namespace name="http://www.cbml.org/ns/1.0">
+                    <tagUsage gi="cbml:panel"></tagUsage>
+                    <tagUsage gi="cbml:caption"></tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+
+            <div type="page" xml:id="pg_028">
+                <!--Please change this for your page (change 03 to your page number)-->
+
+                <div type="panelGrp" xml:id="eg_0001">
+
+
+                    <cbml:panel n="1" characters="#dennis #tommy">
+                        <!--who is in the panel-->
+                        <cbml:balloon type="speech" who="#dennis">
+                            <!--who is speaking--> Hey, Tommy! Look at the keen <emph
+                                rendition="#b "> SKIS </emph> I got! </cbml:balloon>
+                        <note type="panelDesc"> Dennis runs through the snow with a pair of skis in
+                            each hand, Tommy looks at him confused. </note>
+                    </cbml:panel>
+
+
+                    <cbml:panel n="2" characters="#dennis #tommy">
+                        <cbml:balloon type="speech" who="#tommy">
+                            <!--who is speaking--> Huh! They're home-made! </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> Well, what's wrong with <emph
+                                rendition="#b"> THAT? </emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis presents the two pairs of skis to Tommy, Tommy
+                            looks taken aback. </note>
+                    </cbml:panel>
+
+
+                    <cbml:panel n="3" characters="#dennis #tommy">
+                        <cbml:balloon type="speech" who="#dennis"> Don't ya like home-made <emph
+                                rendition="#b"> PIES? </emph> An' <emph rendition="#b"> COOKIES?
+                            </emph> An' <emph rendition="#b "> CAKES? </emph>
+                            <!--rorange : Example of how to show bold texts -->
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#tommy"> Well, yeah...sure! </cbml:balloon>
+                        <note type="panelDesc"> Tommy stands with his hands in his pockets and a
+                            blank expression, Dennis expresses his questions to Tommy, still holding
+                            his skis. </note>
+                    </cbml:panel>
+
+
+
+
+                    <cbml:panel n="4" characters="#dennis #tommy">
+                        <cbml:balloon type="speech" who="dennis"> So what's wrong with <emph
+                                rendition="#b"> THESE? </emph> C'mon...I'll let ya have 'em <emph
+                                rendition="#b"> CHEAP! </emph>
+                            <!--rorange : Example of how to show colored and bold texts -->
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#tommy"> I don't <emph rendition="#b"> WANT
+                            </emph> 'em! </cbml:balloon>
+                        <note type="panelDesc"> Dennis extends his left arm and shoves a pair of
+                            skis at Tommy, still holding the other pair in his right arm.
+                            Tommy gives a surprised expression</note>
+                    </cbml:panel>
+
+
+
+
+                    <cbml:panel n="5" characters="#dennis #tommy">
+                        <cbml:balloon type="speech" who="#tommy"> They're for slidin' down <emph
+                                rendition="#b;">HILLS...</emph> an' there's no hills around <emph
+                                rendition="#b;">HERE!</emph>
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> That's right, darn
+                            it!</cbml:balloon>
+                        <note type="panelDesc"> Tommy extends his arms outward in exclamation, Dennis is stood
+                            next to him holding the two pairs of skis. </note>
+                    </cbml:panel>
+                  
+                    
+                    
+                    <cbml:panel n="6" characters="#dennis #tommy">
+                        <cbml:balloon type="speech" who="#tommy"> <emph rendition="#b; color:red ">HEY, LOOK!</emph>
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> How <emph
+                            rendition="#b;">'BOUT</emph> that!</cbml:balloon>
+                        <note type="panelDesc"> Tommy points to something in the distance, both him and Dennis look in the same direction. </note>
+                    </cbml:panel>
+
+
+                </div>
+                <pb/>
+            </div>
+        </body>
+    </text>
+</TEI>

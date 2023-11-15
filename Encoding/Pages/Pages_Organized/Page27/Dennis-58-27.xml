@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Dennis the Menace: Volume 58 
+                </title>        
+                <author>Hank Ketcham</author>   
+                <author>Owen Fitzgerald</author>
+                <editor>Lauren McCurdy</editor> <!--Please change this for your name-->
+            </titleStmt>
+            <publicationStmt>
+                <date> 1962-04 </date>
+                <availability status="free">  
+                    <p>This work is in the public domain in the United States</p> 
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Scanned and put online by Hallden Fawcett </note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>    <!--IF YOU RUN INTO COFUSING SCENARIOS: ask in slack and we'll all look at it-->
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <namespace name="http://www.cbml.org/ns/1.0">
+                    <tagUsage gi="cbml:panel"></tagUsage>
+                    <tagUsage gi="cbml:caption"></tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <body>
+
+            <div type="page" xml:id="pg_027">
+                <!--Please change this for your page (change 03 to your page number)-->
+
+                <div type="panelGrp" xml:id="eg_0001">
+
+
+                    <cbml:panel n="1" characters="#dennis #father">
+                        <!--who is in the panel-->
+                        <cbml:balloon type="speech" who="#father">
+                            <!--who is speaking--> I know! I'll <emph rendition="#b">MAKE</emph> you
+                            a pair of skis! </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> Aw, Dad! </cbml:balloon>
+                        <note type="panelDesc"> Dennis' father is shown walking, smoking a pipe, as
+                            Dennis trails behind him. </note>
+                    </cbml:panel>
+
+
+                    <cbml:panel n="2" characters="#dennis #father">
+                        <cbml:balloon type="speech" who="#dennis">
+                            <!--who is speaking--> How 'bout that <emph rendition="#b">KITE</emph>
+                            ya made me, an'it wouldn't <emph rendition="#b">FLY</emph>? An' that
+                                <emph rendition="#b">BOAT</emph> ya made me an'it <emph
+                                rendition="#b">SANK</emph>? An' that..... </cbml:balloon>
+                        <cbml:balloon type="speech" who="#father"> Okay, Okay!</cbml:balloon>
+                        <note type="panelDesc"> Dennis trails behind his father with his arms spread
+                            outward in exclamation, Dennis' father wears a frown while smoking his
+                            pipe.</note>
+                    </cbml:panel>
+
+
+                    <cbml:panel n="3" characters="#dennis #father">
+                        <cbml:balloon type="speech" who="#father">
+                            <emph rendition="#b"> THESE</emph> skis are practically ready made! </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> They are? </cbml:balloon>
+                        <note type="panelDesc"> Dennis' father breaks off two planks of wood from a
+                            barrel full of trash, Dennis wears a suprised and confused face.</note>
+                    </cbml:panel>
+
+
+
+
+                    <cbml:panel n="4" characters="#dennis #father">
+                        <cbml:balloon type="speech" who="father"> Uh-huh! I'll just nail this piece
+                            of innertube on...bend the nails under...and... </cbml:balloon>
+                        <note type="panelDesc"> Dennis observes his father in the shed as he nails
+                            the piece of innertube onto one of the planks of wood. </note>
+                    </cbml:panel>
+
+
+
+
+                    <cbml:panel n="5" characters="#dennis #father">
+                        <cbml:balloon type="speech" who="#father"> And there you are! A pair of
+                            skis! </cbml:balloon>
+                        <cbml:balloon rendition="#jaggies" type="speech" who="#dennis"> Hey! Pretty
+                            keen! Make a pair for Tommy, too, huh? </cbml:balloon>
+                        <note type="panelDesc"> Dennis' father presents him with the finished skis
+                            made from wood planks. </note>
+                    </cbml:panel>
+
+
+                    <cbml:panel n="6" characters="#dennis #father">
+                        <cbml:balloon type="speech" who="#father"> Well, that's mighty generous of
+                            you to give Tommy a pair. </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis">
+                            <emph rendition="#b"> GIVE</emph> 'em? I'm gonna <emph rendition="#b">
+                                SELL</emph> 'em to him!</cbml:balloon>
+                        <note type="panelDesc"> Dennis' father is shown holding a hammer, working on
+                            a new pair of skis for Tommy. Dennis holds his own newly made pair.
+                        </note>
+                    </cbml:panel>
+
+
+                </div>
+                <pb/>
+            </div>
+        </body>
+    </text>
+</TEI>
