@@ -4,51 +4,60 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>
-                    Dennis the Menace: Volume 58 
-                </title>        
-                <author>Hank Ketcham</author>   
-                <author>Owen Fitzgerald</author>
-                <editor>Lauren McCurdy</editor> <!--Please change this for your name-->
+                <title> Dennis the Menace: Volume 58 </title>
+                <author>Hank Ketcham</author>
+                <author role="illustrator">Owen Fitzgerald</author>
+                <editor>Lauren McCurdy</editor>
+
             </titleStmt>
             <publicationStmt>
                 <date> 1962-04 </date>
-                <availability status="free">  
-                    <p>This work is in the public domain in the United States</p> 
+                <availability status="free">
+                    <p>This work is in the public domain in the United States</p>
                 </availability>
             </publicationStmt>
             <notesStmt>
                 <note>Scanned and put online by Hallden Fawcett </note>
             </notesStmt>
             <sourceDesc>
-                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>    <!--IF YOU RUN INTO COFUSING SCENARIOS: ask in slack and we'll all look at it-->
+                <p>
+                    <ref target="https://archive.org/details/dennis-the-menace-issue-58">Online
+                        Archive</ref>
+                </p>
+                <p>
+                    <ref target="https://github.com/Remdog712/ComicBook_DIGIT110">Github Repo</ref>
+                </p>
+                <p>DENNIS THE MENANCE: a magazine published bi-monthly by Hallden Division of
+                    Fawcett Publications, Inc., (Copyright 1962 by the Hall Syndicate, Inc. Printed
+                    in the U.S.A., by the Eastern Color Printing Co.)</p>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+
+
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <tagsDecl>
                 <namespace name="http://www.cbml.org/ns/1.0">
-                    <tagUsage gi="cbml:panel"></tagUsage>
-                    <tagUsage gi="cbml:caption"></tagUsage>
+                    <tagUsage gi="cbml:panel"/>
+                    <tagUsage gi="cbml:caption"/>
                 </namespace>
             </tagsDecl>
         </encodingDesc>
     </teiHeader>
 
-
     <text>
         <body>
 
             <div type="page" xml:id="pg_027">
-                <!--Please change this for your page (change 03 to your page number)-->
+
 
                 <div type="panelGrp" xml:id="eg_0001">
 
 
                     <cbml:panel n="1" characters="#dennis #father">
-                        <!--who is in the panel-->
-                        <cbml:balloon type="speech" who="#father">
-                            <!--who is speaking--> I know! I'll <emph rendition="#b">MAKE</emph> you
-                            a pair of skis! </cbml:balloon>
+
+                        <cbml:balloon type="speech" who="#father"> I know! I'll <emph rendition="#b"
+                                >MAKE</emph> you a pair of skis! </cbml:balloon>
                         <cbml:balloon type="speech" who="#dennis"> Aw, Dad! </cbml:balloon>
                         <note type="panelDesc"> Dennis' father is shown walking, smoking a pipe, as
                             Dennis trails behind him. </note>
@@ -56,11 +65,10 @@
 
 
                     <cbml:panel n="2" characters="#dennis #father">
-                        <cbml:balloon type="speech" who="#dennis">
-                            <!--who is speaking--> How 'bout that <emph rendition="#b">KITE</emph>
-                            ya made me, an'it wouldn't <emph rendition="#b">FLY</emph>? An' that
-                                <emph rendition="#b">BOAT</emph> ya made me an'it <emph
-                                rendition="#b">SANK</emph>? An' that..... </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> How 'bout that <emph
+                                rendition="#b">KITE</emph> ya made me, an'it wouldn't <emph
+                                rendition="#b">FLY</emph>? An' that <emph rendition="#b">BOAT</emph>
+                            ya made me an'it <emph rendition="#b">SANK</emph>? An' that..... </cbml:balloon>
                         <cbml:balloon type="speech" who="#father"> Okay, Okay!</cbml:balloon>
                         <note type="panelDesc"> Dennis trails behind his father with his arms spread
                             outward in exclamation, Dennis' father wears a frown while smoking his

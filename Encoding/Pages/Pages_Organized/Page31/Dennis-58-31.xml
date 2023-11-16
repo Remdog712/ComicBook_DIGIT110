@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Dennis the Menace: Volume 58 </title>
+                <author>Hank Ketcham</author>
+                <author role="illustrator">Owen Fitzgerald</author>
+                <editor>Lauren McCurdy</editor>
+
+            </titleStmt>
+            <publicationStmt>
+                <date> 1962-04 </date>
+                <availability status="free">
+                    <p>This work is in the public domain in the United States</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Scanned and put online by Hallden Fawcett </note>
+            </notesStmt>
+            <sourceDesc>
+                <p>
+                    <ref target="https://archive.org/details/dennis-the-menace-issue-58">Online
+                        Archive</ref>
+                </p>
+                <p>
+                    <ref target="https://github.com/Remdog712/ComicBook_DIGIT110">Github Repo</ref>
+                </p>
+                <p>DENNIS THE MENANCE: a magazine published bi-monthly by Hallden Division of
+                    Fawcett Publications, Inc., (Copyright 1962 by the Hall Syndicate, Inc. Printed
+                    in the U.S.A., by the Eastern Color Printing Co.)</p>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+
+
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <namespace name="http://www.cbml.org/ns/1.0">
+                    <tagUsage gi="cbml:panel"/>
+                    <tagUsage gi="cbml:caption"/>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+
+            <div type="page" xml:id="pg_031">
+
+
+                <div type="panelGrp" xml:id="eg_0001">
+
+
+                    <cbml:panel n="1" characters="#dennis #tommy #wilson">
+
+                        <cbml:balloon type="speech" who="#wilson"> All right... we'll hike to the
+                            top of this hill and you kids can slide down. </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> Okay! </cbml:balloon>
+                        <cbml:balloon type="speech" who="#tommy"> Yeah! </cbml:balloon>
+                        <note type="panelDesc"> Mr. Wilson sits on a tree stump at the bottom of the
+                            hill while putting on his snowshoes made from tennis rackets; Dennis
+                            trails behind Tommy as they both climb to the top of the snowy hill
+                            carrying their skis.</note>
+                    </cbml:panel>
+
+
+                    <cbml:panel n="2" characters="#wilson">
+                        <cbml:balloon type="singing" who="#wilson"> Tum...tee...tum.. Alone at
+                            last!</cbml:balloon>
+                        <note type="panelDesc"> Mr. Wilson marches up the snowy hill wearing his
+                            tennis racket snowshoes </note>
+                    </cbml:panel>
+
+
+                    <cbml:panel n="3" characters="#wilson">
+                        <cbml:balloon type="speech" who="#dennis"> Phew! </cbml:balloon>
+                        <move who="#wilson" rendition="#slow"/>
+                        <note type="panelDesc"> Mr. Wilson becomes unbalanced while climbing the
+                            snowy hill, his arms in an outward configuration as he tries to regain
+                            balance. </note>
+                    </cbml:panel>
+
+
+
+
+                    <cbml:panel n="4" characters="#wilson">
+                        <cbml:balloon type="thought" who="#wilson"> PUFF! </cbml:balloon>
+                        <cbml:balloon type="thought" who="#wilson">
+                            <emph rendition="#b"> PUFF! </emph>
+                        </cbml:balloon>
+                        <move who="#wilson" rendition="#slow"/>
+                        <note type="panelDesc"> Mr. Wilson marches with his arms in front of him,
+                            struggling to reach the top.</note>
+                    </cbml:panel>
+
+
+
+
+                    <cbml:panel n="5" characters="#dennis #tommy #wilson">
+                        <cbml:balloon type="speech" who="#wilson">
+                            Ugh...puff...ugh...</cbml:balloon>
+                        <move who="#wilson" rendition="#slow"/>
+                        <note type="panelDesc"> Dennis and Tommy smile contently sitting on the back
+                            of Mr. Wilsons tennis racket snowshoes as he struggles climbing up the
+                            hill. </note>
+                    </cbml:panel>
+
+
+
+                    <cbml:panel n="6" characters="#dennis #tommy #wilson">
+                        <cbml:balloon type="speech" who="#dennis"> Keep goin' Mr. Wilson! We're
+                            almost to the top! </cbml:balloon>
+                        <cbml:balloon type="speech" who="#wilson"> Why, you
+                            little...</cbml:balloon>
+                        <note type="panelDesc"> Mr. Wilson bends down with his hands to the ground,
+                            looking back at Dennis and Tommy; Dennis and Tommy look to Mr.Wilson as
+                            they sit on the back of his tennis racket snowshoes. </note>
+                    </cbml:panel>
+
+
+                </div>
+                <pb/>
+            </div>
+        </body>
+    </text>
+</TEI>

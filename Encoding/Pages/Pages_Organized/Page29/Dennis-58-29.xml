@@ -7,9 +7,10 @@
                 <title>
                     Dennis the Menace: Volume 58 
                 </title>        
-                <author>Hank Ketcham</author>   
-                <author>Owen Fitzgerald</author>
-                <editor>Lauren McCurdy</editor> <!--Please change this for your name-->
+                <author>Hank Ketcham</author>  
+                <author role="illustrator">Owen Fitzgerald</author>  
+                <editor>Lauren McCurdy</editor> 
+                
             </titleStmt>
             <publicationStmt>
                 <date> 1962-04 </date>
@@ -21,7 +22,12 @@
                 <note>Scanned and put online by Hallden Fawcett </note>
             </notesStmt>
             <sourceDesc>
-                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>    <!--IF YOU RUN INTO COFUSING SCENARIOS: ask in slack and we'll all look at it-->
+                <p><ref target="https://archive.org/details/dennis-the-menace-issue-58">Online Archive</ref></p>    
+                <p><ref target="https://github.com/Remdog712/ComicBook_DIGIT110">Github Repo</ref></p>
+                <p>DENNIS THE MENANCE: a magazine published bi-monthly by Hallden Division of Fawcett Publications, Inc., (Copyright 1962 by the Hall Syndicate, Inc. Printed in the U.S.A., by the Eastern Color Printing Co.)</p>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+                
+                
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -34,31 +40,30 @@
         </encodingDesc>
     </teiHeader>
     
-    
     <text>     
         <body>
             
-            <div type="page" xml:id="pg_29">   <!--Please change this for your page (change 03 to your page number)-->
+            <div type="page" xml:id="pg_29">  
                 
                 <div type="panelGrp" xml:id="eg_0001">
                     
                     
-                    <cbml:panel n="1" characters="#dennis #tommy #mr_wilson"> <!--who is in the panel-->
-                        <cbml:balloon type="speech" who="#dennis">  <!--who is speaking-->
+                    <cbml:panel n="1" characters="#dennis #tommy #wilson"> 
+                        <cbml:balloon type="speech" who="#dennis"> 
                             Hi, Mr. Wilson! Where'd ya get those <emph rendition="#b"> CRAZY TENNIS RACKETS?
                             </emph>
                         </cbml:balloon>
-                        <cbml:balloon type="speech" who="#tommy">  <!--who is speaking-->
+                        <cbml:balloon type="speech" who="#tommy">  
                             An' how are ya gonna play <emph rendition="#b"> TENNIS</emph> in the <emph rendition="#b">SNOW?</emph>
                         </cbml:balloon>
                         <note type="panelDesc"> Dennis and Tommy walk up to Mr.Wilson both holding their own pair of skis. 
-                            Mr.Wilson turns to look at them, holding two tennis rackets. <!--Your own description of what is happening that panel-->
+                            Mr.Wilson turns to look at them, holding two tennis rackets.
                         </note> 
                     </cbml:panel>
                     
                     
-                    <cbml:panel n="2" characters="#dennis #tommy #mr_wilson">
-                        <cbml:balloon type="speech" who="#mr_wilson">  <!--who is speaking-->
+                    <cbml:panel n="2" characters="#dennis #tommy #wilson">
+                        <cbml:balloon type="speech" who="#wilson">  <
                             These happen to be <emph rendition="#b">SNOWSHOES!</emph> And I'm not going to play <emph rendition="#b">TENNIS...</emph>
                             I'm going to take a <emph rendition="#b">TRAMP</emph> in the <emph rendition="#b">COUNTRY!</emph>           
                         </cbml:balloon>
@@ -70,11 +75,11 @@
                     </cbml:panel>
                     
                     
-                    <cbml:panel n="3" characters="#dennis #tommy #mr_wilson">
+                    <cbml:panel n="3" characters="#dennis #tommy #wilson">
                         <cbml:balloon type="speech" who="#dennis">   
-                            Where <emph rendition="#b ">IS</emph> he?     <!--rorange : Example of how to show bold texts -->          
+                            Where <emph rendition="#b ">IS</emph> he?          
                         </cbml:balloon>  
-                        <cbml:balloon type="speech" who="#mr_wilson">
+                        <cbml:balloon type="speech" who="#wilson">
                             Where's <emph rendition="#b; color:red ">WHO</emph> <emph rendition="#b ">?</emph>
                         </cbml:balloon>
                         <note type="panelDesc"> Dennis and Tommy look at up at Mr.Wilson, both still carrying their skis. 
@@ -85,15 +90,15 @@
                     
                     
                     
-                    <cbml:panel n="4" characters="#dennis #tommy #mr_wilson">              
+                    <cbml:panel n="4" characters="#dennis #tommy #wilson">              
                         <cbml:balloon type="speech" who="dennis">
                             That <emph rendition="#b;">TRAMP</emph> you're gonna take in the country! 
                         </cbml:balloon>
-                        <cbml:balloon type="speech" who="#mr_wilson">
-                           Great Scott!
+                        <cbml:balloon type="speech" who="#wilson">
+                            Great Scott!
                         </cbml:balloon>
                         <note type="panelDesc"> Dennis and Tommy look up at Mr.Wilson; Mr.Wilson looks down at Dennis 
-                        with an expression of annoyance.</note>                 
+                            with an expression of annoyance.</note>                 
                     </cbml:panel>
                     
                     
@@ -109,20 +114,16 @@
                         <note type="panelDesc"> Dennis and Tommy look at eachother with hopeful expressions, each with their pair of skis in hand. 
                         </note> 
                     </cbml:panel> 
-                   
                     
-                    <cbml:panel n="6" characters="#dennis #tommy #mr_wilson">
+                    
+                    <cbml:panel n="6" characters="#dennis #tommy #wilson">
                         <cbml:balloon type="speech" who="#dennis"> 
-                          <emph rendition="#b; ">WE'RE GOIN' WITH YA, MR. WILSON!</emph>
+                            <emph rendition="#b; ">WE'RE GOIN' WITH YA, MR. WILSON!</emph>
                         </cbml:balloon>
-                        <cbml:balloon type="speech" who="#mr_wilson"> 
-                            <cbml:balloon type="sound" who="#dennis"> 
-                                <emph rendition="#b #large color:red">OH NO!</emph> 
-                            </cbml:balloon>
-                           <!-- lmccurdy : this text is also jagged and technically not in a balloon 
-                            and just floating above Mr.Wilson. What could i add to show that the text
-                           is jagged? -->
+                        <cbml:balloon type="speech" who="#wilson"> 
+                            <emph rendition=" #jaggies #b color:red">OH NO!</emph> 
                         </cbml:balloon>
+                        
                         <note type="panelDesc"> Dennis and Tommy, carrying their skis, run behind Mr.Wilson as they try to catch up with him. Mr.Wilson stops 
                             in his tracks and yells. 
                         </note> 

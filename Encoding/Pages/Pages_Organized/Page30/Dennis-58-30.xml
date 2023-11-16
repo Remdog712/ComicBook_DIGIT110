@@ -6,9 +6,9 @@
             <titleStmt>
                 <title> Dennis the Menace: Volume 58 </title>
                 <author>Hank Ketcham</author>
-                <author>Owen Fitzgerald</author>
+                <author role="illustrator">Owen Fitzgerald</author>
                 <editor>Lauren McCurdy</editor>
-                <!--Please change this for your name-->
+
             </titleStmt>
             <publicationStmt>
                 <date> 1962-04 </date>
@@ -20,8 +20,19 @@
                 <note>Scanned and put online by Hallden Fawcett </note>
             </notesStmt>
             <sourceDesc>
+                <p>
+                    <ref target="https://archive.org/details/dennis-the-menace-issue-58">Online
+                        Archive</ref>
+                </p>
+                <p>
+                    <ref target="https://github.com/Remdog712/ComicBook_DIGIT110">Github Repo</ref>
+                </p>
+                <p>DENNIS THE MENANCE: a magazine published bi-monthly by Hallden Division of
+                    Fawcett Publications, Inc., (Copyright 1962 by the Hall Syndicate, Inc. Printed
+                    in the U.S.A., by the Eastern Color Printing Co.)</p>
                 <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
-                <!--IF YOU RUN INTO COFUSING SCENARIOS: ask in slack and we'll all look at it-->
+
+
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -38,91 +49,88 @@
         <body>
 
             <div type="page" xml:id="pg_030">
-                <!--Please change this for your page (change 03 to your page number)-->
+
 
                 <div type="panelGrp" xml:id="eg_0001">
 
 
-                    <cbml:panel n="1" characters="#dennis #tommy #mr_wilson #mrs_wilson">
-                        <!--who is in the panel-->
+                    <cbml:panel n="1" characters="#dennis #tommy #wilson #martha">
+
                         <cbml:balloon type="speech" who="#dennis"> WHY <emph rendition="#b"> WON'T
                             </emph> ya take us, instead of that ol' <emph rendition="#b">
                                 TRAMP?</emph>
                         </cbml:balloon>
-                        <cbml:balloon type="speech" who="#mr_wilson"> I'm not <emph rendition="#b">
+                        <cbml:balloon type="speech" who="#wilson"> I'm not <emph rendition="#b">
                                 TAKING </emph> a tramp! I mean I'm going... I'm not... </cbml:balloon>
+                        <move who="#wilson" rendition="#excite"/>
                         <note type="panelDesc"> Dennis questions Mr.Wilson with his hand on his hip
-                            while Tommy stands blankly behind him; Mrs. Wilson is seen standing in
-                            the doorway to their house in the background.</note>
+                            while Tommy stands blankly behind him; Martha is seen standing in the
+                            doorway to their house in the background.</note>
                     </cbml:panel>
 
 
-                    <cbml:panel n="2" characters="#dennis #tommy #mr_wilson #mrs_wilson">
-                        <cbml:balloon type="speech" who="#mrs_wilson"> George! What <emph
-                                rendition="#b"> IS </emph> it? </cbml:balloon>
-                        <cbml:balloon type="speech" who="#mr_wilson"> It's these <emph
-                                rendition="#b"> KIDS! </emph> I just want to take a tramp... a
-                            walk... a hike... </cbml:balloon>
+                    <cbml:panel n="2" characters="#dennis #tommy #wilson #martha">
+                        <cbml:balloon type="speech" who="#martha"> George! What <emph rendition="#b"
+                                > IS </emph> it? </cbml:balloon>
+                        <cbml:balloon type="speech" who="#wilson"> It's these <emph rendition="#b">
+                                KIDS! </emph> I just want to take a tramp... a walk... a hike... </cbml:balloon>
                         <cbml:balloon type="speech" who="#dennis"> An' he won't take <emph
                                 rendition="#b"> US!</emph>
                         </cbml:balloon>
-                        <note type="panelDesc"> Mrs. Wilson, wrapped in a green blanket, steps
-                            outside to talk to Mr.Wilson; Mr. Wilson holds his hand out in
-                            expression while Dennis and Tommy stand beside him.</note>
+                        <note type="panelDesc"> Martha, wrapped in a green blanket, steps outside to
+                            talk to Mr.Wilson; Mr. Wilson holds his hand out in expression while
+                            Dennis and Tommy stand beside him.</note>
                     </cbml:panel>
 
 
-                    <cbml:panel n="3" characters="#dennis #tommy #mr_wilson #mrs.wilson">
+                    <cbml:panel n="3" characters="#dennis #tommy #wilson #martha">
                         <cbml:balloon type="speech" who="#dennis"> Gee, we just wanna try these
-                                <emph rendition="#b"> SKIS </emph> my Dad made!
-                            <!--rorange : Example of how to show bold texts -->
-                        </cbml:balloon>
-                        <cbml:balloon type="speech" who="#mrs_wilson"> Oh, you <emph rendition="#b">
+                                <emph rendition="#b"> SKIS </emph> my Dad made! </cbml:balloon>
+                        <cbml:balloon type="speech" who="#martha"> Oh, you <emph rendition="#b">
                                 POOR</emph> dears! </cbml:balloon>
-                        <cbml:balloon type="thought" who="#mr_wilson"> Here it comes! </cbml:balloon>
-                        <note type="panelDesc"> Dennis holds up his skis for Mrs. Wilson to see as
-                            Tommy stands beside him; Mrs. Wilson holds her finger up to her lips
-                            while Mr. Wilson holds his palm to his face in exasperaton. </note>
+                        <cbml:balloon type="thought" who="#wilson"> Here it comes! </cbml:balloon>
+                        <note type="panelDesc"> Dennis holds up his skis for Martha to see as Tommy
+                            stands beside him; Mrs. Wilson holds her finger up to her lips while Mr.
+                            Wilson holds his palm to his face in exasperaton. </note>
                     </cbml:panel>
 
 
 
 
-                    <cbml:panel n="4" characters="#mr_wilson #mrs_wilson">
+                    <cbml:panel n="4" characters="#wilson #martha">
                         <cbml:balloon type="speech" who="mrs_wilson"> George, <emph rendition="#b">
                                 PLEASE </emph> take them. I can tell their mothers, And they'll have
                                 <emph rendition="#b"> SUCH </emph> fun! </cbml:balloon>
-                        <cbml:balloon type="speech" who="#mr_wilson"> That's just what I'm <emph
+                        <cbml:balloon type="speech" who="#wilson"> That's just what I'm <emph
                                 rendition="#b"> AFRAID </emph> of! </cbml:balloon>
-                        <note type="panelDesc"> Mrs. Wilson comes up close to Mr.Wilson so they are
-                            touching, she smiles as she rests her hand on his jacket. Mr. Wilson 
-                           has his mouth open in mid sentence. 
-                        </note>
+                        <note type="panelDesc"> Martha smiles as she rests her hand on Mr. Wilson's
+                            jacket. Mr. Wilson has his mouth open in mid sentence. </note>
                     </cbml:panel>
 
 
 
 
-                    <cbml:panel n="5" characters="#dennis #tommy #mr_wilson #mrs_wilson">
+                    <cbml:panel n="5" characters="#dennis #tommy #wilson #martha">
                         <cbml:balloon type="speech" who="#dennis"> Don't be afraid, Mr.Wilson! <emph
-                                rendition="#b;">WE'LL</emph> take good care of ya!
-                        </cbml:balloon>
-                        <cbml:balloon type="speech" who="#mrs_wilson"> They're <emph
-                            rendition="#b;">IN</emph> the car already, George.</cbml:balloon>
-                        <note type="panelDesc"> Dennis and Tommy are in the backseat of the car; Mr. and Mrs.
-                        Wilson look at them in surpise. </note>
+                                rendition="#b;">WE'LL</emph> take good care of ya! </cbml:balloon>
+                        <cbml:balloon type="speech" who="#martha"> They're <emph rendition="#b;"
+                                >IN</emph> the car already, George.</cbml:balloon>
+                        <move who="#wilson" rendition="#spin"/>
+                        <note type="panelDesc"> Dennis and Tommy are in the backseat of the car;
+                            Martha and Mr. Wilson look at them in surpise. </note>
                     </cbml:panel>
 
 
 
-                    <cbml:panel n="6" characters="#dennis #tommy #mr_wilson">
+                    <cbml:panel n="6" characters="#dennis #tommy #wilson">
                         <cbml:balloon type="speech" who="#dennis #tommy">
                             <emph rendition="#b; color:red ">FOR HE'S A JOLLY GOOD FELLA </emph>
                         </cbml:balloon>
-                        <cbml:balloon type="thought" who="#mr_wilson"> <emph rendition="#b;"
-                                > JOLLY </emph> isn't quite the word! </cbml:balloon>
-                        <note type="panelDesc"> Mr. Wilson's head can be seen through the window as drives the green
-                        car on the road; just the tops of Dennis' and Tommy's head can be seen from the backseat. </note>
+                        <cbml:balloon type="thought" who="#wilson">
+                            <emph rendition="#b;"> JOLLY </emph> isn't quite the word! </cbml:balloon>
+                        <note type="panelDesc"> Mr. Wilson's head can be seen through the window as
+                            he drives the car on the road; just the tops of Dennis' and
+                            Tommy's head can be seen from the backseat. </note>
                     </cbml:panel>
 
 

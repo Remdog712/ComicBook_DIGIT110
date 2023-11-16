@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Dennis the Menace: Volume 58 </title>
+                <author>Hank Ketcham</author>
+                <author role="illustrator">Owen Fitzgerald</author>
+                <editor>Lauren McCurdy</editor>
+
+            </titleStmt>
+            <publicationStmt>
+                <date> 1962-04 </date>
+                <availability status="free">
+                    <p>This work is in the public domain in the United States</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Scanned and put online by Hallden Fawcett </note>
+            </notesStmt>
+            <sourceDesc>
+                <p>
+                    <ref target="https://archive.org/details/dennis-the-menace-issue-58">Online
+                        Archive</ref>
+                </p>
+                <p>
+                    <ref target="https://github.com/Remdog712/ComicBook_DIGIT110">Github Repo</ref>
+                </p>
+                <p>DENNIS THE MENANCE: a magazine published bi-monthly by Hallden Division of
+                    Fawcett Publications, Inc., (Copyright 1962 by the Hall Syndicate, Inc. Printed
+                    in the U.S.A., by the Eastern Color Printing Co.)</p>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+
+
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <namespace name="http://www.cbml.org/ns/1.0">
+                    <tagUsage gi="cbml:panel"/>
+                    <tagUsage gi="cbml:caption"/>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+
+
+    <text>
+        <body>
+
+
+            <div type="page" xml:id="pg_32">
+
+                <div type="panelGrp" xml:id="eg_0001">
+
+
+
+                    <cbml:panel n="1" characters="#dennis #tommy #wilson">
+                        <cbml:balloon type="speech" who="#dennis"> Gee! My dad just says <emph
+                                rendition="#b">THAT</emph> word when he's playin' <emph
+                                rendition="#b">GOLF</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Mr. Wilson angrily storms off as Dennis and Tommy
+                            lay in the snow on their backs. </note>
+                    </cbml:panel>
+
+
+                    <cbml:panel n="2" characters="#dennis #tommy">
+                        <cbml:balloon type="speech" who="#tommy"> They don't go very <emph
+                                rendition="#b">FAST,</emph> do they? </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> Not like on telebision. </cbml:balloon>
+                        <note type="panelDesc"> Dennis and Tommy slowly glide down the hill on their
+                            skates. </note>
+                    </cbml:panel>
+
+
+                    <cbml:panel n="3" characters="#dennis #tommy">
+                        <cbml:balloon type="speech" who="#tommy"> Maybe your Dad didn't <emph
+                                rendition="#b">MAKE</emph> 'em right! </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> Sure he did! Maybe the <emph
+                                rendition="#b">SNOW</emph> isnt <emph rendition="#b">SLIPPERY</emph>
+                            enough! </cbml:balloon>
+                        <note type="panelDesc"> Dennis and Tommy come to a stop on the hill with
+                            their skis. </note>
+                    </cbml:panel>
+
+
+                    <cbml:panel n="4" characters="#dennis #tommy #wilson">
+                        <cbml:balloon type="speech" who="#tommy"> Let's make a <emph rendition="#b"
+                                >SNOWMAN,</emph> instead!</cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> Okay! </cbml:balloon>
+                        <move who="#dennis #tommy" rendition="#fast"/>
+                        <note type="panelDesc"> Dennis and Tommy hop off their skis to make a
+                            snowman, they become hidden by the snow; Mr. Wilson can be seen making
+                            his way down the hill in the background. </note>
+                    </cbml:panel>
+
+                    <cbml:panel n="5" characters="#wilson">
+                        <cbml:balloon type="speech" who="#wilson"> Tum-tee-tummm.... </cbml:balloon>
+                        <note type="panelDesc"> Mr. Wilson happily walks down the hill with is
+                            tennis racket snowshoes. </note>
+                    </cbml:panel>
+
+                    <cbml:panel n="6" characters="#dennis #tommy #wilson">
+                        <cbml:balloon type="speech" who="#wilson">
+                            <emph rendition="#b; color:red ">WHAAA?</emph>
+                        </cbml:balloon>
+                        <move who="#wilson" rendition="#fast"/>
+                        <note type="panelDesc"> Mr. Wilson steps on Dennis' and Tommy's skates that
+                            were left on the hill, he starts to slide down the hill. </note>
+                    </cbml:panel>
+
+
+                </div>
+                <pb/>
+            </div>
+        </body>
+    </text>
+</TEI>
