@@ -63,7 +63,7 @@
                     
                     
                     <cbml:panel n="2" characters="#dennis #tommy #wilson">
-                        <cbml:balloon type="speech" who="#wilson">  <
+                        <cbml:balloon type="speech" who="#wilson">
                             These happen to be <emph rendition="#b">SNOWSHOES!</emph> And I'm not going to play <emph rendition="#b">TENNIS...</emph>
                             I'm going to take a <emph rendition="#b">TRAMP</emph> in the <emph rendition="#b">COUNTRY!</emph>           
                         </cbml:balloon>

@@ -1,0 +1,305 @@
+body {
+  font-family: 'Courier New', cursive, sans-serif;
+  background-color: lightgrey;
+}
+
+.story-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #000;
+  text-align: center;
+}
+
+.comic {
+  margin: 20px auto;
+  width: 1000px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.page {
+  margin: 20px 0;
+  border-top: 2px solid #000;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+}
+
+.page-image {
+  flex: 1;
+  max-width: 200px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.panel-container {
+  margin-left: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.panel {
+  flex: 0 0 calc(50% - 12px);
+  margin: 0 5px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  background-color: #f9f9f9;
+}
+
+.caption {
+  font-weight: bold;
+  color: #ff0000;
+  font-size: 16px;
+}
+
+.balloon {
+  margin: 5px 0;
+  padding: 5px;
+  border: 1px solid #000;
+  background-color: #ffffcc;
+  font-family: 'Arial', cursive, sans-serif;
+}
+
+.balloon.rend-jaggies {
+  background-color: #ffcccc;
+}
+
+.balloon.rend-default {
+  background-color: #ccebff;
+}
+
+.balloon.rend-bubble {
+  background-color: #ccebff;
+}
+
+.balloon.rend-thought {
+  background-color: #add8e6;
+}
+
+.speaker {
+  font-weight: bold;
+}
+
+.page-title:nth-of-type(2) {
+  display: none;
+}
+
+.move {
+  font-style: italic;
+}
+
+.emph {
+  font-weight: bold;
+  color: #ff0000;
+  font-size: 110%;
+}
+
+.note {
+  font-style: italic;
+  color: #0000ff;
+}
+
+.floating-text {
+  background-color: #f0f0f0;
+  padding: 5px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.figure-head-box {
+  text-align: center;
+  background-color: #eee;
+  padding: 10px;
+}
+
+.figure-head-box .figure-title {
+  font-family: 'Arial', cursive, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.move-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.character-icon {
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  display: inline-block;
+}
+
+.character-icon.dennis-icon {
+  background-image: url('images/icons/characters/dennis.png');
+}
+
+.character-icon.father-icon {
+  background-image: url('images/icons/characters/father.png');
+}
+
+.character-icon.mother-icon {
+  background-image: url('images/icons/characters/mother.png');
+}
+
+.character-icon.tommy-icon {
+  background-image: url('images/icons/characters/tommy.png');
+}
+
+.character-icon.wilson-icon {
+  background-image: url('images/icons/characters/wilson.png');
+}
+
+.character-icon.anonMan-icon {
+  background-image: url('images/icons/characters/anonMan.png');
+}
+
+.character-icon.anonWoman-icon {
+  background-image: url('images/icons/characters/anonWoman.png');
+}
+
+.character-icon.clerk-icon {
+  background-image: url('images/icons/characters/clerk.png');
+}
+
+.character-icon.joey-icon {
+  background-image: url('images/icons/characters/joey.png');
+}
+
+.character-icon.mailman-icon {
+  background-image: url('images/icons/characters/mailman.png');
+}
+
+.character-icon.fisherman-icon {
+  background-image: url('images/icons/characters/fisherman.png');
+}
+
+.character-icon.grandpa-icon {
+  background-image: url('images/icons/characters/grandpa.png');
+}
+
+.character-icon.granma-icon {
+  background-image: url('images/icons/characters/granma.png');
+}
+
+.character-icon.child1-icon {
+  background-image: url('images/icons/characters/child1.png');
+}
+
+.character-icon.child2-icon {
+  background-image: url('images/icons/characters/child2.png');
+}
+
+.character-icon.martha-icon {
+  background-image: url('images/icons/characters/martha.png');
+}
+
+.action-icon.excite-icon {
+  background-image: url('images/icons/move/excite.png');
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  display: inline-block;
+}
+
+.action-icon.small-icon {
+  background-image: url('images/icons/move/small.png');
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  display: inline-block;
+}
+
+.action-icon.fast-icon {
+  background-image: url('images/icons/move/fast.png');
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  display: inline-block;
+}
+
+.action-icon.bump-icon {
+  background-image: url('images/icons/move/bump.png');
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  display: inline-block;
+}
+
+.action-icon.spin-icon {
+  background-image: url('images/icons/move/spin.png');
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  display: inline-block;
+}
+
+.speech-balloon {
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 15px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.thought-balloon {
+  background-color: #f0f0f0;
+  border: 2px solid #999;
+  border-radius: 50%;
+  padding: 10px;
+  display: inline-block;
+}
+
+.singing-balloon {
+  background-color: #ffcc00;
+  border: 2px dashed #ff6600;
+  border-radius: 0;
+  padding: 10px;
+  display: inline-block;
+}
+
+.jaggies-balloon {
+  background-color: #FFD580;
+}
+
+.thought-balloon {
+  background-color: #6488ea;
+}
+
+.emph-bold {
+  font-weight: bold;
+}
+
+.emph-red {
+  color: red;
+}
+
+.emph-uppercase {
+  text-transform: uppercase;
+}
+
+.emph-large {
+  font-size: 24px;
+}
+
+.emph-jaggies {
+  text-shadow: 2px 2px 3px red;
+}
+
+.emph-blue {
+  color: blue;
+}
+
+.emph-orange {
+  color: orange;
+}
