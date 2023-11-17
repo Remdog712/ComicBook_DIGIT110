@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Dennis the Menace: Volume 58 
+                </title>        
+                <author>Hank Ketcham</author>   
+                <author>Owen Fitzgerald</author>
+                <editor>Lyndon Herschell</editor>
+            </titleStmt>
+            <publicationStmt>
+                <date> 1962-04 </date>
+                <availability status="free">  
+                    <p>This work is in the public domain in the United States</p> 
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Scanned and put online by Hallden Fawcett </note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <namespace name="http://www.cbml.org/ns/1.0">
+                    <tagUsage gi="cbml:panel"></tagUsage>
+                    <tagUsage gi="cbml:caption"></tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    
+    <text>     
+        <body>
+            
+            <div type="page" xml:id="pg_18">
+                
+                <div type="panelGrp" xml:id="eg_0001">
+                    
+                    
+                    <cbml:panel n="1"> <!-- Done -->
+                        <cbml:caption type="heading" rend="red">
+                            day by day <emph rendition="i">with</emph> dennis <emph rendition="i">the</emph> manace
+                        </cbml:caption>
+                        <note type="panelDesc"> Beginning psnel for the comic story with the title "day by day with dennis the menace".
+                        </note>
+                    </cbml:panel> 
+                    
+                    
+                    <cbml:panel n="2" characters="#dennis"> <!-- Done -->
+                        <cbml:caption type="heading">
+                            <emph rendition="#b">monday</emph>
+                        </cbml:caption>
+                        <cbml:caption type="speech" who="#dennis"> 
+                            "I wanna call a cowboy in Texas. Huh? Oh, <emph rendition="#b">ANY</emph> cowboy!..."
+                        </cbml:caption>
+                        <note type="panelDesc"> Dennis is sitting down on a table wearing a cowboy hat. He is holding a phone, with his mother watching him through the door.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#dennis"> <!-- Done -->
+                        <cbml:caption type="heading">
+                            <emph rendition="#b">thursday</emph>
+                        </cbml:caption>
+                        <cbml:caption type="speech" who="#dennis"> 
+                            "<emph rendition="#b">MR. WILSON! IT'S ME!</emph>"
+                        </cbml:caption>
+                        <cbml:caption type="speech" who="#dennis"> 
+                            "<emph rendition="#b">THAT</emph> was a dumb thing to say!"
+                        </cbml:caption>
+                        <note type="panelDesc"> Dennis and his dog can be seen knocking and calling for Mr. Wilson. He seems disappointed with the interaction afterwards.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="4" characters="#dennis"> <!-- Done -->
+                        <cbml:caption type="heading">
+                            <emph rendition="#b">friday</emph>
+                        </cbml:caption>
+                        <cbml:caption type="speech" who="#dennis"> 
+                            "<emph rendition="#b">THAT</emph> was a dumb thing to say!"
+                        </cbml:caption>
+                        <note type="panelDesc"> Dennis is telling a man of why he did not want to shake their hand. He likely has grease in his hair or on his hand.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                </div>
+            </div>
+            <pb/>    
+        </body>
+    </text>
+</TEI>
+
+

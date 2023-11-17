@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Dennis the Menace: Volume 58 
+                </title>        
+                <author>Hank Ketcham</author>   
+                <author>Owen Fitzgerald</author>
+                <editor>Lyndon Herschell</editor>
+            </titleStmt>
+            <publicationStmt>
+                <date> 1962-04 </date>
+                <availability status="free">  
+                    <p>This work is in the public domain in the United States</p> 
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Scanned and put online by Hallden Fawcett </note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <namespace name="http://www.cbml.org/ns/1.0">
+                    <tagUsage gi="cbml:panel"></tagUsage>
+                    <tagUsage gi="cbml:caption"></tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    
+    <text>     
+        <body>
+            
+            <div type="page" xml:id="pg_24">
+                
+                <div type="panelGrp" xml:id="eg_0001">
+                    
+                    
+                    <cbml:panel n="1"  characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="dennis">
+                            Anyways, he got to be a <emph rendition="#b ">GENERAL</emph>. See... he's crossin' a river in this <emph rendition="#b ">BOAT</emph> to beat the <emph rendition="#b ">BAD</emph> guys.
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" rendition="jaggies" who="#joey">
+                            Why's he standin' <emph rendition="#b">UP</emph>?
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis tries to tell another story of Washington Crossing a river, being the Delaware River, to Joey. Joey then asks why he would be standing up.
+                        </note>
+                    </cbml:panel> 
+                    
+                    
+                    <cbml:panel n="2" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            Heck, <emph rendition="#b ">I</emph> dunno!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#joey">
+                            My Daddy says ya gotta sit <emph rendition="#b">DOWN</emph> in boats. They can tip <emph rendition="#b">OVER</emph>!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Joey mentions how his father tells him that you should not stand in a boat since they can tip over, which Washington is doing in the picture.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#dennis">
+                            Well... yeah...
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" rendition="#jaggies" who="#joey">
+                            He mighta got <emph rendition="#b ">DROWNED</emph>!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Joey begins to yell and points out that Washington could have possibly drowned.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="4" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#dennis">
+                            Well, he <emph rendition="#b ">DIDN'T</emph> get drowned. He got to be the first President!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#joey">
+                            What's <emph rendition="#b ">THAT</emph>?
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis relays why Washington could not have drowned since he became the first President. Joey asks what that is.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="5" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            The President's the guy who runs the<emph rendition="#b">WHOLE COUNTRY</emph>. An' Washington was the <emph rendition="#b">FIRST ONE</emph>!
+                        </cbml:balloon>
+                        <cbml:caption type="thought" who="#joey">
+                            <emph rendition="#b #color:red">????</emph>
+                        </cbml:caption>
+                        <note type="panelDesc"> Dennis tells how George Washington was the first President of the United States. However, Joey is confused.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="6" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#joey">
+                            Who run the country <emph rendition="#b">BEFORE</emph> him?
+                        </cbml:balloon>
+                        <cbml:balloon type="thought" who="#dennis">
+                            <emph rendition="#b #large #color:red">?</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Joey questions of who was the leader of the country before the first President.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                </div>
+            </div>
+            <pb/>    
+        </body>
+    </text>
+</TEI>
+
+

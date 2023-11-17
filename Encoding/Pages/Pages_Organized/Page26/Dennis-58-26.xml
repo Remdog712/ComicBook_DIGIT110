@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Dennis the Menace: Volume 58 
+                </title>        
+                <author>Hank Ketcham</author>   
+                <author>Owen Fitzgerald</author>
+                <editor>Lyndon Herschell</editor>
+            </titleStmt>
+            <publicationStmt>
+                <date> 1962-04 </date>
+                <availability status="free">  
+                    <p>This work is in the public domain in the United States</p> 
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Scanned and put online by Hallden Fawcett </note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <namespace name="http://www.cbml.org/ns/1.0">
+                    <tagUsage gi="cbml:panel"></tagUsage>
+                    <tagUsage gi="cbml:caption"></tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    
+    <text>     
+        <body>
+            
+            <div type="page" xml:id="pg_26">
+                
+                <div type="panelGrp" xml:id="eg_0001">
+                    
+                    
+                    <cbml:panel n="1"> <!-- Done -->
+                        <cbml:caption type="heading" rend="#black #i">
+                            Dennis Ski Menace Ski
+                        </cbml:caption>
+                        <note type="panelDesc"> Beginning psnel for the comic story "Dennis Ski Menace Ski." Dennis is seen dancing in skis and winterwear.
+                        </note>
+                    </cbml:panel> 
+                    
+                    
+                    <cbml:panel n="2" characters="#dennis #father"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            Hey, Dad! How 'bout buyin' me some skis?
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#father">
+                            Skis, eh?
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis and his father are standing infront of a ski shop, which Dennis asks his father to buy him skis.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#dennis #father"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#father">
+                            Those are pretty expensive, son.
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis">
+                            I got some money in my <emph rendition="#b ">PIGGY BANK</emph>!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis and his father are looking at some skis within the shop.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="4" characters="#dennis #father"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#father">
+                            I don't think you have enough, Dennis.
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis">
+                            Well, that's <emph rendition="#b">YOUR</emph> fault!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis' father begins to walk away from the shop, telling Dennis that he would not have enough money. Dennis points out that his father is at fault for this.
+                        </note> 
+                    </cbml:panel>
+                    
+                    <cbml:panel n="5" characters="#dennis #father"> <!-- In Progress -->
+                        <cbml:balloon type="speech" who="father">
+                            <emph rend="#b #color:red">MY</emph> fault?
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis">
+                            Yeah! Ya won't let me be a <emph rendition="#b ">COWBOY</emph> or a <emph rendition="#b ">FIREMAN</emph> an' <emph rendition="#b ">MAKE</emph> some money!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis explains that his father not letting him pursue his dreams of being either a cowboy or fireman is holding him back from earning money. 
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                </div>
+            </div>
+            <pb/>    
+        </body>
+    </text>
+</TEI>
+
+

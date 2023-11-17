@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Dennis the Menace: Volume 58 
+                </title>        
+                <author>Hank Ketcham</author>   
+                <author>Owen Fitzgerald</author>
+                <editor>Lyndon Herschell</editor>
+            </titleStmt>
+            <publicationStmt>
+                <date> 1962-04 </date>
+                <availability status="free">  
+                    <p>This work is in the public domain in the United States</p> 
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Scanned and put online by Hallden Fawcett </note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <namespace name="http://www.cbml.org/ns/1.0">
+                    <tagUsage gi="cbml:panel"></tagUsage>
+                    <tagUsage gi="cbml:caption"></tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    
+    <text>     
+        <body>
+            
+            <div type="page" xml:id="pg_23">
+                
+                <div type="panelGrp" xml:id="eg_0001">
+                    
+                    
+                    <cbml:panel n="1"  characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="dennis">
+                            Anyways, he was real <emph rendition="#b ">GOOD</emph> when he was a kid. He chopped down this cherry tree, an'...
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" rendition="jaggies" who="#joey">
+                            <emph rendition="#b #jaggies #large #color:red">NO!</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Within this panel, Dennis begins to tell Joey of the story of George Washington cutting down the cherry tree, to which Joey reacts poorly. 
+                        </note>
+                    </cbml:panel> 
+                    
+                    
+                    <cbml:panel n="2" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            Yeah, but it was okay... he <emph rendition="#b ">TOLD</emph> his Dad he did it, see? He didn't try to <emph rendition="#b ">FIB</emph>, see? Get it?
+                        </cbml:balloon>
+                        <cbml:balloon type="thought" rendition="bubble" who="#joey">
+                            <emph rendition="#b #large #color:red">NO!</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> The story continues to be explained to Joey by Dennis, but Joey still does not appear pleased.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" rendition="#jaggies" who="#joey">
+                            How 'bout the poor <emph rendition="#b">TREE</emph>? He chopped it <emph rendition="#b ">DOWN</emph>! He <emph rendition="#b ">KILLED</emph> it!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis">
+                            Hmm... yeah... how <emph rendition="#b ">'BOUT</emph> that?
+                        </cbml:balloon>
+                        <note type="panelDesc"> Joey begins to yell and points out the "killing" of the tree that Washington did. Dennis has a hard time finding an answer to Joey's debate.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="4" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#dennis">
+                            Anyways, he was a <emph rendition="#b ">STRONG</emph> kid! He threw a <emph rendition="#b ">SILVER DOLLAR</emph> across this <emph rendition="#b ">BIG</emph> river!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#joey">
+                            Why didn't he throw a <emph rendition="#b ">ROCK?</emph>?
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis starts to tell a story of Washington throwing a silver dollar across a river. Joey asks why he did not just throw a rock.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="5" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            <emph rendition="#b #large #color:red">HUH</emph><emph rendition="#b">?</emph>
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#joey">
+                            Why didn't he throw a <emph rendition="#b ">ROCK</emph>? Dollars are <emph rendition="#b #color:red">MONEY</emph>!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis is surprised at Joey's remark. Joey points out that Washington threw money instead of a rock.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="6" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#joey">
+                            I wouldn't throw away a <emph rendition="#b">WHOLE</emph> dollar... would <emph rendition="#b">YOU</emph>?
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis">
+                            Well... uh... no. Seems kinda <emph rendition="#b">SILLY,</emph> don't it?
+                        </cbml:balloon>
+                        <note type="panelDesc"> Joey asks Dennis if he would throw a whole dollar away. Dennis denies that and mentions that it seems "silly."
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                </div>
+            </div>
+            <pb/>    
+        </body>
+    </text>
+</TEI>
+
+
