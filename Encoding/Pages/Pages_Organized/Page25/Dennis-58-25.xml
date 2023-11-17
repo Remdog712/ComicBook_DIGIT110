@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Dennis the Menace: Volume 58 
+                </title>        
+                <author>Hank Ketcham</author>   
+                <author>Owen Fitzgerald</author>
+                <editor>Lyndon Herschell</editor>
+            </titleStmt>
+            <publicationStmt>
+                <date> 1962-04 </date>
+                <availability status="free">  
+                    <p>This work is in the public domain in the United States</p> 
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Scanned and put online by Hallden Fawcett </note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <namespace name="http://www.cbml.org/ns/1.0">
+                    <tagUsage gi="cbml:panel"></tagUsage>
+                    <tagUsage gi="cbml:caption"></tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    
+    <text>     
+        <body>
+            
+            <div type="page" xml:id="pg_25">
+                
+                <div type="panelGrp" xml:id="eg_0001">
+                    
+                    
+                    <cbml:panel n="1"  characters="#dennis #mother #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#mother">
+                            Oh... hello, Joey. Do you want to listen while I finish reading this book to Dennis?
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#joey">
+                            Uh-<emph rendition="#b">UH!</emph>?
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis' mother walks into the living room and asks Joey if he wants to listen to her finish the book. Joey declines, shaking his head.
+                        </note>
+                    </cbml:panel> 
+                    
+                    
+                    <cbml:panel n="2" characters="#dennis #mother #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#mother"> 
+                            But it's very interesting... it's about George Washington. He was the Father of our Country!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" rendition="#jaggies" who="#joey">
+                            Who was the <emph rendition="#b">MAMMA?</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis' mother attempts to explain who Washington was, saying that he was the "Father of our Country." To this, Joey replies by asking who the "mamma" of the country was.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#dennis #mother #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#mother">
+                            Well...er.. that is...
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis">
+                            Yeah... an' how can he have a <emph rendition="#b ">BIRTHDAY</emph> when he's <emph rendition="#b ">DEAD</emph>?
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis begins to question his mother's reasonings for Washington as well.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="4" characters="#dennis #mother #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#mother">
+                            He's not <emph rendition="#b ">HAVING</emph> a birthday... it's just that....
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#joey">
+                            An' no <emph rendition="#b ">BIRTHDAY PARTY</emph>?
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis'mother tries to explain that Washington isn't having a birthday. But, Joey interupts her asking why there isn't a birthday party.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="5" characters="#dennis #mother #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            C'mon, Joey... let's go out an' play.
+                        </cbml:balloon>
+                        <cbml:caption type="speech" who="#joey">
+                            Okay.
+                        </cbml:caption>
+                        <note type="panelDesc"> Dennis' mother is shown sitting down, seemingly confused about what transpired. Dennis himself then tells Joey that they should go play outside.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="6" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#dennis">
+                            Y'know somethin'... sometimes I'm <emph rendition="#b">GLAD</emph> I can't read!
+                        </cbml:balloon>
+                        <cbml:balloon type="thought" who="#joey">
+                            Me, too!
+                        </cbml:balloon>
+                        <cbml:caption>
+                            END <!-- End of "ALL WASHINGTON-D UP" -->
+                        </cbml:caption>
+                        <note type="panelDesc"> Dennis and Joey are seen playing outside in the snow.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                </div>
+            </div>
+            <pb/>    
+        </body>
+    </text>
+</TEI>
+
+

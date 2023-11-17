@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Dennis the Menace: Volume 58 
+                </title>        
+                <author>Hank Ketcham</author>   
+                <author>Owen Fitzgerald</author>
+                <editor>Lyndon Herschell</editor>
+            </titleStmt>
+            <publicationStmt>
+                <date> 1962-04 </date>
+                <availability status="free">  
+                    <p>This work is in the public domain in the United States</p> 
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Scanned and put online by Hallden Fawcett </note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <namespace name="http://www.cbml.org/ns/1.0">
+                    <tagUsage gi="cbml:panel"></tagUsage>
+                    <tagUsage gi="cbml:caption"></tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    
+    <text>     
+        <body>
+            
+            <div type="page" xml:id="pg_19">
+                
+                <div type="panelGrp" xml:id="eg_0001">
+                    
+                    
+                    <cbml:panel n="1" characters="#dennis"> <!-- Done -->
+                        <cbml:caption type="heading">
+                            <emph rendition="#b">tuesday</emph>
+                        </cbml:caption>
+                        <cbml:caption type="speech" who="#dennis"> 
+                            "Hi! I just wanted to see if you had chimes or a buzzer!"
+                        </cbml:caption>
+                        <note type="panelDesc"> Dennis is shown ringing a person's doorbell to see what type of sound it made.
+                        </note>
+                    </cbml:panel> 
+                    
+                    
+                    <cbml:panel n="2" characters="#dennis"> <!-- Done -->
+                        <cbml:caption type="heading">
+                            <emph rendition="#b">wednesday</emph>
+                        </cbml:caption>
+                        <cbml:caption type="speech" who="#dennis"> 
+                            "Have you seen a white rat named Floyd?"
+                        </cbml:caption>
+                        <note type="panelDesc"> In a library, Dennis is asking the same person from the previous panel if they have seen a rat around named Floyd.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#dennis"> <!-- Done -->
+                        <cbml:caption type="heading">
+                            <emph rendition="#b">saturday</emph>
+                        </cbml:caption>
+                        <cbml:caption type="speech" who="#dennis"> 
+                            "<emph rendition="#b">LOOK WHAT MR. TAYLOR GAVE ME FOR FREE!</emph>"
+                        </cbml:caption>
+                        <note type="panelDesc"> In this panel, Dennis is running towards his father while pulling a wagon full of items he got for free from Mr. Taylor.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="4" characters="#dennis"> <!-- Done -->
+                        <cbml:caption type="heading">
+                            <emph rendition="#b">sunday</emph>
+                        </cbml:caption>
+                        <cbml:caption type="speech" who="#dennis"> 
+                            "Boy, you sure got a <emph rendition="#b">BIG</emph> steering wheel!"
+                        </cbml:caption>
+                        <note type="panelDesc"> Dennis is putting his head through the steering wheel of a bus, commenting that the wheel is big to the driver.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                </div>
+            </div>
+            <pb/>    
+        </body>
+    </text>
+</TEI>
+
+

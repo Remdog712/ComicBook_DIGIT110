@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Dennis the Menace: Volume 58 
+                </title>        
+                <author>Hank Ketcham</author>   
+                <author>Owen Fitzgerald</author>
+                <editor>Lyndon Herschell</editor>
+            </titleStmt>
+            <publicationStmt>
+                <date> 1962-04 </date>
+                <availability status="free">  
+                    <p>This work is in the public domain in the United States</p> 
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Scanned and put online by Hallden Fawcett </note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <namespace name="http://www.cbml.org/ns/1.0">
+                    <tagUsage gi="cbml:panel"></tagUsage>
+                    <tagUsage gi="cbml:caption"></tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    
+    <text>     
+        <body>
+            
+            <div type="page" xml:id="pg_22">
+                
+                <div type="panelGrp" xml:id="eg_0001">
+                    
+                    
+                    <cbml:panel n="1"> <!-- Done -->
+                        <cbml:caption type="heading" rend="#red #white #blue">
+                            ALL WASHINGTON-D UP
+                        </cbml:caption>
+                        <note type="panelDesc"> Beginning psnel for the comic story "ALL WASHINGTON-D UP."
+                        </note>
+                    </cbml:panel> 
+                    
+                    
+                    <cbml:panel n="2" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#joey"> 
+                            Hi, Dennis!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis">
+                            Hi, Joey... C'mon in!!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis is opening the front door, greeting and letting Joey into his home.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#dennis">
+                             Mom was just readin' me a swell book... all 'bout George Washington, 'cause it's his <emph rendition="#b ">BIRTHDAY</emph> this month.
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#joey"> 
+                            Gee! You goin' to his party?
+                        </cbml:balloon>
+                        <note type="panelDesc"> In this panel, Dennis mentions to Joey that it is George Washington's birthday that month. Joey then askes if Dennis will attend Washington's party.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="4" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#dennis">
+                            There is not gonna be no <emph rendition="#b ">PARTY</emph>... he's been <emph rendition="#b ">DEAD</emph> a long time!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#joey">
+                            Then how can he have a <emph rendition="#b ">BIRTHDAY?</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis tells Joey that he cannot go to a party since George Washington has been gone for a while. Joey proceeds to ask Dennis how can he have a birthday then.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="5" characters="#dennis #joey"> <!-- In Progress -->
+                        <cbml:balloon type="speech" who="#joey"> 
+                            How can he have a <emph rendition="#b ">BIRTHDAY</emph> if he's <emph rendition="#b ">DEAD,</emph> Dennis?
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis">
+                            Well... uh... I... <emph rendition="#b ">DUNNO!</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Joey continues to press Dennis on how George Washington can have a birthday. Dennis admits that he does not know himself.. 
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                </div>
+            </div>
+            <pb/>    
+        </body>
+    </text>
+</TEI>
+
+
