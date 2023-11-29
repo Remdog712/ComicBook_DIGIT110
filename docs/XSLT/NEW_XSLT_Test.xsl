@@ -334,17 +334,7 @@
         </div>
     </xsl:template>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     <!-- rorange All Renditions of bubbles -->
     
  

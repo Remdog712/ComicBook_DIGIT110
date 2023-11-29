@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1577.46 820.99">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        stroke-width: .5px;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #a35563;
+      }
+
+      .cls-4 {
+        fill: #cdc8ae;
+      }
+
+      .cls-10 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 54.18px;
+      }
+
+      .cls-5 {
+        fill: #754c24;
+      }
+
+      .cls-11 {
+        font-size: 25px;
+      }
+
+      .cls-11, .cls-12 {
+        font-family: CourierNewPSMT, 'Courier New';
+      }
+
+      .cls-6 {
+        fill: #b7b58f;
+      }
+
+      .cls-7 {
+        fill: #29abe2;
+      }
+
+      .cls-8 {
+        fill: #202020;
+      }
+
+      .cls-9 {
+        fill: #e18256;
+      }
+
+      .cls-12 {
+        font-size: 33px;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <g>
+        <text class="cls-10" transform="translate(142.41 807.44)"><tspan x="0" y="0">0</tspan></text>
+        <text class="cls-10" transform="translate(359.67 807.44)"><tspan x="0" y="0">10</tspan></text>
+        <text class="cls-10" transform="translate(590.83 807.44)"><tspan x="0" y="0">20</tspan></text>
+        <text class="cls-10" transform="translate(821.99 807.44)"><tspan x="0" y="0">30</tspan></text>
+        <text class="cls-10" transform="translate(1053.15 807.44)"><tspan x="0" y="0">40</tspan></text>
+        <text class="cls-10" transform="translate(1284.32 807.44)"><tspan x="0" y="0">50</tspan></text>
+      </g>
+      <line class="cls-2" x1="156.31" y1="756.31" x2="1312.11" y2="756.31"/>
+      <g>
+        <line class="cls-2" x1="156.31" y1="756.31" x2="156.31" y2="739.52"/>
+        <line class="cls-2" x1="387.47" y1="756.31" x2="387.47" y2="739.52"/>
+        <line class="cls-2" x1="618.63" y1="756.31" x2="618.63" y2="739.52"/>
+        <line class="cls-2" x1="849.79" y1="756.31" x2="849.79" y2="739.52"/>
+        <line class="cls-2" x1="1080.95" y1="756.31" x2="1080.95" y2="739.52"/>
+        <line class="cls-2" x1="1312.11" y1="756.31" x2="1312.11" y2="739.52"/>
+      </g>
+    </g>
+    <g>
+      <line class="cls-2" x1="156.31" y1="756.31" x2="156.31" y2="84.5"/>
+      <g>
+        <line class="cls-2" x1="156.31" y1="672.33" x2="185.2" y2="672.33"/>
+        <line class="cls-2" x1="156.31" y1="504.38" x2="185.2" y2="504.38"/>
+        <line class="cls-2" x1="156.31" y1="336.43" x2="185.2" y2="336.43"/>
+        <line class="cls-2" x1="156.31" y1="168.47" x2="185.2" y2="168.47"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <rect class="cls-9" x="156.31" y="217.42" width="115.58" height="17.28"/>
+        <rect class="cls-9" x="156.31" y="385.37" width="115.58" height="17.28"/>
+        <rect class="cls-9" x="156.31" y="553.33" height="17.28"/>
+        <rect class="cls-9" x="156.31" y="721.28" height="17.28"/>
+      </g>
+      <g>
+        <rect class="cls-8" x="156.31" y="198.22" width="970.87" height="17.28"/>
+        <rect class="cls-8" x="156.31" y="366.18" width="231.16" height="17.28"/>
+        <rect class="cls-8" x="156.31" y="534.13" height="17.28"/>
+        <rect class="cls-8" x="156.31" y="702.09" width="716.6" height="17.28"/>
+      </g>
+      <g>
+        <rect class="cls-4" x="156.31" y="179.03" width="508.55" height="17.28"/>
+        <rect class="cls-4" x="156.31" y="346.98" height="17.28"/>
+        <rect class="cls-4" x="156.31" y="514.94" width="115.58" height="17.28"/>
+        <rect class="cls-4" x="156.31" y="682.89" height="17.28"/>
+      </g>
+      <g>
+        <rect class="cls-6" x="156.31" y="159.83" width="161.81" height="17.28"/>
+        <rect class="cls-6" x="156.31" y="327.79" height="17.28"/>
+        <rect class="cls-6" x="156.31" y="495.74" height="17.28"/>
+        <rect class="cls-6" x="156.31" y="663.7" height="17.28"/>
+      </g>
+      <g>
+        <rect class="cls-4" x="156.31" y="140.64" height="17.28"/>
+        <rect class="cls-4" x="156.31" y="308.59" height="17.28"/>
+        <rect class="cls-4" x="156.31" y="476.55" height="17.28"/>
+        <rect class="cls-4" x="156.31" y="644.5" height="17.28"/>
+      </g>
+      <g>
+        <rect class="cls-3" x="156.31" y="121.45" width="508.55" height="17.28"/>
+        <rect class="cls-3" x="156.31" y="289.4" width="462.32" height="17.28"/>
+        <rect class="cls-3" x="156.31" y="457.35" width="92.46" height="17.28"/>
+        <rect class="cls-3" x="156.31" y="625.31" width="277.39" height="17.28"/>
+      </g>
+      <g>
+        <rect class="cls-1" x="156.31" y="102.25" width="716.6" height="17.28"/>
+        <rect class="cls-1" x="156.31" y="270.2" width="115.58" height="17.28"/>
+        <rect class="cls-1" x="156.31" y="438.16" height="17.28"/>
+        <rect class="cls-1" x="156.31" y="606.11" height="17.28"/>
+      </g>
+    </g>
+  </g>
+  <text class="cls-12" transform="translate(0 174.97)"><tspan x="0" y="0">Dennis</tspan></text>
+  <text class="cls-12" transform="translate(6.82 348.17)"><tspan x="0" y="0">Father</tspan></text>
+  <text class="cls-12" transform="translate(6.82 514.17)"><tspan x="0" y="0">Mother</tspan></text>
+  <text class="cls-12" transform="translate(3.82 675.17)"><tspan x="0" y="0">Wilson</tspan></text>
+  <text class="cls-12" transform="translate(488.44 25.93)"><tspan x="0" y="0">Panels(Appearance) Per Story</tspan></text>
+  <rect class="cls-1" x="1184.96" y="262.49" width="51" height="51" transform="translate(1498.45 -922.46) rotate(90)"/>
+  <rect class="cls-3" x="1186.46" y="326.99" width="51" height="51" transform="translate(1564.45 -859.46) rotate(90)"/>
+  <rect class="cls-5" x="1185.46" y="396.99" width="51" height="51" transform="translate(1633.45 -788.46) rotate(90)"/>
+  <rect class="cls-7" x="1187.46" y="468.99" width="51" height="51" transform="translate(1707.45 -718.46) rotate(90)"/>
+  <rect class="cls-4" x="1188.46" y="538.99" width="51" height="51" transform="translate(1778.45 -649.46) rotate(90)"/>
+  <rect class="cls-8" x="1189.46" y="604.99" width="51" height="51" transform="translate(1845.45 -584.46) rotate(90)"/>
+  <rect class="cls-9" x="1189.46" y="667.99" width="51" height="51" transform="translate(1908.45 -521.46) rotate(90)"/>
+  <text class="cls-11" transform="translate(1250.01 291.82)"><tspan x="0" y="0">Sleigh Mates</tspan></text>
+  <text class="cls-11" transform="translate(1257.79 360.27)"><tspan x="0" y="0">Nice Going</tspan></text>
+  <text class="cls-11" transform="translate(1256.6 434.68)"><tspan x="0" y="0">Grampa Story</tspan></text>
+  <text class="cls-11" transform="translate(1259.19 499.17)"><tspan x="0" y="0">Day By Day</tspan></text>
+  <text class="cls-11" transform="translate(1260.96 570.4)"><tspan x="0" y="0">All Washingtond Up</tspan></text>
+  <text class="cls-11" transform="translate(1262.37 634.44)"><tspan x="0" y="0">Dennis Ski Menace Ski</tspan></text>
+  <text class="cls-11" transform="translate(1259.37 698.57)"><tspan x="0" y="0">Geronimo</tspan></text>
+</svg>

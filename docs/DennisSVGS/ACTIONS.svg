@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1065.97 730.7">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #b25538;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: .5px;
+      }
+
+      .cls-3 {
+        fill: #9f2214;
+      }
+
+      .cls-6 {
+        font-size: 25px;
+      }
+
+      .cls-6, .cls-7 {
+        font-family: CourierNewPSMT, 'Courier New';
+      }
+
+      .cls-4 {
+        fill: #c9ac68;
+      }
+
+      .cls-5 {
+        fill: #c7b570;
+      }
+
+      .cls-7 {
+        font-size: 44.34px;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <line class="cls-1" x1="67.99" y1="663.17" x2="1013.87" y2="663.17"/>
+      <g>
+        <line class="cls-1" x1="67.99" y1="663.17" x2="67.99" y2="647.37"/>
+        <line class="cls-1" x1="304.46" y1="663.17" x2="304.46" y2="647.37"/>
+        <line class="cls-1" x1="540.93" y1="663.17" x2="540.93" y2="647.37"/>
+        <line class="cls-1" x1="777.4" y1="663.17" x2="777.4" y2="647.37"/>
+        <line class="cls-1" x1="1013.87" y1="663.17" x2="1013.87" y2="647.37"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <text class="cls-7" transform="translate(26.61 679.8)"><tspan x="0" y="0">0</tspan></text>
+        <text class="cls-7" transform="translate(26.61 574.46)"><tspan x="0" y="0">5</tspan></text>
+        <text class="cls-7" transform="translate(0 469.11)"><tspan x="0" y="0">10</tspan></text>
+        <text class="cls-7" transform="translate(0 363.77)"><tspan x="0" y="0">15</tspan></text>
+        <text class="cls-7" transform="translate(0 258.43)"><tspan x="0" y="0">20</tspan></text>
+        <text class="cls-7" transform="translate(0 153.09)"><tspan x="0" y="0">25</tspan></text>
+        <text class="cls-7" transform="translate(0 47.75)"><tspan x="0" y="0">30</tspan></text>
+      </g>
+      <line class="cls-1" x1="67.99" y1="663.17" x2="67.99" y2="31.13"/>
+      <g>
+        <line class="cls-1" x1="67.99" y1="663.17" x2="91.64" y2="663.17"/>
+        <line class="cls-1" x1="67.99" y1="557.83" x2="91.64" y2="557.83"/>
+        <line class="cls-1" x1="67.99" y1="452.49" x2="91.64" y2="452.49"/>
+        <line class="cls-1" x1="67.99" y1="347.15" x2="91.64" y2="347.15"/>
+        <line class="cls-1" x1="67.99" y1="241.81" x2="91.64" y2="241.81"/>
+        <line class="cls-1" x1="67.99" y1="136.47" x2="91.64" y2="136.47"/>
+        <line class="cls-1" x1="67.99" y1="31.13" x2="91.64" y2="31.13"/>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-3" x="101.1" y="494.62" width="170.26" height="168.54"/>
+      <rect class="cls-2" x="337.57" y="326.08" width="170.26" height="337.09"/>
+      <rect class="cls-4" x="574.03" y="599.96" width="170.26" height="63.2"/>
+      <rect class="cls-5" x="810.5" y="115.4" width="170.26" height="547.77"/>
+    </g>
+  </g>
+  <text class="cls-6" transform="translate(142.74 696.03)"><tspan x="0" y="0">spin</tspan></text>
+  <text class="cls-6" transform="translate(379.48 690.64)"><tspan x="0" y="0">excite</tspan></text>
+  <text class="cls-6" transform="translate(630.48 694.64)"><tspan x="0" y="0">bump</tspan></text>
+  <text class="cls-6" transform="translate(874.48 691.64)"><tspan x="0" y="0">fast</tspan></text>
+  <text class="cls-6" transform="translate(885.81 106.64)"><tspan x="0" y="0">26</tspan></text>
+  <text class="cls-6" transform="translate(629.81 587.64)"><tspan x="0" y="0">3</tspan></text>
+  <text class="cls-6" transform="translate(164.81 478.64)"><tspan x="0" y="0">8</tspan></text>
+  <text class="cls-6" transform="translate(403.81 316.64)"><tspan x="0" y="0">16</tspan></text>
+  <text class="cls-6" transform="translate(444.48 19.64)"><tspan x="0" y="0">ACTIONS DONE</tspan></text>
+</svg>

@@ -23,7 +23,7 @@ p {
 
 
 /* Reset some default styles */
-body,
+
 h1,
 h2,
 h3,
@@ -39,6 +39,7 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color: #333;
+  
 }
 
 /* Add a container to center content */
@@ -219,3 +220,66 @@ footer {
     margin: 10px 0;
   }
 }
+
+
+.writing-section {
+            padding: 20px;
+            background-color: #f2c64a; /* Yellow background color */
+            margin-bottom: 20px;
+            border: 2px solid #e84a5f; /* Red border */
+            border-radius: 10px;
+            font-family: "Comic Sans MS", cursive; /* Comic Sans MS font */
+            color: #2b2b2b; /* Dark text color */
+        }
+
+        /* Style h2 headings inside writing-section divs */
+        .writing-section h2 {
+            font-size: 24px;
+            margin-top: 0;
+            color: #45b6d6; /* Red heading color */
+        }
+
+        /* Style links inside p elements */
+        .writing-section p a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        /* Style pre elements for code snippets */
+        .writing-section pre {
+            background-color: #ffffff; /* White background for code */
+            padding: 10px;
+            overflow: auto;
+            white-space: pre-wrap;
+            border: 2px solid #e84a5f; /* Red border for code */
+            border-radius: 5px;
+        }
+
+        /* Style images inside writing-section divs */
+        .writing-section img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-top: 10px;
+        }
+
+        /* Style h3 headings for "The Issues" sections */
+        .writing-section h3 {
+            font-size: 18px;
+            margin-top: 20px;
+            color: grey; /* Red heading color */
+        }
+        
+pre {
+    background-color: #333; /* Background color */
+    color: black; /* Text color */
+    padding: 10px; /* Padding around the code block */
+    border-radius: 5px; /* Rounded corners */
+    font-family: "Courier New", monospace; /* Font family for code */
+    font-size: 14px; /* Font size */
+    overflow: auto; /* Add a scrollbar if code overflows */
+    white-space: pre-wrap; /* Wrap long lines */
+    text-align: left; /* Left-align text within the pre element */
+    max-height: 300px;
+}
+

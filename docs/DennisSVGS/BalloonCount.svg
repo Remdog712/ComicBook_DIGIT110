@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1308.93 763.43">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #fbb03b;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        stroke-width: .5px;
+      }
+
+      .cls-3 {
+        fill: #c1272d;
+      }
+
+      .cls-4 {
+        fill: #8cc63f;
+      }
+
+      .cls-5 {
+        fill: #006837;
+      }
+
+      .cls-6 {
+        fill: #0071bc;
+      }
+
+      .cls-7 {
+        fill: #f15a24;
+      }
+
+      .cls-9 {
+        font-size: 25px;
+      }
+
+      .cls-9, .cls-10 {
+        font-family: CourierNewPSMT, 'Courier New';
+      }
+
+      .cls-8 {
+        fill: #00a99d;
+      }
+
+      .cls-10 {
+        font-size: 44.34px;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <g>
+        <text class="cls-10" transform="translate(309.85 733.3)"><tspan x="0" y="0">0</tspan></text>
+        <text class="cls-10" transform="translate(485.72 733.3)"><tspan x="0" y="0">20</tspan></text>
+        <text class="cls-10" transform="translate(674.89 733.3)"><tspan x="0" y="0">40</tspan></text>
+        <text class="cls-10" transform="translate(864.06 733.3)"><tspan x="0" y="0">60</tspan></text>
+        <text class="cls-10" transform="translate(1053.24 733.3)"><tspan x="0" y="0">80</tspan></text>
+        <text class="cls-10" transform="translate(1229.11 733.3)"><tspan x="0" y="0">100</tspan></text>
+      </g>
+      <line class="cls-1" x1="323.15" y1="690.17" x2="1269.02" y2="690.17"/>
+      <g>
+        <line class="cls-1" x1="323.15" y1="690.17" x2="323.15" y2="674.37"/>
+        <line class="cls-1" x1="512.32" y1="690.17" x2="512.32" y2="674.37"/>
+        <line class="cls-1" x1="701.5" y1="690.17" x2="701.5" y2="674.37"/>
+        <line class="cls-1" x1="890.67" y1="690.17" x2="890.67" y2="674.37"/>
+        <line class="cls-1" x1="1079.85" y1="690.17" x2="1079.85" y2="674.37"/>
+        <line class="cls-1" x1="1269.02" y1="690.17" x2="1269.02" y2="674.37"/>
+      </g>
+    </g>
+    <g>
+      <line class="cls-1" x1="323.15" y1="690.17" x2="323.15" y2="58.13"/>
+      <g>
+        <line class="cls-1" x1="323.15" y1="645.02" x2="346.8" y2="645.02"/>
+        <line class="cls-1" x1="323.15" y1="554.73" x2="346.8" y2="554.73"/>
+        <line class="cls-1" x1="323.15" y1="464.44" x2="346.8" y2="464.44"/>
+        <line class="cls-1" x1="323.15" y1="374.15" x2="346.8" y2="374.15"/>
+        <line class="cls-1" x1="323.15" y1="283.86" x2="346.8" y2="283.86"/>
+        <line class="cls-1" x1="323.15" y1="193.56" x2="346.8" y2="193.56"/>
+        <line class="cls-1" x1="323.15" y1="103.27" x2="346.8" y2="103.27"/>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-3" x="323.15" y="70.77" width="567.52" height="65.01"/>
+      <rect class="cls-7" x="323.15" y="161.06" width="397.27" height="65.01"/>
+      <rect class="cls-2" x="323.15" y="251.35" width="331.06" height="65.01"/>
+      <rect class="cls-4" x="323.15" y="341.64" height="65.01"/>
+      <rect class="cls-5" x="323.15" y="431.93" width="397.27" height="65.01"/>
+      <rect class="cls-8" x="323.15" y="522.23" width="851.29" height="65.01"/>
+      <rect class="cls-6" x="323.15" y="612.52" width="75.67" height="65.01"/>
+    </g>
+  </g>
+  <text class="cls-9" transform="translate(135.89 110.03)"><tspan x="0" y="0">Sleigh Mates</tspan></text>
+  <text class="cls-9" transform="translate(160.63 198.64)"><tspan x="0" y="0">Nice Going</tspan></text>
+  <text class="cls-9" transform="translate(136.63 289.64)"><tspan x="0" y="0">Grampa Story</tspan></text>
+  <text class="cls-9" transform="translate(153.63 385.64)"><tspan x="0" y="0">Day By Day</tspan></text>
+  <text class="cls-9" transform="translate(27 466.64)"><tspan x="0" y="0">All Washingtond Up</tspan></text>
+  <text class="cls-9" transform="translate(0 559.64)"><tspan x="0" y="0">Dennis Ski Menace Ski</tspan></text>
+  <text class="cls-9" transform="translate(192.63 657.64)"><tspan x="0" y="0">Geronimo</tspan></text>
+  <text class="cls-9" transform="translate(901.63 112.64)"><tspan x="0" y="0">60</tspan></text>
+  <text class="cls-9" transform="translate(728.97 201.64)"><tspan x="0" y="0">42</tspan></text>
+  <text class="cls-9" transform="translate(669.97 291.64)"><tspan x="0" y="0">35</tspan></text>
+  <text class="cls-9" transform="translate(371.97 382.64)"><tspan x="0" y="0">0</tspan></text>
+  <text class="cls-9" transform="translate(724.97 470.64)"><tspan x="0" y="0">42</tspan></text>
+  <text class="cls-9" transform="translate(1189.97 563.64)"><tspan x="0" y="0">9</tspan></text>
+  <text class="cls-9" transform="translate(421.97 652.64)"><tspan x="0" y="0">8</tspan></text>
+  <text class="cls-9" transform="translate(657.63 19.64)"><tspan x="0" y="0">TOTAL BALLOON COUNT PER STORY</tspan></text>
+</svg>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1014.37 788.32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #b25538;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-width: .5px;
+      }
+
+      .cls-3 {
+        fill: #9f2214;
+      }
+
+      .cls-5 {
+        font-size: 25px;
+      }
+
+      .cls-5, .cls-6 {
+        font-family: CourierNewPSMT, 'Courier New';
+      }
+
+      .cls-4 {
+        fill: #c9ac68;
+      }
+
+      .cls-6 {
+        font-size: 44.34px;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <line class="cls-1" x1="67.99" y1="715.17" x2="1013.87" y2="715.17"/>
+      <g>
+        <line class="cls-1" x1="67.99" y1="715.17" x2="67.99" y2="699.37"/>
+        <line class="cls-1" x1="383.28" y1="715.17" x2="383.28" y2="699.37"/>
+        <line class="cls-1" x1="698.57" y1="715.17" x2="698.57" y2="699.37"/>
+        <line class="cls-1" x1="1013.87" y1="715.17" x2="1013.87" y2="699.37"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <text class="cls-6" transform="translate(26.61 731.8)"><tspan x="0" y="0">0</tspan></text>
+        <text class="cls-6" transform="translate(26.61 605.39)"><tspan x="0" y="0">3</tspan></text>
+        <text class="cls-6" transform="translate(26.61 478.98)"><tspan x="0" y="0">6</tspan></text>
+        <text class="cls-6" transform="translate(26.61 352.57)"><tspan x="0" y="0">9</tspan></text>
+        <text class="cls-6" transform="translate(0 226.16)"><tspan x="0" y="0">12</tspan></text>
+        <text class="cls-6" transform="translate(0 99.75)"><tspan x="0" y="0">15</tspan></text>
+      </g>
+      <line class="cls-1" x1="67.99" y1="715.17" x2="67.99" y2="83.13"/>
+      <g>
+        <line class="cls-1" x1="67.99" y1="715.17" x2="91.64" y2="715.17"/>
+        <line class="cls-1" x1="67.99" y1="588.76" x2="91.64" y2="588.76"/>
+        <line class="cls-1" x1="67.99" y1="462.35" x2="91.64" y2="462.35"/>
+        <line class="cls-1" x1="67.99" y1="335.94" x2="91.64" y2="335.94"/>
+        <line class="cls-1" x1="67.99" y1="209.53" x2="91.64" y2="209.53"/>
+        <line class="cls-1" x1="67.99" y1="83.13" x2="91.64" y2="83.13"/>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-3" x="112.13" y="167.4" width="227.01" height="547.77"/>
+      <rect class="cls-2" x="427.42" y="125.26" width="227.01" height="589.91"/>
+      <rect class="cls-4" x="742.72" y="83.13" width="227.01" height="632.04"/>
+    </g>
+  </g>
+  <text class="cls-5" transform="translate(159.74 749.03)"><tspan x="0" y="0">Dennis</tspan></text>
+  <text class="cls-5" transform="translate(496.48 749.64)"><tspan x="0" y="0">Father</tspan></text>
+  <text class="cls-5" transform="translate(819.48 753.64)"><tspan x="0" y="0">Wilson</tspan></text>
+  <text class="cls-5" transform="translate(854.3 73.31)"><tspan x="0" y="0">15</tspan></text>
+  <text class="cls-5" transform="translate(215.81 162.64)"><tspan x="0" y="0">13</tspan></text>
+  <text class="cls-5" transform="translate(520.81 115.64)"><tspan x="0" y="0">14</tspan></text>
+  <text class="cls-5" transform="translate(356.48 19.64)"><tspan x="0" y="0">ACTIONS DONE By CHARACTERS</tspan></text>
+</svg>

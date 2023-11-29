@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1295.63 772.43">
+  <g>
+    <g>
+      <g>
+        <text transform="translate(309.85 742.3)" style="font-family: CourierNewPSMT, &apos;Courier New&apos;; font-size: 44.34px;"><tspan x="0" y="0">0</tspan></text>
+        <text transform="translate(454.19 742.3)" style="font-family: CourierNewPSMT, &apos;Courier New&apos;; font-size: 44.34px;"><tspan x="0" y="0">10</tspan></text>
+        <text transform="translate(611.83 742.3)" style="font-family: CourierNewPSMT, &apos;Courier New&apos;; font-size: 44.34px;"><tspan x="0" y="0">20</tspan></text>
+        <text transform="translate(769.48 742.3)" style="font-family: CourierNewPSMT, &apos;Courier New&apos;; font-size: 44.34px;"><tspan x="0" y="0">30</tspan></text>
+        <text transform="translate(927.12 742.3)" style="font-family: CourierNewPSMT, &apos;Courier New&apos;; font-size: 44.34px;"><tspan x="0" y="0">40</tspan></text>
+        <text transform="translate(1084.77 742.3)" style="font-family: CourierNewPSMT, &apos;Courier New&apos;; font-size: 44.34px;"><tspan x="0" y="0">50</tspan></text>
+        <text transform="translate(1242.41 742.3)" style="font-family: CourierNewPSMT, &apos;Courier New&apos;; font-size: 44.34px;"><tspan x="0" y="0">60</tspan></text>
+      </g>
+      <line x1="323.15" y1="699.17" x2="1269.02" y2="699.17" style="fill: none; stroke: #000; stroke-miterlimit: 10;"/>
+      <g>
+        <line x1="323.15" y1="699.17" x2="323.15" y2="683.37" style="fill: none; stroke: #000; stroke-miterlimit: 10;"/>
+        <line x1="480.79" y1="699.17" x2="480.79" y2="683.37" style="fill: none; stroke: #000; stroke-miterlimit: 10;"/>
+        <line x1="638.44" y1="699.17" x2="638.44" y2="683.37" style="fill: none; stroke: #000; stroke-miterlimit: 10;"/>
+        <line x1="796.09" y1="699.17" x2="796.09" y2="683.37" style="fill: none; stroke: #000; stroke-miterlimit: 10;"/>
+        <line x1="953.73" y1="699.17" x2="953.73" y2="683.37" style="fill: none; stroke: #000; stroke-miterlimit: 10;"/>
+        <line x1="1111.38" y1="699.17" x2="1111.38" y2="683.37" style="fill: none; stroke: #000; stroke-miterlimit: 10;"/>
+        <line x1="1269.02" y1="699.17" x2="1269.02" y2="683.37" style="fill: none; stroke: #000; stroke-miterlimit: 10;"/>
+      </g>
+    </g>
+    <g>
+      <line x1="323.15" y1="699.17" x2="323.15" y2="67.13" style="fill: none; stroke: #000; stroke-miterlimit: 10;"/>
+      <g>
+        <line x1="323.15" y1="654.02" x2="346.8" y2="654.02" style="fill: none; stroke: #000; stroke-miterlimit: 10;"/>
+        <line x1="323.15" y1="563.73" x2="346.8" y2="563.73" style="fill: none; stroke: #000; stroke-miterlimit: 10;"/>
+        <line x1="323.15" y1="473.44" x2="346.8" y2="473.44" style="fill: none; stroke: #000; stroke-miterlimit: 10;"/>
+        <line x1="323.15" y1="383.15" x2="346.8" y2="383.15" style="fill: none; stroke: #000; stroke-miterlimit: 10;"/>
+        <line x1="323.15" y1="292.86" x2="346.8" y2="292.86" style="fill: none; stroke: #000; stroke-miterlimit: 10;"/>
+        <line x1="323.15" y1="202.56" x2="346.8" y2="202.56" style="fill: none; stroke: #000; stroke-miterlimit: 10;"/>
+        <line x1="323.15" y1="112.27" x2="346.8" y2="112.27" style="fill: none; stroke: #000; stroke-miterlimit: 10;"/>
+      </g>
+    </g>
+    <g>
+      <rect x="323.15" y="79.77" width="488.7" height="65.01" style="fill: #c1272d; stroke: #000; stroke-miterlimit: 10; stroke-width: .5px;"/>
+      <rect x="323.15" y="170.06" width="378.35" height="65.01" style="fill: #f15a24; stroke: #000; stroke-miterlimit: 10; stroke-width: .5px;"/>
+      <rect x="323.15" y="260.35" width="252.23" height="65.01" style="fill: #fbb03b; stroke: #000; stroke-miterlimit: 10; stroke-width: .5px;"/>
+      <rect x="323.15" y="350.64" width="126.12" height="65.01" style="fill: #8cc63f; stroke: #000; stroke-miterlimit: 10; stroke-width: .5px;"/>
+      <rect x="323.15" y="440.93" width="362.58" height="65.01" style="fill: #006837; stroke: #000; stroke-miterlimit: 10; stroke-width: .5px;"/>
+      <rect x="323.15" y="531.23" width="819.76" height="65.01" style="fill: #00a99d; stroke: #000; stroke-miterlimit: 10; stroke-width: .5px;"/>
+      <rect x="323.15" y="621.52" width="94.59" height="65.01" style="fill: #0071bc; stroke: #000; stroke-miterlimit: 10; stroke-width: .5px;"/>
+    </g>
+  </g>
+  <text transform="translate(135.89 119.03)" style="font-family: CourierNewPSMT, &apos;Courier New&apos;; font-size: 25px;"><tspan x="0" y="0">Sleigh Mates</tspan></text>
+  <text transform="translate(160.63 207.64)" style="font-family: CourierNewPSMT, &apos;Courier New&apos;; font-size: 25px;"><tspan x="0" y="0">Nice Going</tspan></text>
+  <text transform="translate(136.63 298.64)" style="font-family: CourierNewPSMT, &apos;Courier New&apos;; font-size: 25px;"><tspan x="0" y="0">Grampa Story</tspan></text>
+  <text transform="translate(153.63 394.64)" style="font-family: CourierNewPSMT, &apos;Courier New&apos;; font-size: 25px;"><tspan x="0" y="0">Day By Day</tspan></text>
+  <text transform="translate(27 475.64)" style="font-family: CourierNewPSMT, &apos;Courier New&apos;; font-size: 25px;"><tspan x="0" y="0">All Washingtond Up</tspan></text>
+  <text transform="translate(0 568.64)" style="font-family: CourierNewPSMT, &apos;Courier New&apos;; font-size: 25px;"><tspan x="0" y="0">Dennis Ski Menace Ski</tspan></text>
+  <text transform="translate(192.63 666.64)" style="font-family: CourierNewPSMT, &apos;Courier New&apos;; font-size: 25px;"><tspan x="0" y="0">Geronimo</tspan></text>
+  <text transform="translate(818.63 109.64)" style="font-family: CourierNewPSMT, &apos;Courier New&apos;; font-size: 25px;"><tspan x="0" y="0">31</tspan></text>
+  <text transform="translate(717.97 213.64)" style="font-family: CourierNewPSMT, &apos;Courier New&apos;; font-size: 25px;"><tspan x="0" y="0">24</tspan></text>
+  <text transform="translate(591.97 299.64)" style="font-family: CourierNewPSMT, &apos;Courier New&apos;; font-size: 25px;"><tspan x="0" y="0">16</tspan></text>
+  <text transform="translate(469.97 387.64)" style="font-family: CourierNewPSMT, &apos;Courier New&apos;; font-size: 25px;"><tspan x="0" y="0">8</tspan></text>
+  <text transform="translate(697.97 480.64)" style="font-family: CourierNewPSMT, &apos;Courier New&apos;; font-size: 25px;"><tspan x="0" y="0">23</tspan></text>
+  <text transform="translate(1153.97 568.64)" style="font-family: CourierNewPSMT, &apos;Courier New&apos;; font-size: 25px;"><tspan x="0" y="0">52</tspan></text>
+  <text transform="translate(434.97 664.64)" style="font-family: CourierNewPSMT, &apos;Courier New&apos;; font-size: 25px;"><tspan x="0" y="0">6</tspan></text>
+  <text transform="translate(684.63 19.64)" style="font-family: CourierNewPSMT, &apos;Courier New&apos;; font-size: 25px;"><tspan x="0" y="0">PANEL COUNT PER STORY</tspan></text>
+</svg>
