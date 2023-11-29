@@ -19,16 +19,46 @@
             background-attachment: fixed;
             background-size: cover;
         }
+
+        /* Style for buttons */
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            padding: 5px 10px;
+            text-decoration: none;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: #e01d26; /* Change color on hover */
+        }
     </style>
     </head>
     <body>
-        
         <header>
             <nav>
                 <ul class="nav-links">
                     <li><a href="home.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="code.html">Encoding</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="story1.html">Sleigh Mates</a></li>
+                            <li><a href="story2.html">Nice Going</a></li>
+                            <li><a href="story3.html">Grampa Story</a></li>
+                            <li><a href="story4.html">Day by Day</a></li>
+                            <li><a href="story5.html">All Washingtond Up</a></li>
+                            <li><a href="story6.html">Dennis Ski Menace Ski</a></li>
+                            <li><a href="story7.html">Geronimo</a></li>
+                        </ul>
+                    </li>
                     <li><a href="analysis.html">Analysis</a></li>
-                    <li><a href="code.html">Encoding</a></li>
                     <li><a href="about.html">About Us</a></li>
                 </ul>
             </nav>
@@ -40,7 +70,18 @@
         <div class="container">
             <div class="writing-section">
                 <h2>Encoding</h2>
-                <p> UNDER CONSTRUCTION!!</p>
+                <p>UNDER CONSTRUCTION!!</p>
+                
+                <!-- Buttons to subpages -->
+                <div class="button-container">
+                    <a class="button" href="story1.html">Sleigh Mates</a>
+                    <a class="button" href="story2.html">Nice Going</a>
+                    <a class="button" href="story3.html">Grampa Story</a>
+                    <a class="button" href="story4.html">Day by Day</a>
+                    <a class="button" href="story5.html">All Washingtond Up</a>
+                    <a class="button" href="story6.html">Dennis Ski Menace Ski</a>
+                    <a class="button" href="story7.html">Geronimo</a>
+                </div>
             </div>
         </div>
     </body>

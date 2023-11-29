@@ -78,11 +78,13 @@ nav {
 nav ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 nav ul li {
   display: inline;
   margin-right: 20px;
+  position: relative; /* Added for dropdown */
 }
 
 nav a {
@@ -96,9 +98,66 @@ nav a:hover {
   color: #e01d26; /* Change color on hover */
 }
 
-/* Style the main content */
-.main-content {
-  padding: 20px;
+/* Style the dropdown menu */
+.nav-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333; /* Dropdown background color */
+}
+
+.nav-links ul li {
+  display: block;
+  margin: 0; /* Reset margin for list items */
+}
+
+.nav-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px; /* Adjust padding for dropdown items */
+  display: block;
+  transition: background-color 0.3s; /* Add transition for background color */
+}
+
+.nav-links ul li a:hover {
+  background-color: #444; /* Change background color on hover */
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    background-color: #333; /* Dropdown background color */
+}
+
+.dropdown-menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333; /* Dropdown background color */
+}
+
+.dropdown-menu li {
+    display: block;
+}
+
+.dropdown-menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px; /* Adjust padding for dropdown items */
+    display: block;
+    transition: background-color 0.3s; /* Add transition for background color */
+}
+
+.dropdown-menu a:hover {
+    background-color: #444; /* Change background color on hover */
 }
 
 /* Style headings */

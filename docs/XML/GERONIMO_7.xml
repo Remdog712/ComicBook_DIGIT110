@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../Encoding/cbml.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -10,6 +10,8 @@
                 <author>Hank Ketcham</author>  
                 <author role="illustrator">Owen Fitzgerald</author>  
                 <editor>Remington Orange</editor> 
+                <editor>Lyndon Herschell</editor>
+                <editor>Lauren McCurdy</editor>
                 
             </titleStmt>
             <publicationStmt>
@@ -22,7 +24,7 @@
                 <note>Scanned and put online by Hallden Fawcett </note>
             </notesStmt>
             <sourceDesc>
-                <p><ref target="https://archive.org/details/dennis-the-menace-issue-58">Online Archive</ref></p>    
+                <p><ref target="https://archive.org/details/dennis-the-menace-issue-58">Online Archive</ref></p>     
                 <p><ref target="https://github.com/Remdog712/ComicBook_DIGIT110">Github Repo</ref></p>
                 <p>DENNIS THE MENANCE: a magazine published bi-monthly by Hallden Division of Fawcett Publications, Inc., (Copyright 1962 by the Hall Syndicate, Inc. Printed in the U.S.A., by the Eastern Color Printing Co.)</p>
                 <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
@@ -40,11 +42,10 @@
         </encodingDesc>
     </teiHeader>
     
-    
     <text>     
         <body>
             
-            <milestone unit="start" n="Dennis-The-Menace-In-Geronimo"/>
+            <milestone unit="start" n="GERONIMO"/> 
             
             <div type="page" xml:id="pg_36">   
                 <figure>
@@ -56,11 +57,11 @@
                     
                     
                     <cbml:panel n="1"> 
-                    <cbml:caption type="heading"> 
-                        Dennis the Menace in <emph rendition="#large">GERONIMO!</emph>
-                    </cbml:caption>
-                    <note type="panelDesc"> A blue background with white puff
-                    </note> 
+                        <cbml:caption type="heading"> 
+                            Dennis the Menace in <emph rendition="#large">GERONIMO!</emph>
+                        </cbml:caption>
+                        <note type="panelDesc"> A blue background with white puff
+                        </note> 
                     </cbml:panel>
                     
                     
@@ -75,13 +76,13 @@
                         </note> 
                     </cbml:panel>
                     
-
+                    
                     <cbml:panel n="3" characters="#dennis #father #joey">              
                         <cbml:balloon rendition="#bubbles" type="speech" who="#dennis">
                             <emph rendition="#b">HERE I</emph> <emph rendition="#color:red">COME!</emph> <emph rendition="#b">RIGHT</emph> <emph rendition="#color:red">OFF</emph> <emph rendition="#b">THE</emph> <emph rendition="#color:red">ROOF!</emph>         
                         </cbml:balloon>
                         <cbml:balloon rendition="#jaggies" type="speech" who="#father">
-                           <emph rendition="#b">OFF THE ROOF!? PARACHUTE JUMP?!</emph>        
+                            <emph rendition="#b">OFF THE ROOF!? PARACHUTE JUMP?!</emph>        
                         </cbml:balloon>
                         <move who="#father" rendition="#excite"/>
                         <note type="panelDesc"> Dennis' Father sits up in his chair and lowers the newspaper looking concerned. Joey is still seen through the window talking to Dennis  </note>                 
@@ -128,5 +129,3 @@
         </body>
     </text>
 </TEI>
-
-

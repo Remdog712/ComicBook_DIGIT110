@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Encoding/cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Dennis the Menace: Volume 58 
+                </title>        
+                <author>Hank Ketcham</author>  
+                <author role="illustrator">Owen Fitzgerald</author>  
+                <editor>Remington Orange</editor> 
+                <editor>Lyndon Herschell</editor>
+                <editor>Lauren McCurdy</editor>
+                
+            </titleStmt>
+            <publicationStmt>
+                <date> 1962-04 </date>
+                <availability status="free">  
+                    <p>This work is in the public domain in the United States</p> 
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Scanned and put online by Hallden Fawcett </note>
+            </notesStmt>
+            <sourceDesc>
+                <p><ref target="https://archive.org/details/dennis-the-menace-issue-58">Online Archive</ref></p>     
+                <p><ref target="https://github.com/Remdog712/ComicBook_DIGIT110">Github Repo</ref></p>
+                <p>DENNIS THE MENANCE: a magazine published bi-monthly by Hallden Division of Fawcett Publications, Inc., (Copyright 1962 by the Hall Syndicate, Inc. Printed in the U.S.A., by the Eastern Color Printing Co.)</p>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+                
+                
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <namespace name="http://www.cbml.org/ns/1.0">
+                    <tagUsage gi="cbml:panel"></tagUsage>
+                    <tagUsage gi="cbml:caption"></tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    <text>     
+        <body>
+            
+            <milestone unit="start" n="DENNIS-SKI-MENACE-SKI"/> 
+            
+            
+            <div type="page" xml:id="pg_26">
+                
+                <figure>
+                    <graphic mimeType="images/pages/Dennis-58-26.jpeg" url="images/pages/Dennis-58-26.jpeg"/>
+                    <head>Page 26</head>
+                </figure>
+                
+                <div type="panelGrp" xml:id="eg_0001">
+                    
+                    
+                    <cbml:panel n="1"> <!-- Done -->
+                        <cbml:caption type="heading" rend="#black #i">
+                            Dennis Ski Menace Ski
+                        </cbml:caption>
+                        <note type="panelDesc"> Beginning psnel for the comic story "Dennis Ski Menace Ski." Dennis is seen dancing in skis and winterwear.
+                        </note>
+                    </cbml:panel> 
+                    
+                    
+                    <cbml:panel n="2" characters="#dennis #father"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            Hey, Dad! How 'bout buyin' me some skis?
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#father">
+                            Skis, eh?
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis and his father are standing infront of a ski shop, which Dennis asks his father to buy him skis.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#dennis #father"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#father">
+                            Those are pretty expensive, son.
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis">
+                            I got some money in my <emph rendition="#b ">PIGGY BANK</emph>!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis and his father are looking at some skis within the shop.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="4" characters="#dennis #father"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#father">
+                            I don't think you have enough, Dennis.
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis">
+                            Well, that's <emph rendition="#b">YOUR</emph> fault!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis' father begins to walk away from the shop, telling Dennis that he would not have enough money. Dennis points out that his father is at fault for this.
+                        </note> 
+                    </cbml:panel>
+                    
+                    <cbml:panel n="5" characters="#dennis #father"> <!-- In Progress -->
+                        <cbml:balloon type="speech" who="father">
+                            <emph rend="#b #color:red">MY</emph> fault?
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis">
+                            Yeah! Ya won't let me be a <emph rendition="#b ">COWBOY</emph> or a <emph rendition="#b ">FIREMAN</emph> an' <emph rendition="#b ">MAKE</emph> some money!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis explains that his father not letting him pursue his dreams of being either a cowboy or fireman is holding him back from earning money. 
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                </div>
+            </div>
+            <pb/> 
+            
+            
+            <div type="page" xml:id="pg_27">
+                <figure>
+                    <graphic mimeType="images/pages/Dennis-58-27.jpeg" url="images/pages/Dennis-58-27.jpeg"/>
+                    <head>Page 27</head>
+                </figure>
+                
+                <div type="panelGrp" xml:id="eg_0002">
+                    
+                    
+                    <cbml:panel n="1" characters="#dennis #father">
+                        
+                        <cbml:balloon type="speech" who="#father"> I know! I'll <emph rendition="#b"
+                            >MAKE</emph> you a pair of skis! </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> Aw, Dad! </cbml:balloon>
+                        <note type="panelDesc"> Dennis' father is shown walking, smoking a pipe, as
+                            Dennis trails behind him. </note>
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="2" characters="#dennis #father">
+                        <cbml:balloon type="speech" who="#dennis"> How 'bout that <emph
+                            rendition="#b">KITE</emph> ya made me, an'it wouldn't <emph
+                                rendition="#b">FLY</emph>? An' that <emph rendition="#b">BOAT</emph>
+                            ya made me an'it <emph rendition="#b">SANK</emph>? An' that..... </cbml:balloon>
+                        <cbml:balloon type="speech" who="#father"> Okay, Okay!</cbml:balloon>
+                        <note type="panelDesc"> Dennis trails behind his father with his arms spread
+                            outward in exclamation, Dennis' father wears a frown while smoking his
+                            pipe.</note>
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#dennis #father">
+                        <cbml:balloon type="speech" who="#father">
+                            <emph rendition="#b"> THESE</emph> skis are practically ready made! </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> They are? </cbml:balloon>
+                        <note type="panelDesc"> Dennis' father breaks off two planks of wood from a
+                            barrel full of trash, Dennis wears a suprised and confused face.</note>
+                    </cbml:panel>
+                    
+                    
+                    
+                    
+                    <cbml:panel n="4" characters="#dennis #father">
+                        <cbml:balloon type="speech" who="father"> Uh-huh! I'll just nail this piece
+                            of innertube on...bend the nails under...and... </cbml:balloon>
+                        <note type="panelDesc"> Dennis observes his father in the shed as he nails
+                            the piece of innertube onto one of the planks of wood. </note>
+                    </cbml:panel>
+                    
+                    
+                    
+                    
+                    <cbml:panel n="5" characters="#dennis #father">
+                        <cbml:balloon type="speech" who="#father"> And there you are! A pair of
+                            skis! </cbml:balloon>
+                        <cbml:balloon rendition="#jaggies" type="speech" who="#dennis"> Hey! Pretty
+                            keen! Make a pair for Tommy, too, huh? </cbml:balloon>
+                        <note type="panelDesc"> Dennis' father presents him with the finished skis
+                            made from wood planks. </note>
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="6" characters="#dennis #father">
+                        <cbml:balloon type="speech" who="#father"> Well, that's mighty generous of
+                            you to give Tommy a pair. </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis">
+                            <emph rendition="#b"> GIVE</emph> 'em? I'm gonna <emph rendition="#b">
+                                SELL</emph> 'em to him!</cbml:balloon>
+                        <note type="panelDesc"> Dennis' father is shown holding a hammer, working on
+                            a new pair of skis for Tommy. Dennis holds his own newly made pair.
+                        </note>
+                    </cbml:panel>
+                    
+                    
+                    
+                </div>
+                <pb/>
+            </div>
+            
+            
+            <div type="page" xml:id="pg_028">
+                <figure>
+                    <graphic mimeType="images/pages/Dennis-58-28.jpeg" url="images/pages/Dennis-58-28.jpeg"/>
+                    <head>Page 28</head>
+                </figure>
+                
+                <div type="panelGrp" xml:id="eg_0003">
+                    
+                    
+                    <cbml:panel n="1" characters="#dennis #tommy">
+                        
+                        <cbml:balloon type="speech" who="#dennis"> Hey, Tommy! Look at the keen
+                            <emph rendition="#b "> SKIS </emph> I got! </cbml:balloon>
+                        <note type="panelDesc"> Dennis runs through the snow with a pair of skis in
+                            each hand, Tommy looks at him confused. </note>
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="2" characters="#dennis #tommy">
+                        <cbml:balloon type="speech" who="#tommy"> Huh! They're home-made! </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> Well, what's wrong with <emph
+                            rendition="#b"> THAT? </emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis presents the two pairs of skis to Tommy,
+                            Tommy looks taken aback. </note>
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#dennis #tommy">
+                        <cbml:balloon type="speech" who="#dennis"> Don't ya like home-made <emph
+                            rendition="#b"> PIES? </emph> An' <emph rendition="#b"> COOKIES?
+                            </emph> An' <emph rendition="#b "> CAKES? </emph>
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#tommy"> Well, yeah...sure! </cbml:balloon>
+                        <note type="panelDesc"> Tommy stands with his hands in his pockets and a
+                            blank expression, Dennis expresses his questions to Tommy, still holding
+                            his skis. </note>
+                    </cbml:panel>
+                    
+                    
+                    
+                    
+                    <cbml:panel n="4" characters="#dennis #tommy">
+                        <cbml:balloon type="speech" who="dennis"> So what's wrong with <emph
+                            rendition="#b"> THESE? </emph> C'mon...I'll let ya have 'em <emph
+                                rendition="#b"> CHEAP! </emph>
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#tommy"> I don't <emph rendition="#b"> WANT
+                        </emph> 'em! </cbml:balloon>
+                        <note type="panelDesc"> Dennis extends his left arm and shoves a pair of
+                            skis at Tommy, still holding the other pair in his right arm. Tommy
+                            gives a surprised expression</note>
+                    </cbml:panel>
+                    
+                    
+                    
+                    
+                    <cbml:panel n="5" characters="#dennis #tommy">
+                        <cbml:balloon type="speech" who="#tommy"> They're for slidin' down <emph
+                            rendition="#b;">HILLS...</emph> an' there's no hills around <emph
+                                rendition="#b;">HERE!</emph>
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> That's right, darn
+                            it!</cbml:balloon>
+                        <note type="panelDesc"> Tommy extends his arms outward in exclamation,
+                            Dennis is stood next to him holding the two pairs of skis. </note>
+                    </cbml:panel>
+                    
+                    
+                    
+                    <cbml:panel n="6" characters="#dennis #tommy">
+                        <cbml:balloon type="speech" who="#tommy">
+                            <emph rendition="#b; color:red ">HEY, LOOK!</emph>
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> How <emph rendition="#b;"
+                            >'BOUT</emph> that!</cbml:balloon>
+                        <note type="panelDesc"> Tommy points to something in the distance, both him
+                            and Dennis look in the same direction. </note>
+                    </cbml:panel>
+                    
+                    
+                </div>
+                <pb/>
+            </div>
+            
+            
+            
+            <div type="page" xml:id="pg_29">  
+                <figure>
+                    <graphic mimeType="images/pages/Dennis-58-29.jpeg" url="images/pages/Dennis-58-29.jpeg"/>
+                    <head>Page 29</head>
+                </figure>
+                <div type="panelGrp" xml:id="eg_0004">
+                    
+                    
+                    <cbml:panel n="1" characters="#dennis #tommy #wilson"> 
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            Hi, Mr. Wilson! Where'd ya get those <emph rendition="#b"> CRAZY TENNIS RACKETS?
+                            </emph>
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#tommy">  
+                            An' how are ya gonna play <emph rendition="#b"> TENNIS</emph> in the <emph rendition="#b">SNOW?</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis and Tommy walk up to Mr.Wilson both holding their own pair of skis. 
+                            Mr.Wilson turns to look at them, holding two tennis rackets.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="2" characters="#dennis #tommy #wilson">
+                        <cbml:balloon type="speech" who="#wilson">
+                            These happen to be <emph rendition="#b">SNOWSHOES!</emph> And I'm not going to play <emph rendition="#b">TENNIS...</emph>
+                            I'm going to take a <emph rendition="#b">TRAMP</emph> in the <emph rendition="#b">COUNTRY!</emph>           
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis">
+                            Yeah?                  
+                        </cbml:balloon>
+                        <note type="panelDesc"> Mr. Wilson looks down at Dennis and Tommy, still holding two tennis rackets. 
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#dennis #tommy #wilson">
+                        <cbml:balloon type="speech" who="#dennis">   
+                            Where <emph rendition="#b ">IS</emph> he?          
+                        </cbml:balloon>  
+                        <cbml:balloon type="speech" who="#wilson">
+                            Where's <emph rendition="#b; color:red ">WHO</emph> <emph rendition="#b ">?</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis and Tommy look at up at Mr.Wilson, both still carrying their skis. 
+                            
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    
+                    
+                    <cbml:panel n="4" characters="#dennis #tommy #wilson">              
+                        <cbml:balloon type="speech" who="dennis">
+                            That <emph rendition="#b;">TRAMP</emph> you're gonna take in the country! 
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#wilson">
+                            Great Scott!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis and Tommy look up at Mr.Wilson; Mr.Wilson looks down at Dennis 
+                            with an expression of annoyance.</note>                 
+                    </cbml:panel>
+                    
+                    
+                    
+                    
+                    <cbml:panel n="5" characters="#dennis #tommy">
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            Hey! There's <emph rendition="#b; ">HILLS</emph> in the <emph rendition="#b; ">COUNTRY!</emph>
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#tommy"> 
+                            Yeah! for <emph rendition="#b; ">SKIIN'!</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis and Tommy look at eachother with hopeful expressions, each with their pair of skis in hand. 
+                        </note> 
+                    </cbml:panel> 
+                    
+                    
+                    <cbml:panel n="6" characters="#dennis #tommy #wilson">
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            <emph rendition="#b; ">WE'RE GOIN' WITH YA, MR. WILSON!</emph>
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#wilson"> 
+                            <emph rendition=" #jaggies #b color:red">OH NO!</emph> 
+                        </cbml:balloon>
+                        
+                        <note type="panelDesc"> Dennis and Tommy, carrying their skis, run behind Mr.Wilson as they try to catch up with him. Mr.Wilson stops 
+                            in his tracks and yells. 
+                        </note> 
+                    </cbml:panel> 
+                    
+                </div>
+                <pb/>    
+            </div>
+            
+            <div type="page" xml:id="pg_030">
+                <figure>
+                    <graphic mimeType="images/pages/Dennis-58-30.jpeg" url="images/pages/Dennis-58-30.jpeg"/>
+                    <head>Page 30</head>
+                </figure>
+                
+                <div type="panelGrp" xml:id="eg_0005">
+                    
+                    
+                    <cbml:panel n="1" characters="#dennis #tommy #wilson #martha">
+                        
+                        <cbml:balloon type="speech" who="#dennis"> WHY <emph rendition="#b"> WON'T
+                        </emph> ya take us, instead of that ol' <emph rendition="#b">
+                            TRAMP?</emph>
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#wilson"> I'm not <emph rendition="#b">
+                            TAKING </emph> a tramp! I mean I'm going... I'm not... </cbml:balloon>
+                        <move who="#wilson" rendition="#excite"/>
+                        <note type="panelDesc"> Dennis questions Mr.Wilson with his hand on his hip
+                            while Tommy stands blankly behind him; Martha is seen standing in the
+                            doorway to their house in the background.</note>
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="2" characters="#dennis #tommy #wilson #martha">
+                        <cbml:balloon type="speech" who="#martha"> George! What <emph rendition="#b"
+                            > IS </emph> it? </cbml:balloon>
+                        <cbml:balloon type="speech" who="#wilson"> It's these <emph rendition="#b">
+                            KIDS! </emph> I just want to take a tramp... a walk... a hike... </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> An' he won't take <emph
+                            rendition="#b"> US!</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Martha, wrapped in a green blanket, steps outside to
+                            talk to Mr.Wilson; Mr. Wilson holds his hand out in expression while
+                            Dennis and Tommy stand beside him.</note>
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#dennis #tommy #wilson #martha">
+                        <cbml:balloon type="speech" who="#dennis"> Gee, we just wanna try these
+                            <emph rendition="#b"> SKIS </emph> my Dad made! </cbml:balloon>
+                        <cbml:balloon type="speech" who="#martha"> Oh, you <emph rendition="#b">
+                            POOR</emph> dears! </cbml:balloon>
+                        <cbml:balloon type="thought" who="#wilson"> Here it comes! </cbml:balloon>
+                        <note type="panelDesc"> Dennis holds up his skis for Martha to see as Tommy
+                            stands beside him; Mrs. Wilson holds her finger up to her lips while Mr.
+                            Wilson holds his palm to his face in exasperaton. </note>
+                    </cbml:panel>
+                    
+                    
+                    
+                    
+                    <cbml:panel n="4" characters="#wilson #martha">
+                        <cbml:balloon type="speech" who="mrs_wilson"> George, <emph rendition="#b">
+                            PLEASE </emph> take them. I can tell their mothers, And they'll have
+                            <emph rendition="#b"> SUCH </emph> fun! </cbml:balloon>
+                        <cbml:balloon type="speech" who="#wilson"> That's just what I'm <emph
+                            rendition="#b"> AFRAID </emph> of! </cbml:balloon>
+                        <note type="panelDesc"> Martha smiles as she rests her hand on Mr. Wilson's
+                            jacket. Mr. Wilson has his mouth open in mid sentence. </note>
+                    </cbml:panel>
+                    
+                    
+                    
+                    
+                    <cbml:panel n="5" characters="#dennis #tommy #wilson #martha">
+                        <cbml:balloon type="speech" who="#dennis"> Don't be afraid, Mr.Wilson! <emph
+                            rendition="#b;">WE'LL</emph> take good care of ya! </cbml:balloon>
+                        <cbml:balloon type="speech" who="#martha"> They're <emph rendition="#b;"
+                            >IN</emph> the car already, George.</cbml:balloon>
+                        <move who="#wilson" rendition="#spin"/>
+                        <note type="panelDesc"> Dennis and Tommy are in the backseat of the car;
+                            Martha and Mr. Wilson look at them in surpise. </note>
+                    </cbml:panel>
+                    
+                    
+                    
+                    <cbml:panel n="6" characters="#dennis #tommy #wilson">
+                        <cbml:balloon type="speech" who="#dennis #tommy">
+                            <emph rendition="#b; color:red ">FOR HE'S A JOLLY GOOD FELLA </emph>
+                        </cbml:balloon>
+                        <cbml:balloon type="thought" who="#wilson">
+                            <emph rendition="#b;"> JOLLY </emph> isn't quite the word! </cbml:balloon>
+                        <note type="panelDesc"> Mr. Wilson's head can be seen through the window as
+                            he drives the car on the road; just the tops of Dennis' and
+                            Tommy's head can be seen from the backseat. </note>
+                    </cbml:panel>
+                    
+                    
+                </div>
+                <pb/>
+            </div>
+            
+            
+            <div type="page" xml:id="pg_031">
+                <figure>
+                    <graphic mimeType="images/pages/Dennis-58-31.jpeg" url="images/pages/Dennis-58-31.jpeg"/>
+                    <head>Page 31</head>
+                </figure>
+                
+                <div type="panelGrp" xml:id="eg_0006">
+                    
+                    
+                    <cbml:panel n="1" characters="#dennis #tommy #wilson">
+                        
+                        <cbml:balloon type="speech" who="#wilson"> All right... we'll hike to the
+                            top of this hill and you kids can slide down. </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> Okay! </cbml:balloon>
+                        <cbml:balloon type="speech" who="#tommy"> Yeah! </cbml:balloon>
+                        <note type="panelDesc"> Mr. Wilson sits on a tree stump at the bottom of the
+                            hill while putting on his snowshoes made from tennis rackets; Dennis
+                            trails behind Tommy as they both climb to the top of the snowy hill
+                            carrying their skis.</note>
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="2" characters="#wilson">
+                        <cbml:balloon type="singing" who="#wilson"> Tum...tee...tum.. Alone at
+                            last!</cbml:balloon>
+                        <note type="panelDesc"> Mr. Wilson marches up the snowy hill wearing his
+                            tennis racket snowshoes </note>
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#wilson">
+                        <cbml:balloon type="speech" who="#dennis"> Phew! </cbml:balloon>
+                        <move who="#wilson" rendition="#slow"/>
+                        <note type="panelDesc"> Mr. Wilson becomes unbalanced while climbing the
+                            snowy hill, his arms in an outward configuration as he tries to regain
+                            balance. </note>
+                    </cbml:panel>
+                    
+                    
+                    
+                    
+                    <cbml:panel n="4" characters="#wilson">
+                        <cbml:balloon type="thought" who="#wilson"> PUFF! </cbml:balloon>
+                        <cbml:balloon type="thought" who="#wilson">
+                            <emph rendition="#b"> PUFF! </emph>
+                        </cbml:balloon>
+                        <move who="#wilson" rendition="#slow"/>
+                        <note type="panelDesc"> Mr. Wilson marches with his arms in front of him,
+                            struggling to reach the top.</note>
+                    </cbml:panel>
+                    
+                    
+                    
+                    
+                    <cbml:panel n="5" characters="#dennis #tommy #wilson">
+                        <cbml:balloon type="speech" who="#wilson">
+                            Ugh...puff...ugh...</cbml:balloon>
+                        <move who="#wilson" rendition="#slow"/>
+                        <note type="panelDesc"> Dennis and Tommy smile contently sitting on the back
+                            of Mr. Wilsons tennis racket snowshoes as he struggles climbing up the
+                            hill. </note>
+                    </cbml:panel>
+                    
+                    
+                    
+                    <cbml:panel n="6" characters="#dennis #tommy #wilson">
+                        <cbml:balloon type="speech" who="#dennis"> Keep goin' Mr. Wilson! We're
+                            almost to the top! </cbml:balloon>
+                        <cbml:balloon type="speech" who="#wilson"> Why, you
+                            little...</cbml:balloon>
+                        <note type="panelDesc"> Mr. Wilson bends down with his hands to the ground,
+                            looking back at Dennis and Tommy; Dennis and Tommy look to Mr.Wilson as
+                            they sit on the back of his tennis racket snowshoes. </note>
+                    </cbml:panel>
+                    
+                    
+                </div>
+                <pb/>
+            </div>
+            
+            
+            <div type="page" xml:id="pg_32">
+                <figure>
+                    <graphic mimeType="images/pages/Dennis-58-32.jpeg" url="images/pages/Dennis-58-32.jpeg"/>
+                    <head>Page 32</head>
+                </figure>
+                <div type="panelGrp" xml:id="eg_0007">
+                    
+                    
+                    
+                    <cbml:panel n="1" characters="#dennis #tommy #wilson">
+                        <cbml:balloon type="speech" who="#dennis"> Gee! My dad just says <emph
+                            rendition="#b">THAT</emph> word when he's playin' <emph
+                                rendition="#b">GOLF</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Mr. Wilson angrily storms off as Dennis and Tommy
+                            lay in the snow on their backs. </note>
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="2" characters="#dennis #tommy">
+                        <cbml:balloon type="speech" who="#tommy"> They don't go very <emph
+                            rendition="#b">FAST,</emph> do they? </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> Not like on telebision. </cbml:balloon>
+                        <note type="panelDesc"> Dennis and Tommy slowly glide down the hill on their
+                            skates. </note>
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#dennis #tommy">
+                        <cbml:balloon type="speech" who="#tommy"> Maybe your Dad didn't <emph
+                            rendition="#b">MAKE</emph> 'em right! </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> Sure he did! Maybe the <emph
+                            rendition="#b">SNOW</emph> isnt <emph rendition="#b">SLIPPERY</emph>
+                            enough! </cbml:balloon>
+                        <note type="panelDesc"> Dennis and Tommy come to a stop on the hill with
+                            their skis. </note>
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="4" characters="#dennis #tommy #wilson">
+                        <cbml:balloon type="speech" who="#tommy"> Let's make a <emph rendition="#b"
+                            >SNOWMAN,</emph> instead!</cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> Okay! </cbml:balloon>
+                        <move who="#dennis #tommy" rendition="#fast"/>
+                        <note type="panelDesc"> Dennis and Tommy hop off their skis to make a
+                            snowman, they become hidden by the snow; Mr. Wilson can be seen making
+                            his way down the hill in the background. </note>
+                    </cbml:panel>
+                    
+                    <cbml:panel n="5" characters="#wilson">
+                        <cbml:balloon type="speech" who="#wilson"> Tum-tee-tummm.... </cbml:balloon>
+                        <note type="panelDesc"> Mr. Wilson happily walks down the hill with is
+                            tennis racket snowshoes. </note>
+                    </cbml:panel>
+                    
+                    <cbml:panel n="6" characters="#dennis #tommy #wilson">
+                        <cbml:balloon type="speech" who="#wilson">
+                            <emph rendition="#b; color:red ">WHAAA?</emph>
+                        </cbml:balloon>
+                        <move who="#wilson" rendition="#fast"/>
+                        <note type="panelDesc"> Mr. Wilson steps on Dennis' and Tommy's skates that
+                            were left on the hill, he starts to slide down the hill. </note>
+                    </cbml:panel>
+                    
+                    
+                </div>
+                <pb/>
+            </div>
+            
+            
+            
+            <div type="page" xml:id="pg_33">   
+                <figure>
+                    <graphic mimeType="images/pages/Dennis-58-33.jpeg" url="images/pages/Dennis-58-33.jpeg"/>
+                    <head>Page 33</head>
+                </figure>
+                <div type="panelGrp" xml:id="eg_0008">
+                    
+                    
+                    
+                    <cbml:panel n="1" characters="#dennis #tommy #wilson">
+                        <cbml:balloon type="speech" who="#wilson">   
+                            <emph rendition="#jaggies #color:red">HALP!</emph>            
+                        </cbml:balloon>  
+                        <cbml:balloon type="speech" who="#dennis">
+                            Look at Mr. Wilson <emph rendition="#b">GO!</emph>
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#tommy">
+                            <emph rendition="#color:red">YIPPEE!</emph>
+                        </cbml:balloon>
+                        <move who="#wilson" rendition="#fast"/>
+                        <note type="panelDesc"> Dennis and Tommy watch as Mr. Wilson goes very quickly down a hill surrounded by trees on a pair of snowshoes
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="2" characters="#wilson">
+                        <move who="#wilson" rendition="#fast"/>
+                        <move who="#wilson" rendition="#excite"/>
+                        <note type="panelDesc"> Mr. Wilson looks scared as he continues accidentally skiing down the hill
+                        </note> 
+                    </cbml:panel>
+                    
+                    <cbml:panel n="3" characters="#wilson">
+                        <move who="#wilson" rendition="#fast"/>
+                        <move who="#wilson" rendition="#excite"/>
+                        <note type="panelDesc"> Mr. Wilson covers his eyes as he comically swerves around several trees without hitting them
+                        </note> 
+                    </cbml:panel>
+                    
+                    <cbml:panel n="4" characters="#wilson">
+                        <cbml:balloon type="speech" who="#wilson">   
+                            <emph rendition="#jaggies #color:red">MARTHA!</emph>            
+                        </cbml:balloon> 
+                        <move who="#wilson" rendition="#fast"/>
+                        <move who="#wilson" rendition="#excite"/>
+                        <note type="panelDesc"> Mr. Wilson spreads his arms and feet as he launches off a hill
+                        </note> 
+                    </cbml:panel>
+                    
+                    <cbml:panel n="5" characters="#wilson"> 
+                        <move who="#wilson" rendition="#fast"/>
+                        <move who="#wilson" rendition="#excite"/>
+                        <note type="panelDesc"> Mr. Wilson falls on his butt into the snow with a large puff of snow
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <pb/>    
+            </div>
+            
+            
+            <div type="page" xml:id="pg_34">   
+                <figure>
+                    <graphic mimeType="images/pages/Dennis-58-34.jpeg" url="images/pages/Dennis-58-34.jpeg"/>
+                    <head>Page 34</head>
+                </figure>
+                <div type="panelGrp" xml:id="eg_0009">
+                    
+                    
+                    
+                    <cbml:panel n="1" characters="#dennis #tommy">
+                        <cbml:balloon type="speech" who="#dennis">   
+                            <emph rendition="#b">THAT'S</emph> why the skis wouldn't work for us... we're not <emph rendition="#b">HEAVY</emph> enough!           
+                        </cbml:balloon>  
+                        <cbml:balloon type="speech" who="#tommy">
+                            But Mr. Wilson sure is!
+                        </cbml:balloon>
+                        <move who="#dennis #joey" rendition="#fast"/>
+                        <note type="panelDesc"> Dennis and Tommy run along the snow bank
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="2" characters="#dennis #tommy #wilson">
+                        <cbml:balloon rendition="#bubbles" type="speech" who="#wilson">   
+                            <emph rendition="#color:red">OHHHH</emph>             
+                        </cbml:balloon>  
+                        <note type="panelDesc"> Mr. Wilson is laying partially buring in the snow in a look of pain. Tommy and Dennis are jogging down the hill looking at him
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#dennis #tommy #wilson">              
+                        <cbml:balloon type="speech" who="#wilson">
+                            <emph rendition="#b">MARTHA!</emph>      
+                        </cbml:balloon>
+                        <cbml:balloon  type="speech" who="#dennis">
+                            Y'know somethin'... I don't think Mr. Wilson <emph rendition="#b">LIKES</emph> skiin'!       
+                        </cbml:balloon>
+                        <cbml:balloon  type="speech" who="#tommy">
+                            An' I don't think he's gonna like <emph rendition="#b">US!</emph>       
+                        </cbml:balloon>
+                        <note type="panelDesc"> Mr. Wilson is laying in the snow with his eyes closed as Dennis and Tommy hover over him looking at him  </note>                 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="4" characters="#dennis #tommy #wilson">
+                        <cbml:balloon type="speech" who="#wilson"> 
+                            W-where am I?
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            Hurry up!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Mr. Wilson slowly comes out of his knockout and looks up. Dennis and Tommy are seen getting into the car
+                        </note> 
+                    </cbml:panel> 
+                    
+                    <cbml:panel n="5" characters="#dennis #tommy #wilson">
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            Hi, Mr. Wilson! Boy, the snow sure is <emph rendition="#b">SLIPPERY</emph> today, huh?
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#wilson"> 
+                            <emph rendition="#b">SNOW... SLIPPERY?</emph> But I've been snowshoeing for <emph rendition="#b">30 YEARS</emph> and <emph rendition="#b">THIS</emph> never happened!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Mr. Wilson is sitting up and has now lost his hat as Dennis and Tommy walk back towards Mr. Wilson away from the car
+                        </note> 
+                    </cbml:panel> 
+                    
+                    <cbml:panel n="6" characters="#dennis #tommy #wilson">
+                        <cbml:balloon rendition="#bubbles" type="thought" who="#wilson"> 
+                            Hm! Of course I've never been snowshoeing with Dennis...
+                        </cbml:balloon>
+                        <cbml:caption type="heading"> 
+                            <emph rendition="#color:yellow">END.</emph>
+                        </cbml:caption>
+                        <note type="panelDesc"> Mr. Wilson looks disgruntly at Tommy and Dennis who are now sitting next to him in the car
+                        </note> 
+                    </cbml:panel> 
+                    
+                    
+                </div>
+                <pb/>    
+            </div>
+            
+            <milestone unit="end" n="DENNIS-SKI-MENACE-SKI"/>
+            
+        </body>
+    </text>
+</TEI>

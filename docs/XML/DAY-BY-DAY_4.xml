@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Encoding/cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Dennis the Menace: Volume 58 
+                </title>        
+                <author>Hank Ketcham</author>  
+                <author role="illustrator">Owen Fitzgerald</author>  
+                <editor>Remington Orange</editor> 
+                <editor>Lyndon Herschell</editor>
+                <editor>Lauren McCurdy</editor>
+                
+            </titleStmt>
+            <publicationStmt>
+                <date> 1962-04 </date>
+                <availability status="free">  
+                    <p>This work is in the public domain in the United States</p> 
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Scanned and put online by Hallden Fawcett </note>
+            </notesStmt>
+            <sourceDesc>
+                <p><ref target="https://archive.org/details/dennis-the-menace-issue-58">Online Archive</ref></p>     
+                <p><ref target="https://github.com/Remdog712/ComicBook_DIGIT110">Github Repo</ref></p>
+                <p>DENNIS THE MENANCE: a magazine published bi-monthly by Hallden Division of Fawcett Publications, Inc., (Copyright 1962 by the Hall Syndicate, Inc. Printed in the U.S.A., by the Eastern Color Printing Co.)</p>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+                
+                
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <namespace name="http://www.cbml.org/ns/1.0">
+                    <tagUsage gi="cbml:panel"></tagUsage>
+                    <tagUsage gi="cbml:caption"></tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    <text>     
+        <body>
+            
+            <milestone unit="start" n="DAY-BY-DAY"/>
+            
+            
+            <div type="page" xml:id="pg_18">
+                
+                <figure>
+                    <graphic mimeType="images/pages/Dennis-58-18.jpeg" url="images/pages/Dennis-58-18.jpeg"/>
+                    <head>Page 18</head>
+                </figure>
+                
+                <div type="panelGrp" xml:id="eg_0001">
+                    
+                    
+                    <cbml:panel n="1"> <!-- Done -->
+                        <cbml:caption type="heading" rend="red">
+                            day by day <emph rendition="i">with</emph> dennis <emph rendition="i">the</emph> menace
+                        </cbml:caption>
+                        <note type="panelDesc"> Beginning psnel for the comic story with the title "day by day with dennis the menace".
+                        </note>
+                    </cbml:panel> 
+                    
+                    
+                    <cbml:panel n="2" characters="#dennis"> <!-- Done -->
+                        <cbml:caption type="heading">
+                            <emph rendition="#b">monday</emph>
+                        </cbml:caption>
+                        <cbml:caption type="speech" who="#dennis"> 
+                            "I wanna call a cowboy in Texas. Huh? Oh, <emph rendition="#b">ANY</emph> cowboy!..."
+                        </cbml:caption>
+                        <note type="panelDesc"> Dennis is sitting down on a table wearing a cowboy hat. He is holding a phone, with his mother watching him through the door.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#dennis"> <!-- Done -->
+                        <cbml:caption type="heading">
+                            <emph rendition="#b">thursday</emph>
+                        </cbml:caption>
+                        <cbml:caption type="speech" who="#dennis"> 
+                            "<emph rendition="#b">MR. WILSON! IT'S ME!</emph>"
+                        </cbml:caption>
+                        <cbml:caption type="speech" who="#dennis"> 
+                            "<emph rendition="#b">THAT</emph> was a dumb thing to say!"
+                        </cbml:caption>
+                        <note type="panelDesc"> Dennis and his dog can be seen knocking and calling for Mr. Wilson. He seems disappointed with the interaction afterwards.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="4" characters="#dennis"> <!-- Done -->
+                        <cbml:caption type="heading">
+                            <emph rendition="#b">friday</emph>
+                        </cbml:caption>
+                        <cbml:caption type="speech" who="#dennis"> 
+                            "<emph rendition="#b">THAT</emph> was a dumb thing to say!"
+                        </cbml:caption>
+                        <note type="panelDesc"> Dennis is telling a man of why he did not want to shake their hand. He likely has grease in his hair or on his hand.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                </div>
+            </div>
+            <pb/>    
+            
+            
+            <div type="page" xml:id="pg_19">
+                
+                <figure>
+                    <graphic mimeType="images/pages/Dennis-58-19.jpeg" url="images/pages/Dennis-58-19.jpeg"/>
+                    <head>Page 19</head>
+                </figure>
+                
+                <div type="panelGrp" xml:id="eg_0002">
+                    
+                    
+                    <cbml:panel n="1" characters="#dennis"> <!-- Done -->
+                        <cbml:caption type="heading">
+                            <emph rendition="#b">tuesday</emph>
+                        </cbml:caption>
+                        <cbml:caption type="speech" who="#dennis"> 
+                            "Hi! I just wanted to see if you had chimes or a buzzer!"
+                        </cbml:caption>
+                        <note type="panelDesc"> Dennis is shown ringing a person's doorbell to see what type of sound it made.
+                        </note>
+                    </cbml:panel> 
+                    
+                    
+                    <cbml:panel n="2" characters="#dennis"> <!-- Done -->
+                        <cbml:caption type="heading">
+                            <emph rendition="#b">wednesday</emph>
+                        </cbml:caption>
+                        <cbml:caption type="speech" who="#dennis"> 
+                            "Have you seen a white rat named Floyd?"
+                        </cbml:caption>
+                        <note type="panelDesc"> In a library, Dennis is asking the same person from the previous panel if they have seen a rat around named Floyd.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#dennis"> <!-- Done -->
+                        <cbml:caption type="heading">
+                            <emph rendition="#b">saturday</emph>
+                        </cbml:caption>
+                        <cbml:caption type="speech" who="#dennis"> 
+                            "<emph rendition="#b">LOOK WHAT MR. TAYLOR GAVE ME FOR FREE!</emph>"
+                        </cbml:caption>
+                        <note type="panelDesc"> In this panel, Dennis is running towards his father while pulling a wagon full of items he got for free from Mr. Taylor.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="4" characters="#dennis"> <!-- Done -->
+                        <cbml:caption type="heading">
+                            <emph rendition="#b">sunday</emph>
+                        </cbml:caption>
+                        <cbml:caption type="speech" who="#dennis"> 
+                            "Boy, you sure got a <emph rendition="#b">BIG</emph> steering wheel!"
+                        </cbml:caption>
+                        <note type="panelDesc"> Dennis is putting his head through the steering wheel of a bus, commenting that the wheel is big to the driver.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                </div>
+            </div>
+            <pb/>    
+            <milestone unit="end" n="DAY-BY-DAY"/>
+            
+        </body>
+    </text>
+</TEI>

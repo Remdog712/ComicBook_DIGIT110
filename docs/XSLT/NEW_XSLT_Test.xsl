@@ -92,6 +92,14 @@
         
     </xsl:template>
     
+    <!-- rorange Handling Captions-->
+    
+    <xsl:template match="cbml:caption">
+        <div class="caption">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
     <!-- rorange - Title Section (felt necessary) --> 
     
     <xsl:template match="milestone[@unit='start'][@n][1]">
@@ -140,7 +148,12 @@
         </div>
     </xsl:template>
     
-    
+    <!-- rorange Sound Catch -->
+    <xsl:template match="sound">
+        <span class="sound-tag">
+            <xsl:value-of select="."/>
+        </span>
+    </xsl:template>
     
     
     <xsl:template match="cbml:panel">

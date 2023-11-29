@@ -3,6 +3,123 @@ body {
   background-color: lightgrey;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Optional, to center the image horizontally */
+}
+
+/* Style the image to fit within the container */
+.container img {
+    max-width: 100%;
+    height: auto; /* Maintain the image's aspect ratio */
+}
+
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  position: relative; /* Added for dropdown */
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #e01d26; /* Change color on hover */
+}
+
+/* Style the dropdown menu */
+.nav-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333; /* Dropdown background color */
+}
+
+.nav-links ul li {
+  display: block;
+  margin: 0; /* Reset margin for list items */
+}
+
+.nav-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px; /* Adjust padding for dropdown items */
+  display: block;
+  transition: background-color 0.3s; /* Add transition for background color */
+}
+
+.nav-links ul li a:hover {
+  background-color: #444; /* Change background color on hover */
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    background-color: #333; /* Dropdown background color */
+}
+
+.dropdown-menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333; /* Dropdown background color */
+}
+
+.dropdown-menu li {
+    display: block;
+}
+
+.dropdown-menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px; /* Adjust padding for dropdown items */
+    display: block;
+    transition: background-color 0.3s; /* Add transition for background color */
+}
+
+.dropdown-menu a:hover {
+    background-color: #444; /* Change background color on hover */
+}
+
 .story-title {
   font-size: 36px;
   font-weight: bold;
@@ -54,9 +171,10 @@ body {
 }
 
 .caption {
-  font-weight: bold;
-  color: #ff0000;
-  font-size: 16px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px 0;
+    background-color: white;
 }
 
 .balloon {
@@ -76,7 +194,7 @@ body {
 }
 
 .balloon.rend-bubble {
-  background-color: #ccebff;
+  background-color: lightgrey;
 }
 
 .balloon.rend-thought {
@@ -105,6 +223,15 @@ body {
   font-style: italic;
   color: #0000ff;
 }
+
+.sound-tag {
+    background-color: #ffcc00; 
+    color: #ff6600; 
+    border: 1px dashed #ff6600; 
+    border-radius: 5px; 
+    padding: 3px 6px; 
+}
+
 
 .floating-text {
   background-color: #f0f0f0;
@@ -253,7 +380,7 @@ body {
 }
 
 .thought-balloon {
-  background-color: #f0f0f0;
+  background-color: #6488ea;
   border: 2px solid #999;
   border-radius: 50%;
   padding: 10px;
@@ -270,10 +397,6 @@ body {
 
 .jaggies-balloon {
   background-color: #FFD580;
-}
-
-.thought-balloon {
-  background-color: #6488ea;
 }
 
 .emph-bold {
@@ -302,4 +425,231 @@ body {
 
 .emph-orange {
   color: orange;
+}
+
+
+.scroll-key {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-height: 80vh; /* Set a maximum height for scrolling */
+    overflow-y: auto; /* Enable vertical scrolling when content exceeds the height */
+}
+
+/* Add this CSS to your existing styles.css file */
+
+/* Key styles */
+.key-content {
+    text-align: left;
+}
+
+.key-content h2 {
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+.key-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.key-content li {
+    font-size: 14px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.key-symbol {
+    font-size: 18px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* Key indicator styles */
+.key-indicator {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Specific styles for each key description */
+.caption-key {
+    /* Caption: Black border, white background */
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px 0;
+    background-color: white;
+}
+
+.balloon-key {
+    /* Balloon: Yellow background, black border */
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #000;
+    background-color: #ffffcc;
+    font-family: 'Arial', cursive, sans-serif;
+}
+
+.balloon-jaggies-key {
+    /* Balloon (Jaggies Rendition): Orange background */
+    background-color: #FFD580;
+}
+
+.balloon-default-key {
+    /* Balloon (Default Rendition): Light blue background */
+    background-color: white;
+}
+
+.balloon-bubble-key {
+    /* Balloon (Bubble Rendition): Light blue background */
+    background-color: #ccebff;
+}
+
+.balloon-thought-key {
+    /* Balloon (Thought Rendition): Light blue background */
+    background-color: #add8e6;
+}
+
+.speaker-key {
+    /* Speaker: Bold text */
+    font-weight: bold;
+}
+
+.page-title-key {
+    /* Page Title (2nd of type): Hidden */
+    display: none;
+}
+
+.move-key {
+    /* Move: Italic text */
+    font-style: italic;
+}
+
+.note-key {
+    /* Note: Italic, blue text */
+    font-style: italic;
+    color: #0000ff;
+}
+
+.floating-text-key {
+    /* Floating Text: Gray background, italic, bold, 16px font size */
+    background-color: #f0f0f0;
+    padding: 5px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.figure-head-box-key {
+    /* Figure Head Box: Centered, light gray background, 10px padding */
+    text-align: center;
+    background-color: #eee;
+    padding: 10px;
+}
+
+.figure-title-key {
+    /* Figure Title: Arial font, 24px, bold */
+    font-family: 'Arial', cursive, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.move-icon-key {
+    /* Move Icon: 16px x 16px, inline-block */
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.character-icon-key {
+    /* Character Icon: 20px x 20px, background image */
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    display: inline-block;
+}
+
+.action-icon-key {
+    /* Action Icons: 20px x 20px, background image */
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    display: inline-block;
+}
+
+.speech-balloon-key {
+    /* Speech Balloon: White background, black border, rounded */
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 15px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.thought-balloon-key {
+    /* Thought Balloon: Gray background, circular, border */
+    background-color:  #6488ea;
+    border: 2px solid #999;
+    border-radius: 50%;
+    padding: 10px;
+    display: inline-block;
+}
+
+.singing-balloon-key {
+    /* Singing Balloon: Yellow background, dashed border */
+    background-color: #ffcc00;
+    border: 2px dashed #ff6600;
+    border-radius: 0;
+    padding: 10px;
+    display: inline-block;
+}
+
+.emph-red-key {
+    /* Emphasis Red: Red text */
+    color: red;
+}
+
+.emph-bold-key {
+    
+    font-weight: bold;
+}
+
+.emph-uppercase-key {
+    /* Emphasis Uppercase: Uppercase text */
+    text-transform: uppercase;
+}
+
+.emph-large-key {
+    /* Emphasis Large: 24px font size */
+    font-size: 24px;
+}
+
+.emph-jaggies-key {
+    /* Emphasis Jaggies: Text shadow, red */
+    text-shadow: 2px 2px 3px red;
+}
+
+.emph-blue-key {
+    /* Emphasis Blue: Blue text */
+    color: blue;
+}
+
+.emph-orange-key {
+    /* Emphasis Orange: Orange text */
+    color: orange;
 }

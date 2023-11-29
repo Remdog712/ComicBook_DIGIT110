@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Encoding/cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Dennis the Menace: Volume 58 
+                </title>        
+                <author>Hank Ketcham</author>  
+                <author role="illustrator">Owen Fitzgerald</author>  
+                <editor>Remington Orange</editor> 
+                <editor>Lyndon Herschell</editor>
+                <editor>Lauren McCurdy</editor>
+                
+            </titleStmt>
+            <publicationStmt>
+                <date> 1962-04 </date>
+                <availability status="free">  
+                    <p>This work is in the public domain in the United States</p> 
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Scanned and put online by Hallden Fawcett </note>
+            </notesStmt>
+            <sourceDesc>
+                <p><ref target="https://archive.org/details/dennis-the-menace-issue-58">Online Archive</ref></p>     
+                <p><ref target="https://github.com/Remdog712/ComicBook_DIGIT110">Github Repo</ref></p>
+                <p>DENNIS THE MENANCE: a magazine published bi-monthly by Hallden Division of Fawcett Publications, Inc., (Copyright 1962 by the Hall Syndicate, Inc. Printed in the U.S.A., by the Eastern Color Printing Co.)</p>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+                
+                
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <namespace name="http://www.cbml.org/ns/1.0">
+                    <tagUsage gi="cbml:panel"></tagUsage>
+                    <tagUsage gi="cbml:caption"></tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    <text>     
+        <body>
+            
+            <milestone unit="start" n="ALL-WASHINGTOND-UP"/>  
+            
+            <div type="page" xml:id="pg_22">
+                
+                <figure>
+                    <graphic mimeType="images/pages/Dennis-58-22.jpeg" url="images/pages/Dennis-58-22.jpeg"/>
+                    <head>Page 22</head>
+                </figure>
+                
+                <div type="panelGrp" xml:id="eg_0001">
+                    
+                    
+                    <cbml:panel n="1"> <!-- Done -->
+                        <cbml:caption type="heading" rend="#red #white #blue">
+                            ALL WASHINGTON-D UP
+                        </cbml:caption>
+                        <note type="panelDesc"> Beginning psnel for the comic story "ALL WASHINGTON-D UP."
+                        </note>
+                    </cbml:panel> 
+                    
+                    
+                    <cbml:panel n="2" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#joey"> 
+                            Hi, Dennis!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis">
+                            Hi, Joey... C'mon in!!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis is opening the front door, greeting and letting Joey into his home.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#dennis">
+                            Mom was just readin' me a swell book... all 'bout George Washington, 'cause it's his <emph rendition="#b ">BIRTHDAY</emph> this month.
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#joey"> 
+                            Gee! You goin' to his party?
+                        </cbml:balloon>
+                        <note type="panelDesc"> In this panel, Dennis mentions to Joey that it is George Washington's birthday that month. Joey then askes if Dennis will attend Washington's party.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="4" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#dennis">
+                            There is not gonna be no <emph rendition="#b ">PARTY</emph>... he's been <emph rendition="#b ">DEAD</emph> a long time!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#joey">
+                            Then how can he have a <emph rendition="#b ">BIRTHDAY?</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis tells Joey that he cannot go to a party since George Washington has been gone for a while. Joey proceeds to ask Dennis how can he have a birthday then.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="5" characters="#dennis #joey"> <!-- In Progress -->
+                        <cbml:balloon type="speech" who="#joey"> 
+                            How can he have a <emph rendition="#b ">BIRTHDAY</emph> if he's <emph rendition="#b ">DEAD,</emph> Dennis?
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis">
+                            Well... uh... I... <emph rendition="#b ">DUNNO!</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Joey continues to press Dennis on how George Washington can have a birthday. Dennis admits that he does not know himself.. 
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                </div>
+            </div>
+            <pb/>
+            
+            <div type="page" xml:id="pg_23">
+                
+                <figure>
+                    <graphic mimeType="images/pages/Dennis-58-23.jpeg" url="images/pages/Dennis-58-23.jpeg"/>
+                    <head>Page 23</head>
+                </figure>
+                
+                <div type="panelGrp" xml:id="eg_0002">
+                    
+                    
+                    <cbml:panel n="1"  characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="dennis">
+                            Anyways, he was real <emph rendition="#b ">GOOD</emph> when he was a kid. He chopped down this cherry tree, an'...
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" rendition="jaggies" who="#joey">
+                            <emph rendition="#b #jaggies #large #color:red">NO!</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Within this panel, Dennis begins to tell Joey of the story of George Washington cutting down the cherry tree, to which Joey reacts poorly. 
+                        </note>
+                    </cbml:panel> 
+                    
+                    
+                    <cbml:panel n="2" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            Yeah, but it was okay... he <emph rendition="#b ">TOLD</emph> his Dad he did it, see? He didn't try to <emph rendition="#b ">FIB</emph>, see? Get it?
+                        </cbml:balloon>
+                        <cbml:balloon type="thought" rendition="bubble" who="#joey">
+                            <emph rendition="#b #large #color:red">NO!</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> The story continues to be explained to Joey by Dennis, but Joey still does not appear pleased.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" rendition="#jaggies" who="#joey">
+                            How 'bout the poor <emph rendition="#b">TREE</emph>? He chopped it <emph rendition="#b ">DOWN</emph>! He <emph rendition="#b ">KILLED</emph> it!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis">
+                            Hmm... yeah... how <emph rendition="#b ">'BOUT</emph> that?
+                        </cbml:balloon>
+                        <note type="panelDesc"> Joey begins to yell and points out the "killing" of the tree that Washington did. Dennis has a hard time finding an answer to Joey's debate.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="4" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#dennis">
+                            Anyways, he was a <emph rendition="#b ">STRONG</emph> kid! He threw a <emph rendition="#b ">SILVER DOLLAR</emph> across this <emph rendition="#b ">BIG</emph> river!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#joey">
+                            Why didn't he throw a <emph rendition="#b ">ROCK?</emph>?
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis starts to tell a story of Washington throwing a silver dollar across a river. Joey asks why he did not just throw a rock.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="5" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            <emph rendition="#b #large #color:red">HUH</emph><emph rendition="#b">?</emph>
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#joey">
+                            Why didn't he throw a <emph rendition="#b ">ROCK</emph>? Dollars are <emph rendition="#b #color:red">MONEY</emph>!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis is surprised at Joey's remark. Joey points out that Washington threw money instead of a rock.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="6" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#joey">
+                            I wouldn't throw away a <emph rendition="#b">WHOLE</emph> dollar... would <emph rendition="#b">YOU</emph>?
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis">
+                            Well... uh... no. Seems kinda <emph rendition="#b">SILLY,</emph> don't it?
+                        </cbml:balloon>
+                        <note type="panelDesc"> Joey asks Dennis if he would throw a whole dollar away. Dennis denies that and mentions that it seems "silly."
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+            <pb/>
+            
+            
+            
+            <div type="page" xml:id="pg_24">
+                <figure>
+                    <graphic mimeType="images/pages/Dennis-58-24.jpeg" url="images/pages/Dennis-58-24.jpeg"/>
+                    <head>Page 24</head>
+                </figure>
+                
+                <div type="panelGrp" xml:id="eg_0003">
+                    
+                    
+                    <cbml:panel n="1"  characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="dennis">
+                            Anyways, he got to be a <emph rendition="#b ">GENERAL</emph>. See... he's crossin' a river in this <emph rendition="#b ">BOAT</emph> to beat the <emph rendition="#b ">BAD</emph> guys.
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" rendition="jaggies" who="#joey">
+                            Why's he standin' <emph rendition="#b">UP</emph>?
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis tries to tell another story of Washington Crossing a river, being the Delaware River, to Joey. Joey then asks why he would be standing up.
+                        </note>
+                    </cbml:panel> 
+                    
+                    
+                    <cbml:panel n="2" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            Heck, <emph rendition="#b ">I</emph> dunno!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#joey">
+                            My Daddy says ya gotta sit <emph rendition="#b">DOWN</emph> in boats. They can tip <emph rendition="#b">OVER</emph>!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Joey mentions how his father tells him that you should not stand in a boat since they can tip over, which Washington is doing in the picture.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#dennis">
+                            Well... yeah...
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" rendition="#jaggies" who="#joey">
+                            He mighta got <emph rendition="#b ">DROWNED</emph>!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Joey begins to yell and points out that Washington could have possibly drowned.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="4" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#dennis">
+                            Well, he <emph rendition="#b ">DIDN'T</emph> get drowned. He got to be the first President!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#joey">
+                            What's <emph rendition="#b ">THAT</emph>?
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis relays why Washington could not have drowned since he became the first President. Joey asks what that is.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="5" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            The President's the guy who runs the<emph rendition="#b">WHOLE COUNTRY</emph>. An' Washington was the <emph rendition="#b">FIRST ONE</emph>!
+                        </cbml:balloon>
+                        <cbml:caption type="thought" who="#joey">
+                            <emph rendition="#b #color:red">????</emph>
+                        </cbml:caption>
+                        <note type="panelDesc"> Dennis tells how George Washington was the first President of the United States. However, Joey is confused.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="6" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#joey">
+                            Who run the country <emph rendition="#b">BEFORE</emph> him?
+                        </cbml:balloon>
+                        <cbml:balloon type="thought" who="#dennis">
+                            <emph rendition="#b #large #color:red">?</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Joey questions of who was the leader of the country before the first President.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                </div>
+            </div>
+            <pb/>    
+            
+            
+            <div type="page" xml:id="pg_25">
+                
+                <figure>
+                    <graphic mimeType="images/pages/Dennis-58-25.jpeg" url="images/pages/Dennis-58-25.jpeg"/>
+                    <head>Page 25</head>
+                </figure>
+                
+                <div type="panelGrp" xml:id="eg_0004">
+                    
+                    
+                    <cbml:panel n="1"  characters="#dennis #mother #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#mother">
+                            Oh... hello, Joey. Do you want to listen while I finish reading this book to Dennis?
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#joey">
+                            Uh-<emph rendition="#b">UH!</emph>?
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis' mother walks into the living room and asks Joey if he wants to listen to her finish the book. Joey declines, shaking his head.
+                        </note>
+                    </cbml:panel> 
+                    
+                    
+                    <cbml:panel n="2" characters="#dennis #mother #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#mother"> 
+                            But it's very interesting... it's about George Washington. He was the Father of our Country!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" rendition="#jaggies" who="#joey">
+                            Who was the <emph rendition="#b">MAMMA?</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis' mother attempts to explain who Washington was, saying that he was the "Father of our Country." To this, Joey replies by asking who the "mamma" of the country was.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#dennis #mother #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#mother">
+                            Well...er.. that is...
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#dennis">
+                            Yeah... an' how can he have a <emph rendition="#b ">BIRTHDAY</emph> when he's <emph rendition="#b ">DEAD</emph>?
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis begins to question his mother's reasonings for Washington as well.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="4" characters="#dennis #mother #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#mother">
+                            He's not <emph rendition="#b ">HAVING</emph> a birthday... it's just that....
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#joey">
+                            An' no <emph rendition="#b ">BIRTHDAY PARTY</emph>?
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis'mother tries to explain that Washington isn't having a birthday. But, Joey interupts her asking why there isn't a birthday party.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="5" characters="#dennis #mother #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#dennis"> 
+                            C'mon, Joey... let's go out an' play.
+                        </cbml:balloon>
+                        <cbml:caption type="speech" who="#joey">
+                            Okay.
+                        </cbml:caption>
+                        <note type="panelDesc"> Dennis' mother is shown sitting down, seemingly confused about what transpired. Dennis himself then tells Joey that they should go play outside.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="6" characters="#dennis #joey"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#dennis">
+                            Y'know somethin'... sometimes I'm <emph rendition="#b">GLAD</emph> I can't read!
+                        </cbml:balloon>
+                        <cbml:balloon type="thought" who="#joey">
+                            Me, too!
+                        </cbml:balloon>
+                        <cbml:caption>
+                            END <!-- End of "ALL WASHINGTON-D UP" -->
+                        </cbml:caption>
+                        <note type="panelDesc"> Dennis and Joey are seen playing outside in the snow.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                </div>
+            </div>
+            <pb/> 
+            
+            <milestone unit="end" n="ALL-WASHINGTOND-UP"/>
+            
+        </body>
+    </text>
+</TEI>

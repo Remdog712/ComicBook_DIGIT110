@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Encoding/cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Dennis the Menace: Volume 58 
+                </title>        
+                <author>Hank Ketcham</author>  
+                <author role="illustrator">Owen Fitzgerald</author>  
+                <editor>Remington Orange</editor> 
+                <editor>Lyndon Herschell</editor>
+                <editor>Lauren McCurdy</editor>
+                
+            </titleStmt>
+            <publicationStmt>
+                <date> 1962-04 </date>
+                <availability status="free">  
+                    <p>This work is in the public domain in the United States</p> 
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Scanned and put online by Hallden Fawcett </note>
+            </notesStmt>
+            <sourceDesc>
+                <p><ref target="https://archive.org/details/dennis-the-menace-issue-58">Online Archive</ref></p>     
+                <p><ref target="https://github.com/Remdog712/ComicBook_DIGIT110">Github Repo</ref></p>
+                <p>DENNIS THE MENANCE: a magazine published bi-monthly by Hallden Division of Fawcett Publications, Inc., (Copyright 1962 by the Hall Syndicate, Inc. Printed in the U.S.A., by the Eastern Color Printing Co.)</p>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+                
+                
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <namespace name="http://www.cbml.org/ns/1.0">
+                    <tagUsage gi="cbml:panel"></tagUsage>
+                    <tagUsage gi="cbml:caption"></tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    <text>     
+        <body>
+            
+            <milestone unit="start" n="GRAMPA-STORY"/> 
+            
+            
+            
+            <div type="page" xml:id="pg_14">
+                
+                <figure>
+                    <graphic mimeType="images/pages/Dennis-58-14.jpeg" url="images/pages/Dennis-58-14.jpeg"/>
+                    <head>Page 14</head>
+                </figure>
+                
+                <div type="panelGrp" xml:id="eg_0001">
+                    
+                    
+                    <cbml:panel n="1"> <!-- Done -->
+                        <cbml:caption type="heading" rend="red">
+                            Grampa Story
+                        </cbml:caption>
+                        <note type="panelDesc"> Beginning psnel for the comic story with the title "Grampa Story" with a smoking pipe.
+                        </note>
+                    </cbml:panel> 
+                    
+                    
+                    <cbml:panel n="2" characters="#granma #grampa"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#granma"> 
+                            Stephen... we have <emph rendition="#b ">ANTS</emph> coming in the kitchen!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#grampa">
+                            We do? Well, I'll fix that!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Granma is telling Grampa ("Stephen") that they have ants in there kitchen. Ants are seen traversing the kitchen counter.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#grampa #granma #child1 #child2"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#grampa">
+                            Here's where the ants are coming from. This spray ought to get them.
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#child1 #child2">
+                            Hi, Granma! Grampa!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#granma">
+                            Hello, children.
+                        </cbml:balloon>
+                        <note type="panelDesc"> Grampa can be seen working in a kitchen cabinet finding where the ants are comeing from. The children walk in greeting their grandparents, with Granma greeting them in return.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="4" characters="#grampa #child1 #child2"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#child1"> 
+                            What was ya doin', Grampa?
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="grampa">
+                            Getting rid of some ants.
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#child2">
+                            Ugh! I <emph rendition="#b ">HATE</emph> ants!
+                        </cbml:balloon>
+                        <note type="panelDesc"> The first child asks Grampa what he was doing when they came in. Grampa tells them both that he was getting rid of ants, with the second child replying that they hate ants.
+                        </note> 
+                    </cbml:panel>
+                    
+                    <cbml:panel n="5" characters="#grampa #child1 #child2"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#grampa"> 
+                            Oh, <emph rendition="#b ">ANTS</emph> are <emph rendition="#b ">REMARKABLE</emph> creatures. Did you know some of them keep <emph rendition="#b ">'COWS'</emph>? These are bugs that the ants take out to pasture, and bring home at night <emph rendition="#b ">MILK</emph>!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#child1 #child2">
+                            <emph rendition="#b ">WHAT?</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Grampa tell the children that ants are remarkable creatures and that some keep "cows" too. The children are both astonished by this information from Grampa. A panel thought bubble can be seen appearing from the children showing seemingly what they are imagining this scenario looking like. 
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                </div>
+            </div>
+            <pb/> 
+            
+            
+            
+            <div type="page" xml:id="pg_15">
+                
+                <figure>
+                    <graphic mimeType="images/pages/Dennis-58-15.jpeg" url="images/pages/Dennis-58-15.jpeg"/>
+                    <head>Page 15</head>
+                </figure>
+                
+                <div type="panelGrp" xml:id="eg_0002">
+                    
+                    
+                    <cbml:panel n="1"  characters="#grampa #child1 #child2"> <!-- Done -->
+                        <cbml:balloon type="speech" who="grampa">
+                            Then there are <emph rendition="#b ">HARVESTER</emph> ants, that gather seeds and store them in barns underground.
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#child2">
+                            I guess they <emph rendition="#b ">PLANT</emph> the seeds an' grow stuff, huh?
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#child1">
+                            Oh, sure!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Grampa continues to tell the children that ants can gatehr seeds and store thhem underground. A panel thought bubble can be seen appearing from the second child, showing what they are imagining this scenario looking like. 
+                        </note>
+                    </cbml:panel> 
+                    
+                    
+                    <cbml:panel n="2" characters="#grampa #child1 #child2"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#grampa"> 
+                            No... but there <emph rendition="#b ">ARE</emph> ants that grow <emph rendition="#b ">MUSHROOMS</emph> to eat!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#child1">
+                            Aw, c'mon, Grampa!
+                        </cbml:balloon>
+                        <note type="panelDesc"> There is a thought bubble showing ants in a field harvesting mushrooms. Grampa continues to tell the children about ants.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#grampa #child1 #child2"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#grampa">
+                            Oh, yes! And have you heard of <emph rendition="#b ">CARPENTER</emph> ants, that build their nests inside trees?
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#child1">
+                            They have little <emph rendition="#b ">HAMMERS</emph> an' <emph rendition="#b ">SAWS,</emph> s'pose!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#child2">
+                            Tee hee!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Grampa tells them of "carpenter" ants and how they build their nests within trees. The children imagine these ants having tools such as hammers and saws to create their homes.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                </div>
+            </div>
+            <pb/>    
+            
+            
+            <div type="page" xml:id="pg_16">
+                
+                <figure>
+                    <graphic mimeType="images/pages/Dennis-58-16.jpeg" url="images/pages/Dennis-58-16.jpeg"/>
+                    <head>Page 16</head>
+                </figure>
+                
+                <div type="panelGrp" xml:id="eg_0003">
+                    
+                    
+                    <cbml:panel n="1"  characters="#grampa #child1 #child2"> <!-- Done -->
+                        <cbml:balloon type="speech" who="grampa">
+                            And there are <emph rendition="#b ">HONEY</emph> ants that gather a kind of honey. Some of these ants are like <emph rendition="#b"> BARRELS,</emph> and hold all the honey for the rest!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#child1">
+                            Oh, boy!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Grampa tells the children of honey ants that gather honey and stores them for others like a barrel. A thought bubble panel shows the children imaginging the ants with barrel-like bodies giving honey out to other ants.
+                        </note>
+                    </cbml:panel> 
+                    
+                    
+                    <cbml:panel n="2" characters="#grampa #child1"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#child1"> 
+                            I s'poses there's ants that are  <emph rendition="#b ">SOLDIERS,</emph> too!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#grampa">
+                            Right! How did you know?
+                        </cbml:balloon>
+                        <note type="panelDesc"> The first child begins to climb onto Grampa, assuming that there are also ants that are soldiers. Grampa confirms this thought and asks how they knew.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#grampa #child1 #child2"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#child2">
+                            An' I s'pose ants have <emph rendition="#b ">QUEENS,</emph> too!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#grampa">
+                            Exactly! Every ant colony has a queen!
+                        </cbml:balloon>
+                        <note type="panelDesc"> The second child believes that ants have queens, in which Grampa confirms. The first child seems to imagine what the queen ant would look like on a traditional throne for royalty.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                </div>
+            </div>
+            <pb/> 
+            
+            
+            <div type="page" xml:id="pg_17">
+                
+                <figure>
+                    <graphic mimeType="images/pages/Dennis-58-17.jpeg" url="images/pages/Dennis-58-17.jpeg"/>
+                    <head>Page 17</head>
+                </figure>
+                
+                <div type="panelGrp" xml:id="eg_0004">
+                    
+                    
+                    <cbml:panel n="1"  characters="#grampa #child1 #child2"> <!-- Done -->
+                        <cbml:balloon type="speech" who="grampa">
+                            And some ants capture <emph rendition="#b ">OTHER</emph> ants and make them <emph rendition="#b">SLAVES</emph> to work for them!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#child1">
+                            <emph rendition="#b #large #color:red">OH, NO!</emph>
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="child2">
+                            <emph rendition="#b #large #color:red">HA HA</emph>
+                        </cbml:balloon>
+                        <note type="panelDesc"> Grampa tells the children that some ants make other ants they capture slaves that work for them. To which the children react seemingly both surprised and amused.
+                        </note>
+                    </cbml:panel> 
+                    
+                    
+                    <cbml:panel n="2" characters="#grampa #child1 #child2"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#child1"> 
+                            C'mon, Grampa... you're <emph rendition="#b ">KIDDIN'</emph> us, aren't ya?
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#grampa">
+                            Why, no!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="child2">
+                            You ae, too!
+                        </cbml:balloon>
+                        <note type="panelDesc"> The children challenge their grandfather of whether he is telling the truth about the ants.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="3" characters="#grampa"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#grampa">
+                            Really... I'll <emph rendition="#b ">SHOW</emph> you all those kinds of ants in the encyclopedia!
+                        </cbml:balloon>
+                        <note type="panelDesc"> Grampa says that he will show the children these kinds of ants in the encyclopedia.
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="4" characters="#grampa"> <!-- Done -->
+                        <cbml:balloon type="speech" who="#grampa">
+                            Children?
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#grampa">
+                            Children?
+                        </cbml:balloon>
+                        <note type="panelDesc"> Grampa is looking for the children now, asking for them.
+                        </note> 
+                    </cbml:panel>
+                    
+                    <cbml:panel n="5" characters="#grampa #grandma"> <!-- In Progress -->
+                        <cbml:caption type="b" rend="red">
+                            SLAM
+                        </cbml:caption>
+                        <cbml:balloon type="speech" who="#granma"> 
+                            Why did they leave in such a hurry, Stephen?
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#grampa">
+                            Well... I guess they thought I was <emph rendition="#b ">BUGGING</emph> them!
+                        </cbml:balloon>
+                        <cbml:caption type="b" rend="orange">
+                            END <!-- Ending of Grsmpa Story -->
+                        </cbml:caption>
+                        <note type="panelDesc"> Grampa tell the children that ants are remarkable creatures and that some keep "cows" too. The children are both astonished by this information from Grampa. A panel thought bubble can be seen appearing from the children showing seemingly what they are imagining this scenario looking like. 
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                </div>
+            </div>
+            <pb/>  
+            
+            <milestone unit="end" n="GRAMPA-STORY"/>
+            
+        </body>
+    </text>
+</TEI>
