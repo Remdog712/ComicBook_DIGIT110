@@ -209,7 +209,9 @@
 
 
                     <cbml:panel n="1" characters="#father #fisherman #dennis" rendition="#rounded">
-                        <sound><emph rendition="#large #color:red">WHOMP!</emph></sound>
+                        <cbml:balloon type="sound" who="#object">
+                            <emph rendition="#color:red">WHOMP!</emph>
+                        </cbml:balloon>
                         <cbml:balloon type="speech" who="#fisherman"> What th...? </cbml:balloon>
                         <move who="#dennis #father" rendition="#fast"/>
                         <note type="panelDesc"> Dennis and his father slide on the ice and crash
@@ -261,7 +263,9 @@
                             <emph rendition="#b">OOPS!</emph>
                         </cbml:balloon>
                         <cbml:balloon type="speech" who="#wilson"> ...be warm? </cbml:balloon>
-                        <sound>GLOOP</sound>
+                        <cbml:balloon type="sound" who="#object">
+                            <emph rendition="#b">GLOOP</emph>
+                        </cbml:balloon>
                         <move who="#dennis" rendition="#bump"/>
                         <note type="panelDesc"> Dennis slips on the ice and bumps Mr. Wilson who
                             drops the stove and his breaks. Mr. Wilson has a sad look on his face
@@ -292,10 +296,10 @@
                             <cbml:panel n="1" characters="#dennis #father #wilson">
                                 <!-- Done -->
                                 <cbml:balloon type="speech" who="#dennis"> Gee, I was just tryin' to
-                                        <emph rendition="#b ">HELP!</emph>
+                                        <emph rendition="#b">HELP!</emph>
                                 </cbml:balloon>
                                 <cbml:balloon type="speech" who="#wilson"> You're just trying to
-                                    drive me <emph rendition="#b ">OUT OF MY MIND!</emph>
+                                    drive me <emph rendition="#b">OUT OF MY MIND!</emph>
                                 </cbml:balloon>
                                 <cbml:balloon type="speech" who="#wilson"> Sorry, George... I'll get
                                     you a new stove. </cbml:balloon>
@@ -330,10 +334,10 @@
                             <cbml:panel n="4" characters="#dennis #father #wilson">
                                 <!-- Done -->
                                 <cbml:balloon rendition="#jaggies" type="speech" who="#dennis">
-                                    <emph rendition="#b ">GOT ONE!</emph>
+                                    <emph rendition="#b">GOT ONE!</emph>
                                 </cbml:balloon>
                                 <cbml:balloon type="speech" who="#father">
-                                    <emph rendition="#b ">ATTABOY! LET ME HEL....</emph>
+                                    <emph rendition="#b">ATTABOY! LET ME HEL....</emph>
                                 </cbml:balloon>
                                 <note type="panelDesc"> Dennis has seemingly hooked a fish within
                                     the ice and his father stand up and moves to offer his help to

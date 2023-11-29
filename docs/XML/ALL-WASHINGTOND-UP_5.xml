@@ -80,7 +80,7 @@
                     
                     <cbml:panel n="3" characters="#dennis #joey"> <!-- Done -->
                         <cbml:balloon type="speech" who="#dennis">
-                            Mom was just readin' me a swell book... all 'bout George Washington, 'cause it's his <emph rendition="#b ">BIRTHDAY</emph> this month.
+                            Mom was just readin' me a swell book... all 'bout George Washington, 'cause it's his <emph rendition="#b">BIRTHDAY</emph> this month.
                         </cbml:balloon>
                         <cbml:balloon type="speech" who="#joey"> 
                             Gee! You goin' to his party?
@@ -92,10 +92,10 @@
                     
                     <cbml:panel n="4" characters="#dennis #joey"> <!-- Done -->
                         <cbml:balloon type="speech" who="#dennis">
-                            There is not gonna be no <emph rendition="#b ">PARTY</emph>... he's been <emph rendition="#b ">DEAD</emph> a long time!
+                            There is not gonna be no <emph rendition="#b">PARTY</emph>... he's been <emph rendition="#b">DEAD</emph> a long time!
                         </cbml:balloon>
                         <cbml:balloon type="speech" who="#joey">
-                            Then how can he have a <emph rendition="#b ">BIRTHDAY?</emph>
+                            Then how can he have a <emph rendition="#b">BIRTHDAY?</emph>
                         </cbml:balloon>
                         <note type="panelDesc"> Dennis tells Joey that he cannot go to a party since George Washington has been gone for a while. Joey proceeds to ask Dennis how can he have a birthday then.
                         </note> 
@@ -104,10 +104,10 @@
                     
                     <cbml:panel n="5" characters="#dennis #joey"> <!-- In Progress -->
                         <cbml:balloon type="speech" who="#joey"> 
-                            How can he have a <emph rendition="#b ">BIRTHDAY</emph> if he's <emph rendition="#b ">DEAD,</emph> Dennis?
+                            How can he have a <emph rendition="#b">BIRTHDAY</emph> if he's <emph rendition="#b">DEAD,</emph> Dennis?
                         </cbml:balloon>
                         <cbml:balloon type="speech" who="#dennis">
-                            Well... uh... I... <emph rendition="#b ">DUNNO!</emph>
+                            Well... uh... I... <emph rendition="#b">DUNNO!</emph>
                         </cbml:balloon>
                         <note type="panelDesc"> Joey continues to press Dennis on how George Washington can have a birthday. Dennis admits that he does not know himself.. 
                         </note> 
@@ -130,7 +130,7 @@
                     
                     <cbml:panel n="1"  characters="#dennis #joey"> <!-- Done -->
                         <cbml:balloon type="speech" who="dennis">
-                            Anyways, he was real <emph rendition="#b ">GOOD</emph> when he was a kid. He chopped down this cherry tree, an'...
+                            Anyways, he was real <emph rendition="#b">GOOD</emph> when he was a kid. He chopped down this cherry tree, an'...
                         </cbml:balloon>
                         <cbml:balloon type="speech" rendition="jaggies" who="#joey">
                             <emph rendition="#b #jaggies #large #color:red">NO!</emph>
@@ -142,7 +142,7 @@
                     
                     <cbml:panel n="2" characters="#dennis #joey"> <!-- Done -->
                         <cbml:balloon type="speech" who="#dennis"> 
-                            Yeah, but it was okay... he <emph rendition="#b ">TOLD</emph> his Dad he did it, see? He didn't try to <emph rendition="#b ">FIB</emph>, see? Get it?
+                            Yeah, but it was okay... he <emph rendition="#b">TOLD</emph> his Dad he did it, see? He didn't try to <emph rendition="#b">FIB</emph>, see? Get it?
                         </cbml:balloon>
                         <cbml:balloon type="thought" rendition="bubble" who="#joey">
                             <emph rendition="#b #large #color:red">NO!</emph>
@@ -154,10 +154,10 @@
                     
                     <cbml:panel n="3" characters="#dennis #joey"> <!-- Done -->
                         <cbml:balloon type="speech" rendition="#jaggies" who="#joey">
-                            How 'bout the poor <emph rendition="#b">TREE</emph>? He chopped it <emph rendition="#b ">DOWN</emph>! He <emph rendition="#b ">KILLED</emph> it!
+                            How 'bout the poor <emph rendition="#b">TREE</emph>? He chopped it <emph rendition="#b">DOWN</emph>! He <emph rendition="#b">KILLED</emph> it!
                         </cbml:balloon>
                         <cbml:balloon type="speech" who="#dennis">
-                            Hmm... yeah... how <emph rendition="#b ">'BOUT</emph> that?
+                            Hmm... yeah... how <emph rendition="#b">'BOUT</emph> that?
                         </cbml:balloon>
                         <note type="panelDesc"> Joey begins to yell and points out the "killing" of the tree that Washington did. Dennis has a hard time finding an answer to Joey's debate.
                         </note> 
@@ -166,10 +166,10 @@
                     
                     <cbml:panel n="4" characters="#dennis #joey"> <!-- Done -->
                         <cbml:balloon type="speech" who="#dennis">
-                            Anyways, he was a <emph rendition="#b ">STRONG</emph> kid! He threw a <emph rendition="#b ">SILVER DOLLAR</emph> across this <emph rendition="#b ">BIG</emph> river!
+                            Anyways, he was a <emph rendition="#b">STRONG</emph> kid! He threw a <emph rendition="#b">SILVER DOLLAR</emph> across this <emph rendition="#b">BIG</emph> river!
                         </cbml:balloon>
                         <cbml:balloon type="speech" who="#joey">
-                            Why didn't he throw a <emph rendition="#b ">ROCK?</emph>?
+                            Why didn't he throw a <emph rendition="#b">ROCK?</emph>?
                         </cbml:balloon>
                         <note type="panelDesc"> Dennis starts to tell a story of Washington throwing a silver dollar across a river. Joey asks why he did not just throw a rock.
                         </note> 
@@ -181,7 +181,7 @@
                             <emph rendition="#b #large #color:red">HUH</emph><emph rendition="#b">?</emph>
                         </cbml:balloon>
                         <cbml:balloon type="speech" who="#joey">
-                            Why didn't he throw a <emph rendition="#b ">ROCK</emph>? Dollars are <emph rendition="#b #color:red">MONEY</emph>!
+                            Why didn't he throw a <emph rendition="#b">ROCK</emph>? Dollars are <emph rendition="#b #color:red">MONEY</emph>!
                         </cbml:balloon>
                         <note type="panelDesc"> Dennis is surprised at Joey's remark. Joey points out that Washington threw money instead of a rock.
                         </note> 
@@ -220,7 +220,7 @@
                     
                     <cbml:panel n="1"  characters="#dennis #joey"> <!-- Done -->
                         <cbml:balloon type="speech" who="dennis">
-                            Anyways, he got to be a <emph rendition="#b ">GENERAL</emph>. See... he's crossin' a river in this <emph rendition="#b ">BOAT</emph> to beat the <emph rendition="#b ">BAD</emph> guys.
+                            Anyways, he got to be a <emph rendition="#b">GENERAL</emph>. See... he's crossin' a river in this <emph rendition="#b">BOAT</emph> to beat the <emph rendition="#b">BAD</emph> guys.
                         </cbml:balloon>
                         <cbml:balloon type="speech" rendition="jaggies" who="#joey">
                             Why's he standin' <emph rendition="#b">UP</emph>?
@@ -232,7 +232,7 @@
                     
                     <cbml:panel n="2" characters="#dennis #joey"> <!-- Done -->
                         <cbml:balloon type="speech" who="#dennis"> 
-                            Heck, <emph rendition="#b ">I</emph> dunno!
+                            Heck, <emph rendition="#b">I</emph> dunno!
                         </cbml:balloon>
                         <cbml:balloon type="speech" who="#joey">
                             My Daddy says ya gotta sit <emph rendition="#b">DOWN</emph> in boats. They can tip <emph rendition="#b">OVER</emph>!
@@ -247,7 +247,7 @@
                             Well... yeah...
                         </cbml:balloon>
                         <cbml:balloon type="speech" rendition="#jaggies" who="#joey">
-                            He mighta got <emph rendition="#b ">DROWNED</emph>!
+                            He mighta got <emph rendition="#b">DROWNED</emph>!
                         </cbml:balloon>
                         <note type="panelDesc"> Joey begins to yell and points out that Washington could have possibly drowned.
                         </note> 
@@ -256,10 +256,10 @@
                     
                     <cbml:panel n="4" characters="#dennis #joey"> <!-- Done -->
                         <cbml:balloon type="speech" who="#dennis">
-                            Well, he <emph rendition="#b ">DIDN'T</emph> get drowned. He got to be the first President!
+                            Well, he <emph rendition="#b">DIDN'T</emph> get drowned. He got to be the first President!
                         </cbml:balloon>
                         <cbml:balloon type="speech" who="#joey">
-                            What's <emph rendition="#b ">THAT</emph>?
+                            What's <emph rendition="#b">THAT</emph>?
                         </cbml:balloon>
                         <note type="panelDesc"> Dennis relays why Washington could not have drowned since he became the first President. Joey asks what that is.
                         </note> 
@@ -334,7 +334,7 @@
                             Well...er.. that is...
                         </cbml:balloon>
                         <cbml:balloon type="speech" who="#dennis">
-                            Yeah... an' how can he have a <emph rendition="#b ">BIRTHDAY</emph> when he's <emph rendition="#b ">DEAD</emph>?
+                            Yeah... an' how can he have a <emph rendition="#b">BIRTHDAY</emph> when he's <emph rendition="#b">DEAD</emph>?
                         </cbml:balloon>
                         <note type="panelDesc"> Dennis begins to question his mother's reasonings for Washington as well.
                         </note> 
@@ -343,10 +343,10 @@
                     
                     <cbml:panel n="4" characters="#dennis #mother #joey"> <!-- Done -->
                         <cbml:balloon type="speech" who="#mother">
-                            He's not <emph rendition="#b ">HAVING</emph> a birthday... it's just that....
+                            He's not <emph rendition="#b">HAVING</emph> a birthday... it's just that....
                         </cbml:balloon>
                         <cbml:balloon type="speech" who="#joey">
-                            An' no <emph rendition="#b ">BIRTHDAY PARTY</emph>?
+                            An' no <emph rendition="#b">BIRTHDAY PARTY</emph>?
                         </cbml:balloon>
                         <note type="panelDesc"> Dennis'mother tries to explain that Washington isn't having a birthday. But, Joey interupts her asking why there isn't a birthday party.
                         </note> 

@@ -149,11 +149,13 @@
     </xsl:template>
     
     <!-- rorange Sound Catch -->
+    
     <xsl:template match="sound">
-        <span class="sound-tag">
+        <div class="sound">
             <xsl:value-of select="."/>
-        </span>
+        </div>
     </xsl:template>
+    
     
     
     <xsl:template match="cbml:panel">
@@ -283,8 +285,14 @@
             <div class="speaker">
                 <xsl:value-of select="substring(@who, 2)"/> >
             </div>
-            <div class="move">
-                <xsl:value-of select="ancestor::cbml:panel/move"/>
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="cbml:balloon[contains(@type, 'sound')]">
+        <div class="speech-balloon">
+            <div class="speaker">
+                <xsl:value-of select="substring(@who, 2)"/> >
             </div>
             <xsl:apply-templates/>
         </div>
@@ -295,9 +303,6 @@
             <div class="speaker">
                 <xsl:value-of select="substring(@who, 2)"/> 
             </div>
-            <div class="move">
-                <xsl:value-of select="ancestor::cbml:panel/move"/>
-            </div>
             <xsl:apply-templates/>
         </div>
     </xsl:template>
@@ -307,35 +312,24 @@
             <div class="speaker">
                 <xsl:value-of select="substring(@who, 2)"/> 
             </div>
-            <div class="move">
-                <xsl:value-of select="ancestor::cbml:panel/move"/>
-            </div>
             <xsl:apply-templates/>
         </div>
     </xsl:template>
-    
-
     
     <xsl:template match="cbml:balloon[contains(@rendition, '#jaggies')]">
         <div class="jaggies-balloon">
             <div class="speaker">
                 <xsl:value-of select="substring(@who, 2)"/> 
             </div>
-            <div class="move">
-                <xsl:value-of select="ancestor::cbml:panel/move"/>
-            </div>
             <xsl:apply-templates/>
         </div>
     </xsl:template>
     
     <xsl:template match="cbml:balloon[contains(@rendition, '#bubble')]">
-        <div class="jaggies-balloon">
+        <div class="bubble-balloon">
             <div class="speaker">
                 <xsl:value-of select="substring(@who, 2)"/> 
             </div>
-            <div class="move">
-                <xsl:value-of select="ancestor::cbml:panel/move"/>
-            </div>
             <xsl:apply-templates/>
         </div>
     </xsl:template>
@@ -344,13 +338,6 @@
     
     
     
-    
-   <!-- rorange Floating Text Handling but didn't use as it may become confusing with panels --> 
-    <xsl:template match="floatingText">
-        <div class="floating-text">
-            <xsl:apply-templates/>
-        </div>
-    </xsl:template>
     
     
     

@@ -224,21 +224,33 @@ nav a:hover {
   color: #0000ff;
 }
 
-.sound-tag {
-    background-color: #ffcc00; 
-    color: #ff6600; 
-    border: 1px dashed #ff6600; 
-    border-radius: 5px; 
-    padding: 3px 6px; 
+
+/* Style for the banner div */
+.floating-text {
+  background-color: #FFA500; /* Orange background color */
+  padding: 10px; /* Adjust padding as needed */
+  text-align: center; /* Center the content */
 }
 
+/* Style for the tone paragraph */
+.tone {
+  font-size: 18px; /* Adjust font size as needed */
+  margin: 10px 0; /* Adjust margins as needed */
+}
 
-.floating-text {
-  background-color: #f0f0f0;
-  padding: 5px;
-  font-style: italic;
+/* Style for the strong element inside head */
+.head strong {
   font-weight: bold;
-  font-size: 16px;
+}
+
+/* Style for the emphasized text */
+em {
+  font-style: italic;
+}
+
+/* Style for the line break */
+br {
+  clear: both; /* Clear floating elements if any */
 }
 
 .figure-head-box {
@@ -397,6 +409,13 @@ nav a:hover {
 
 .jaggies-balloon {
   background-color: #FFD580;
+}
+
+.bubble-balloon {
+  background-color: lightblue;
+  border-radius: 10px; 
+  border: 2px solid darkblue; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
 }
 
 .emph-bold {

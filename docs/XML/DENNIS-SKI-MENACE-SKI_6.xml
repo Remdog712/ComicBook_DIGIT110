@@ -84,7 +84,7 @@
                             Those are pretty expensive, son.
                         </cbml:balloon>
                         <cbml:balloon type="speech" who="#dennis">
-                            I got some money in my <emph rendition="#b ">PIGGY BANK</emph>!
+                            I got some money in my <emph rendition="#b">PIGGY BANK</emph>!
                         </cbml:balloon>
                         <note type="panelDesc"> Dennis and his father are looking at some skis within the shop.
                         </note> 
@@ -107,7 +107,7 @@
                             <emph rend="#b #color:red">MY</emph> fault?
                         </cbml:balloon>
                         <cbml:balloon type="speech" who="#dennis">
-                            Yeah! Ya won't let me be a <emph rendition="#b ">COWBOY</emph> or a <emph rendition="#b ">FIREMAN</emph> an' <emph rendition="#b ">MAKE</emph> some money!
+                            Yeah! Ya won't let me be a <emph rendition="#b">COWBOY</emph> or a <emph rendition="#b">FIREMAN</emph> an' <emph rendition="#b">MAKE</emph> some money!
                         </cbml:balloon>
                         <note type="panelDesc"> Dennis explains that his father not letting him pursue his dreams of being either a cowboy or fireman is holding him back from earning money. 
                         </note> 
@@ -211,7 +211,7 @@
                     <cbml:panel n="1" characters="#dennis #tommy">
                         
                         <cbml:balloon type="speech" who="#dennis"> Hey, Tommy! Look at the keen
-                            <emph rendition="#b "> SKIS </emph> I got! </cbml:balloon>
+                            <emph rendition="#b"> SKIS </emph> I got! </cbml:balloon>
                         <note type="panelDesc"> Dennis runs through the snow with a pair of skis in
                             each hand, Tommy looks at him confused. </note>
                     </cbml:panel>
@@ -230,7 +230,7 @@
                     <cbml:panel n="3" characters="#dennis #tommy">
                         <cbml:balloon type="speech" who="#dennis"> Don't ya like home-made <emph
                             rendition="#b"> PIES? </emph> An' <emph rendition="#b"> COOKIES?
-                            </emph> An' <emph rendition="#b "> CAKES? </emph>
+                            </emph> An' <emph rendition="#b"> CAKES? </emph>
                         </cbml:balloon>
                         <cbml:balloon type="speech" who="#tommy"> Well, yeah...sure! </cbml:balloon>
                         <note type="panelDesc"> Tommy stands with his hands in his pockets and a
@@ -323,10 +323,10 @@
                     
                     <cbml:panel n="3" characters="#dennis #tommy #wilson">
                         <cbml:balloon type="speech" who="#dennis">   
-                            Where <emph rendition="#b ">IS</emph> he?          
+                            Where <emph rendition="#b">IS</emph> he?          
                         </cbml:balloon>  
                         <cbml:balloon type="speech" who="#wilson">
-                            Where's <emph rendition="#b; color:red ">WHO</emph> <emph rendition="#b ">?</emph>
+                            Where's <emph rendition="#b; color:red ">WHO</emph> <emph rendition="#b">?</emph>
                         </cbml:balloon>
                         <note type="panelDesc"> Dennis and Tommy look at up at Mr.Wilson, both still carrying their skis. 
                             

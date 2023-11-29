@@ -82,7 +82,7 @@
                     
                     <cbml:panel n="3" characters="#dennis #father">
                         <cbml:balloon type="speech" who="#dennis">   
-                            How 'bout <emph rendition="#b "> HERE? </emph>         
+                            How 'bout <emph rendition="#b"> HERE? </emph>         
                         </cbml:balloon>  
                         <cbml:balloon type="speech" who="#father">
                             Too many trees?
@@ -109,7 +109,7 @@
                     
                     <cbml:panel n="5" characters="#dennis #father">
                         <cbml:balloon type="speech" who="#dennis"> 
-                            When are we gonna go sleddin'? When we get to the <emph rendition="#b ">NORTH POLE?</emph>
+                            When are we gonna go sleddin'? When we get to the <emph rendition="#b">NORTH POLE?</emph>
                         </cbml:balloon>
                         <cbml:balloon type="speech" who="#father"> 
                             Just be patient, will you?
@@ -136,17 +136,17 @@
                     
                     <cbml:panel n="1" characters="#dennis #father"> 
                         <cbml:balloon type="speech" who="#father"> 
-                            Hmm! What's going on <emph rendition="#b ">HERE?</emph>
+                            Hmm! What's going on <emph rendition="#b">HERE?</emph>
                         </cbml:balloon>
                         <cbml:balloon type="speech" who="#dennis">
-                            I dunno! <emph rendition="#b ">YOU</emph> can read ... <emph rendition="#b ">I</emph> can't!                    
+                            I dunno! <emph rendition="#b">YOU</emph> can read ... <emph rendition="#b">I</emph> can't!                    
                         </cbml:balloon>
                         
                         <floatingText subtype="banner" type="diegetic"> 
                             <body>
                                 <div type ="banner">
                                     <head rendition="#uc ">
-                                        <emph rendition="#b ">GRAND OPENING</emph>!<lb/> 
+                                        <emph rendition="#b">GRAND OPENING</emph>!<lb/> 
                                         <emph rendition="#b #color:red ">BOB SLED RUN</emph> 
                                     </head>  
                                 </div>
@@ -159,10 +159,10 @@
                     
                     <cbml:panel n="2" characters="#dennis #father">
                         <cbml:balloon type="speech" who="#father"> 
-                            I hadn't hear about <emph rendition="#b ">THIS!</emph> It's a new bobsled run!
+                            I hadn't hear about <emph rendition="#b">THIS!</emph> It's a new bobsled run!
                         </cbml:balloon>
                         <cbml:balloon type="speech" who="#dennis">
-                            A <emph rendition="#b ">WHAT?</emph>                  
+                            A <emph rendition="#b">WHAT?</emph>                  
                         </cbml:balloon>
                         <move who="#dennis" rendition="#spin"/>  <!-- A new thing we must add is movement. Animation quirks like head spins, excitement, and any other we come across, i will specify in Slack-->
                         <note type="panelDesc"> Dennis is outside of the green car looking back towards in father with a quick head turn and confused look on his face. Dennis' father begins stepping out the green car
@@ -172,10 +172,10 @@
                     
                     <cbml:panel n="3" characters="#dennis #father">
                         <cbml:balloon type="speech" who="#father"> 
-                            It's sort of a long path down the mountain... all <emph rendition="#b ">ICE</emph>. And you ride a bobsled down it.
+                            It's sort of a long path down the mountain... all <emph rendition="#b">ICE</emph>. And you ride a bobsled down it.
                         </cbml:balloon>
                         <cbml:balloon type="speech" who="#dennis">
-                            Who's <emph rendition="#b ">BOB?</emph>                  
+                            Who's <emph rendition="#b">BOB?</emph>                  
                         </cbml:balloon>
                         <note type="panelDesc"> Dennis and his father are standing in the snow looking towards a bobsled that's blue with the number four on the front
                         </note> 
@@ -187,7 +187,7 @@
                             Bob?
                         </cbml:balloon>
                         <cbml:balloon type="speech" who="#dennis">
-                            Yeah. The guy who owns this keen <emph rendition="#b #color:red ">HOT-ROD</emph> <emph rendition="#b ">SLED!</emph>                 
+                            Yeah. The guy who owns this keen <emph rendition="#b #color:red ">HOT-ROD</emph> <emph rendition="#b">SLED!</emph>                 
                         </cbml:balloon>
                         <move who="#dennis" rendition="#excite"/>
                         <note type="panelDesc"> Dennis' father is squatting down next to Dennis. Dennis is looking excitingly at the blue bobsled with number four on the front of it.
@@ -196,7 +196,7 @@
                     
                     <cbml:panel n="5" characters="#dennis #father">
                         <cbml:balloon type="speech" who="#father"> 
-                            There <emph rendition="#b ">ISN'T</emph> any Bob...they just <emph rendition="#b ">CALL</emph> it a bobsled. And <emph rendition="#b ">THERE'S</emph> the <emph rendition="#b ">RUN!</emph>
+                            There <emph rendition="#b">ISN'T</emph> any Bob...they just <emph rendition="#b">CALL</emph> it a bobsled. And <emph rendition="#b">THERE'S</emph> the <emph rendition="#b">RUN!</emph>
                         </cbml:balloon>
                         <cbml:balloon type="sound" who="#dennis"> 
                             <emph rendition="#b #large #color:red">WOW!</emph>
