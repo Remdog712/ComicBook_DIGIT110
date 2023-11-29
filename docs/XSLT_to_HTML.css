@@ -524,12 +524,12 @@ br {
 }
 
 .balloon-jaggies-key {
-    /* Balloon (Jaggies Rendition): Orange background */
+    
     background-color: #FFD580;
 }
 
 .balloon-default-key {
-    /* Balloon (Default Rendition): Light blue background */
+    
     background-color: white;
 }
 
@@ -611,7 +611,7 @@ br {
     display: inline-block;
 }
 
-.speech-balloon-key {
+.speech-balloon {
     /* Speech Balloon: White background, black border, rounded */
     background-color: #fff;
     border: 2px solid #000;
@@ -671,4 +671,40 @@ br {
 .emph-orange-key {
     /* Emphasis Orange: Orange text */
     color: orange;
+  }  
+    
+  .speech-balloon-key {
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 15px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.thought-balloon-key {
+  background-color: #6488ea;
+  border: 2px solid #999;
+  border-radius: 50%;
+  padding: 10px;
+  display: inline-block;
+}
+
+.singing-balloon-key {
+  background-color: #ffcc00;
+  border: 2px dashed #ff6600;
+  border-radius: 0;
+  padding: 10px;
+  display: inline-block;
+}
+
+.jaggies-balloon-key {
+  background-color: #FFD580;
+}
+
+.bubble-balloon-key {
+  background-color: lightblue;
+  border-radius: 10px; 
+  border: 2px solid darkblue; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
 }
