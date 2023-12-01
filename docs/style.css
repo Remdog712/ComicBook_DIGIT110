@@ -1,17 +1,17 @@
-.front-cover img {
-    max-width: 100%;
-    width: 20%;
-    float:left;
-
+.front-cover, .back-cover {
+    display: inline-block;
+    text-align: center;
+    width: 45%; /* Set the width to 50% to make them appear side by side */
 }
 
-.back-cover img {
+.front-cover img, .back-cover img {
+    max-width: 100%;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 100%;
-    width: 20%;
 }
+
 
 p {
     font-family: "Courier New", sans-serif;
